@@ -1,0 +1,70 @@
+{
+  "seed": 20261009,
+  "assumptions": "two classes; common first slot; full future revelation; identical channel access; no storage",
+  "cases": [
+    {
+      "scenarios": 8,
+      "reserve": 0.02499999999999991,
+      "cut_lower": 0.024999999899749888,
+      "cut_upper": 0.025000000099806734,
+      "numerical_padding": 1e-10,
+      "witness": [
+        0,
+        1
+      ],
+      "full_seconds": 0.006471679000242148,
+      "cut_seconds": 0.0015766239998811216,
+      "full_primal_variables": 69,
+      "witness_primal_variables": 21,
+      "normalized_dual": 0.025000000000000022
+    },
+    {
+      "scenarios": 32,
+      "reserve": 0.02499999999999991,
+      "cut_lower": 0.024999999899749888,
+      "cut_upper": 0.025000000099806734,
+      "numerical_padding": 1e-10,
+      "witness": [
+        0,
+        1
+      ],
+      "full_seconds": 0.011969212999701995,
+      "cut_seconds": 0.001631425000141462,
+      "full_primal_variables": 261,
+      "witness_primal_variables": 21,
+      "normalized_dual": 0.025000000000000022
+    },
+    {
+      "scenarios": 128,
+      "reserve": 0.02499999999999991,
+      "cut_lower": 0.024999999899749888,
+      "cut_upper": 0.025000000099806734,
+      "numerical_padding": 1e-10,
+      "witness": [
+        0,
+        1
+      ],
+      "full_seconds": 0.07779096900003424,
+      "cut_seconds": 0.0019201200002498808,
+      "full_primal_variables": 1029,
+      "witness_primal_variables": 21,
+      "normalized_dual": 0.025000000000000022
+    },
+    {
+      "scenarios": 512,
+      "reserve": 0.025000000000000022,
+      "cut_lower": 0.024999999899749888,
+      "cut_upper": 0.025000000099806734,
+      "numerical_padding": 1e-10,
+      "witness": [
+        0,
+        1
+      ],
+      "full_seconds": 0.9556173979999585,
+      "cut_seconds": 0.0032780120000097668,
+      "full_primal_variables": 4101,
+      "witness_primal_variables": 21,
+      "normalized_dual": 0.025000000000000022
+    }
+  ]
+}

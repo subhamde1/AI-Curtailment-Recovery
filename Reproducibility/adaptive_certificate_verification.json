@@ -1,0 +1,1044 @@
+{
+  "cases": 128,
+  "exact_node_checks": 1408,
+  "hard_deadline_failures": 0,
+  "bound_violations": 0,
+  "incoherent_bound_counterexample_detected": true,
+  "terminal_charge_checks": {
+    "cases": 24,
+    "realized_charge_exceeds_expectation": 8,
+    "example": {
+      "failure_probability": "1/10",
+      "failure_fee": 4,
+      "expected_final_charge": "2/5"
+    }
+  },
+  "arithmetic": "fractions.Fraction; no floating-point comparisons",
+  "scope": "Finite illustrative causal trees and terminal assessments.",
+  "case_results": [
+    {
+      "seed": 0,
+      "horizon": 3,
+      "initial_upper": "4",
+      "executed_expected_cost": "4",
+      "expected_allowance": "0",
+      "bound_slack": "0"
+    },
+    {
+      "seed": 1,
+      "horizon": 4,
+      "initial_upper": "8",
+      "executed_expected_cost": "8",
+      "expected_allowance": "0",
+      "bound_slack": "0"
+    },
+    {
+      "seed": 2,
+      "horizon": 3,
+      "initial_upper": "14/3",
+      "executed_expected_cost": "14/3",
+      "expected_allowance": "0",
+      "bound_slack": "0"
+    },
+    {
+      "seed": 3,
+      "horizon": 4,
+      "initial_upper": "113/27",
+      "executed_expected_cost": "2",
+      "expected_allowance": "0",
+      "bound_slack": "59/27"
+    },
+    {
+      "seed": 4,
+      "horizon": 3,
+      "initial_upper": "14",
+      "executed_expected_cost": "38/9",
+      "expected_allowance": "0",
+      "bound_slack": "88/9"
+    },
+    {
+      "seed": 5,
+      "horizon": 4,
+      "initial_upper": "335/27",
+      "executed_expected_cost": "257/27",
+      "expected_allowance": "0",
+      "bound_slack": "26/9"
+    },
+    {
+      "seed": 6,
+      "horizon": 3,
+      "initial_upper": "12",
+      "executed_expected_cost": "68/9",
+      "expected_allowance": "0",
+      "bound_slack": "40/9"
+    },
+    {
+      "seed": 7,
+      "horizon": 4,
+      "initial_upper": "262/27",
+      "executed_expected_cost": "70/9",
+      "expected_allowance": "0",
+      "bound_slack": "52/27"
+    },
+    {
+      "seed": 8,
+      "horizon": 3,
+      "initial_upper": "26/3",
+      "executed_expected_cost": "70/9",
+      "expected_allowance": "0",
+      "bound_slack": "8/9"
+    },
+    {
+      "seed": 9,
+      "horizon": 4,
+      "initial_upper": "12",
+      "executed_expected_cost": "8",
+      "expected_allowance": "0",
+      "bound_slack": "4"
+    },
+    {
+      "seed": 10,
+      "horizon": 3,
+      "initial_upper": "6",
+      "executed_expected_cost": "14/3",
+      "expected_allowance": "0",
+      "bound_slack": "4/3"
+    },
+    {
+      "seed": 11,
+      "horizon": 4,
+      "initial_upper": "335/27",
+      "executed_expected_cost": "4",
+      "expected_allowance": "0",
+      "bound_slack": "227/27"
+    },
+    {
+      "seed": 12,
+      "horizon": 3,
+      "initial_upper": "10",
+      "executed_expected_cost": "10",
+      "expected_allowance": "0",
+      "bound_slack": "0"
+    },
+    {
+      "seed": 13,
+      "horizon": 4,
+      "initial_upper": "8",
+      "executed_expected_cost": "8",
+      "expected_allowance": "0",
+      "bound_slack": "0"
+    },
+    {
+      "seed": 14,
+      "horizon": 3,
+      "initial_upper": "71/9",
+      "executed_expected_cost": "6",
+      "expected_allowance": "0",
+      "bound_slack": "17/9"
+    },
+    {
+      "seed": 15,
+      "horizon": 4,
+      "initial_upper": "172/27",
+      "executed_expected_cost": "10/3",
+      "expected_allowance": "0",
+      "bound_slack": "82/27"
+    },
+    {
+      "seed": 16,
+      "horizon": 3,
+      "initial_upper": "109/9",
+      "executed_expected_cost": "5",
+      "expected_allowance": "0",
+      "bound_slack": "64/9"
+    },
+    {
+      "seed": 17,
+      "horizon": 4,
+      "initial_upper": "328/27",
+      "executed_expected_cost": "188/27",
+      "expected_allowance": "0",
+      "bound_slack": "140/27"
+    },
+    {
+      "seed": 18,
+      "horizon": 3,
+      "initial_upper": "8",
+      "executed_expected_cost": "44/9",
+      "expected_allowance": "0",
+      "bound_slack": "28/9"
+    },
+    {
+      "seed": 19,
+      "horizon": 4,
+      "initial_upper": "8",
+      "executed_expected_cost": "161/27",
+      "expected_allowance": "0",
+      "bound_slack": "55/27"
+    },
+    {
+      "seed": 20,
+      "horizon": 3,
+      "initial_upper": "70/9",
+      "executed_expected_cost": "61/9",
+      "expected_allowance": "0",
+      "bound_slack": "1"
+    },
+    {
+      "seed": 21,
+      "horizon": 4,
+      "initial_upper": "20/3",
+      "executed_expected_cost": "6",
+      "expected_allowance": "0",
+      "bound_slack": "2/3"
+    },
+    {
+      "seed": 22,
+      "horizon": 3,
+      "initial_upper": "2",
+      "executed_expected_cost": "2",
+      "expected_allowance": "0",
+      "bound_slack": "0"
+    },
+    {
+      "seed": 23,
+      "horizon": 4,
+      "initial_upper": "16",
+      "executed_expected_cost": "4",
+      "expected_allowance": "0",
+      "bound_slack": "12"
+    },
+    {
+      "seed": 24,
+      "horizon": 3,
+      "initial_upper": "100/9",
+      "executed_expected_cost": "2",
+      "expected_allowance": "0",
+      "bound_slack": "82/9"
+    },
+    {
+      "seed": 25,
+      "horizon": 4,
+      "initial_upper": "281/27",
+      "executed_expected_cost": "4",
+      "expected_allowance": "0",
+      "bound_slack": "173/27"
+    },
+    {
+      "seed": 26,
+      "horizon": 3,
+      "initial_upper": "2",
+      "executed_expected_cost": "2",
+      "expected_allowance": "0",
+      "bound_slack": "0"
+    },
+    {
+      "seed": 27,
+      "horizon": 4,
+      "initial_upper": "166/27",
+      "executed_expected_cost": "46/9",
+      "expected_allowance": "0",
+      "bound_slack": "28/27"
+    },
+    {
+      "seed": 28,
+      "horizon": 3,
+      "initial_upper": "125/9",
+      "executed_expected_cost": "98/9",
+      "expected_allowance": "0",
+      "bound_slack": "3"
+    },
+    {
+      "seed": 29,
+      "horizon": 4,
+      "initial_upper": "6",
+      "executed_expected_cost": "22/9",
+      "expected_allowance": "0",
+      "bound_slack": "32/9"
+    },
+    {
+      "seed": 30,
+      "horizon": 3,
+      "initial_upper": "10",
+      "executed_expected_cost": "9",
+      "expected_allowance": "0",
+      "bound_slack": "1"
+    },
+    {
+      "seed": 31,
+      "horizon": 4,
+      "initial_upper": "352/27",
+      "executed_expected_cost": "20/3",
+      "expected_allowance": "0",
+      "bound_slack": "172/27"
+    },
+    {
+      "seed": 32,
+      "horizon": 3,
+      "initial_upper": "41/3",
+      "executed_expected_cost": "20/3",
+      "expected_allowance": "0",
+      "bound_slack": "7"
+    },
+    {
+      "seed": 33,
+      "horizon": 4,
+      "initial_upper": "8",
+      "executed_expected_cost": "8",
+      "expected_allowance": "0",
+      "bound_slack": "0"
+    },
+    {
+      "seed": 34,
+      "horizon": 3,
+      "initial_upper": "4",
+      "executed_expected_cost": "4",
+      "expected_allowance": "0",
+      "bound_slack": "0"
+    },
+    {
+      "seed": 35,
+      "horizon": 4,
+      "initial_upper": "12",
+      "executed_expected_cost": "260/27",
+      "expected_allowance": "0",
+      "bound_slack": "64/27"
+    },
+    {
+      "seed": 36,
+      "horizon": 3,
+      "initial_upper": "26/3",
+      "executed_expected_cost": "6",
+      "expected_allowance": "0",
+      "bound_slack": "8/3"
+    },
+    {
+      "seed": 37,
+      "horizon": 4,
+      "initial_upper": "2",
+      "executed_expected_cost": "2",
+      "expected_allowance": "0",
+      "bound_slack": "0"
+    },
+    {
+      "seed": 38,
+      "horizon": 3,
+      "initial_upper": "34/3",
+      "executed_expected_cost": "10",
+      "expected_allowance": "0",
+      "bound_slack": "4/3"
+    },
+    {
+      "seed": 39,
+      "horizon": 4,
+      "initial_upper": "8",
+      "executed_expected_cost": "47/9",
+      "expected_allowance": "0",
+      "bound_slack": "25/9"
+    },
+    {
+      "seed": 40,
+      "horizon": 3,
+      "initial_upper": "100/9",
+      "executed_expected_cost": "68/9",
+      "expected_allowance": "0",
+      "bound_slack": "32/9"
+    },
+    {
+      "seed": 41,
+      "horizon": 4,
+      "initial_upper": "26/3",
+      "executed_expected_cost": "160/27",
+      "expected_allowance": "0",
+      "bound_slack": "74/27"
+    },
+    {
+      "seed": 42,
+      "horizon": 3,
+      "initial_upper": "8",
+      "executed_expected_cost": "6",
+      "expected_allowance": "0",
+      "bound_slack": "2"
+    },
+    {
+      "seed": 43,
+      "horizon": 4,
+      "initial_upper": "12",
+      "executed_expected_cost": "176/27",
+      "expected_allowance": "0",
+      "bound_slack": "148/27"
+    },
+    {
+      "seed": 44,
+      "horizon": 3,
+      "initial_upper": "10",
+      "executed_expected_cost": "10",
+      "expected_allowance": "0",
+      "bound_slack": "0"
+    },
+    {
+      "seed": 45,
+      "horizon": 4,
+      "initial_upper": "89/27",
+      "executed_expected_cost": "8/3",
+      "expected_allowance": "0",
+      "bound_slack": "17/27"
+    },
+    {
+      "seed": 46,
+      "horizon": 3,
+      "initial_upper": "8",
+      "executed_expected_cost": "64/9",
+      "expected_allowance": "0",
+      "bound_slack": "8/9"
+    },
+    {
+      "seed": 47,
+      "horizon": 4,
+      "initial_upper": "182/27",
+      "executed_expected_cost": "4",
+      "expected_allowance": "0",
+      "bound_slack": "74/27"
+    },
+    {
+      "seed": 48,
+      "horizon": 3,
+      "initial_upper": "68/9",
+      "executed_expected_cost": "43/9",
+      "expected_allowance": "0",
+      "bound_slack": "25/9"
+    },
+    {
+      "seed": 49,
+      "horizon": 4,
+      "initial_upper": "10",
+      "executed_expected_cost": "10/3",
+      "expected_allowance": "0",
+      "bound_slack": "20/3"
+    },
+    {
+      "seed": 50,
+      "horizon": 3,
+      "initial_upper": "88/9",
+      "executed_expected_cost": "4",
+      "expected_allowance": "0",
+      "bound_slack": "52/9"
+    },
+    {
+      "seed": 51,
+      "horizon": 4,
+      "initial_upper": "17/3",
+      "executed_expected_cost": "32/9",
+      "expected_allowance": "0",
+      "bound_slack": "19/9"
+    },
+    {
+      "seed": 52,
+      "horizon": 3,
+      "initial_upper": "58/9",
+      "executed_expected_cost": "37/9",
+      "expected_allowance": "0",
+      "bound_slack": "7/3"
+    },
+    {
+      "seed": 53,
+      "horizon": 4,
+      "initial_upper": "16",
+      "executed_expected_cost": "218/27",
+      "expected_allowance": "0",
+      "bound_slack": "214/27"
+    },
+    {
+      "seed": 54,
+      "horizon": 3,
+      "initial_upper": "12",
+      "executed_expected_cost": "6",
+      "expected_allowance": "0",
+      "bound_slack": "6"
+    },
+    {
+      "seed": 55,
+      "horizon": 4,
+      "initial_upper": "58/9",
+      "executed_expected_cost": "2",
+      "expected_allowance": "0",
+      "bound_slack": "40/9"
+    },
+    {
+      "seed": 56,
+      "horizon": 3,
+      "initial_upper": "10",
+      "executed_expected_cost": "10",
+      "expected_allowance": "0",
+      "bound_slack": "0"
+    },
+    {
+      "seed": 57,
+      "horizon": 4,
+      "initial_upper": "131/27",
+      "executed_expected_cost": "115/27",
+      "expected_allowance": "0",
+      "bound_slack": "16/27"
+    },
+    {
+      "seed": 58,
+      "horizon": 3,
+      "initial_upper": "16",
+      "executed_expected_cost": "14/3",
+      "expected_allowance": "0",
+      "bound_slack": "34/3"
+    },
+    {
+      "seed": 59,
+      "horizon": 4,
+      "initial_upper": "112/9",
+      "executed_expected_cost": "256/27",
+      "expected_allowance": "0",
+      "bound_slack": "80/27"
+    },
+    {
+      "seed": 60,
+      "horizon": 3,
+      "initial_upper": "50/9",
+      "executed_expected_cost": "4",
+      "expected_allowance": "0",
+      "bound_slack": "14/9"
+    },
+    {
+      "seed": 61,
+      "horizon": 4,
+      "initial_upper": "16",
+      "executed_expected_cost": "29/3",
+      "expected_allowance": "0",
+      "bound_slack": "19/3"
+    },
+    {
+      "seed": 62,
+      "horizon": 3,
+      "initial_upper": "56/9",
+      "executed_expected_cost": "56/9",
+      "expected_allowance": "0",
+      "bound_slack": "0"
+    },
+    {
+      "seed": 63,
+      "horizon": 4,
+      "initial_upper": "151/27",
+      "executed_expected_cost": "2",
+      "expected_allowance": "0",
+      "bound_slack": "97/27"
+    },
+    {
+      "seed": 64,
+      "horizon": 3,
+      "initial_upper": "65/9",
+      "executed_expected_cost": "65/9",
+      "expected_allowance": "26/27",
+      "bound_slack": "26/27"
+    },
+    {
+      "seed": 65,
+      "horizon": 4,
+      "initial_upper": "218/27",
+      "executed_expected_cost": "218/27",
+      "expected_allowance": "14/9",
+      "bound_slack": "14/9"
+    },
+    {
+      "seed": 66,
+      "horizon": 3,
+      "initial_upper": "76/9",
+      "executed_expected_cost": "76/9",
+      "expected_allowance": "7/9",
+      "bound_slack": "7/9"
+    },
+    {
+      "seed": 67,
+      "horizon": 4,
+      "initial_upper": "16",
+      "executed_expected_cost": "16",
+      "expected_allowance": "14/9",
+      "bound_slack": "14/9"
+    },
+    {
+      "seed": 68,
+      "horizon": 3,
+      "initial_upper": "4",
+      "executed_expected_cost": "4",
+      "expected_allowance": "8/9",
+      "bound_slack": "8/9"
+    },
+    {
+      "seed": 69,
+      "horizon": 4,
+      "initial_upper": "12",
+      "executed_expected_cost": "12",
+      "expected_allowance": "115/81",
+      "bound_slack": "115/81"
+    },
+    {
+      "seed": 70,
+      "horizon": 3,
+      "initial_upper": "10",
+      "executed_expected_cost": "10",
+      "expected_allowance": "14/9",
+      "bound_slack": "14/9"
+    },
+    {
+      "seed": 71,
+      "horizon": 4,
+      "initial_upper": "29/3",
+      "executed_expected_cost": "262/27",
+      "expected_allowance": "85/81",
+      "bound_slack": "82/81"
+    },
+    {
+      "seed": 72,
+      "horizon": 3,
+      "initial_upper": "22/3",
+      "executed_expected_cost": "22/3",
+      "expected_allowance": "20/27",
+      "bound_slack": "20/27"
+    },
+    {
+      "seed": 73,
+      "horizon": 4,
+      "initial_upper": "14/3",
+      "executed_expected_cost": "44/9",
+      "expected_allowance": "49/27",
+      "bound_slack": "43/27"
+    },
+    {
+      "seed": 74,
+      "horizon": 3,
+      "initial_upper": "119/9",
+      "executed_expected_cost": "119/9",
+      "expected_allowance": "1/3",
+      "bound_slack": "1/3"
+    },
+    {
+      "seed": 75,
+      "horizon": 4,
+      "initial_upper": "29/3",
+      "executed_expected_cost": "91/9",
+      "expected_allowance": "143/81",
+      "bound_slack": "107/81"
+    },
+    {
+      "seed": 76,
+      "horizon": 3,
+      "initial_upper": "22/3",
+      "executed_expected_cost": "22/3",
+      "expected_allowance": "43/27",
+      "bound_slack": "43/27"
+    },
+    {
+      "seed": 77,
+      "horizon": 4,
+      "initial_upper": "95/9",
+      "executed_expected_cost": "95/9",
+      "expected_allowance": "100/81",
+      "bound_slack": "100/81"
+    },
+    {
+      "seed": 78,
+      "horizon": 3,
+      "initial_upper": "104/9",
+      "executed_expected_cost": "104/9",
+      "expected_allowance": "4/3",
+      "bound_slack": "4/3"
+    },
+    {
+      "seed": 79,
+      "horizon": 4,
+      "initial_upper": "61/9",
+      "executed_expected_cost": "61/9",
+      "expected_allowance": "92/81",
+      "bound_slack": "92/81"
+    },
+    {
+      "seed": 80,
+      "horizon": 3,
+      "initial_upper": "58/9",
+      "executed_expected_cost": "20/3",
+      "expected_allowance": "22/27",
+      "bound_slack": "16/27"
+    },
+    {
+      "seed": 81,
+      "horizon": 4,
+      "initial_upper": "307/27",
+      "executed_expected_cost": "307/27",
+      "expected_allowance": "122/81",
+      "bound_slack": "122/81"
+    },
+    {
+      "seed": 82,
+      "horizon": 3,
+      "initial_upper": "82/9",
+      "executed_expected_cost": "82/9",
+      "expected_allowance": "28/27",
+      "bound_slack": "28/27"
+    },
+    {
+      "seed": 83,
+      "horizon": 4,
+      "initial_upper": "211/27",
+      "executed_expected_cost": "76/9",
+      "expected_allowance": "149/81",
+      "bound_slack": "98/81"
+    },
+    {
+      "seed": 84,
+      "horizon": 3,
+      "initial_upper": "9",
+      "executed_expected_cost": "9",
+      "expected_allowance": "38/27",
+      "bound_slack": "38/27"
+    },
+    {
+      "seed": 85,
+      "horizon": 4,
+      "initial_upper": "281/27",
+      "executed_expected_cost": "281/27",
+      "expected_allowance": "83/81",
+      "bound_slack": "83/81"
+    },
+    {
+      "seed": 86,
+      "horizon": 3,
+      "initial_upper": "76/9",
+      "executed_expected_cost": "76/9",
+      "expected_allowance": "4/3",
+      "bound_slack": "4/3"
+    },
+    {
+      "seed": 87,
+      "horizon": 4,
+      "initial_upper": "14/3",
+      "executed_expected_cost": "14/3",
+      "expected_allowance": "23/27",
+      "bound_slack": "23/27"
+    },
+    {
+      "seed": 88,
+      "horizon": 3,
+      "initial_upper": "91/9",
+      "executed_expected_cost": "91/9",
+      "expected_allowance": "43/27",
+      "bound_slack": "43/27"
+    },
+    {
+      "seed": 89,
+      "horizon": 4,
+      "initial_upper": "4",
+      "executed_expected_cost": "4",
+      "expected_allowance": "89/81",
+      "bound_slack": "89/81"
+    },
+    {
+      "seed": 90,
+      "horizon": 3,
+      "initial_upper": "56/9",
+      "executed_expected_cost": "56/9",
+      "expected_allowance": "1",
+      "bound_slack": "1"
+    },
+    {
+      "seed": 91,
+      "horizon": 4,
+      "initial_upper": "16",
+      "executed_expected_cost": "16",
+      "expected_allowance": "43/27",
+      "bound_slack": "43/27"
+    },
+    {
+      "seed": 92,
+      "horizon": 3,
+      "initial_upper": "101/9",
+      "executed_expected_cost": "101/9",
+      "expected_allowance": "46/27",
+      "bound_slack": "46/27"
+    },
+    {
+      "seed": 93,
+      "horizon": 4,
+      "initial_upper": "12",
+      "executed_expected_cost": "12",
+      "expected_allowance": "148/81",
+      "bound_slack": "148/81"
+    },
+    {
+      "seed": 94,
+      "horizon": 3,
+      "initial_upper": "10",
+      "executed_expected_cost": "10",
+      "expected_allowance": "14/9",
+      "bound_slack": "14/9"
+    },
+    {
+      "seed": 95,
+      "horizon": 4,
+      "initial_upper": "4",
+      "executed_expected_cost": "4",
+      "expected_allowance": "64/81",
+      "bound_slack": "64/81"
+    },
+    {
+      "seed": 96,
+      "horizon": 3,
+      "initial_upper": "10",
+      "executed_expected_cost": "10",
+      "expected_allowance": "31/27",
+      "bound_slack": "31/27"
+    },
+    {
+      "seed": 97,
+      "horizon": 4,
+      "initial_upper": "8",
+      "executed_expected_cost": "8",
+      "expected_allowance": "97/81",
+      "bound_slack": "97/81"
+    },
+    {
+      "seed": 98,
+      "horizon": 3,
+      "initial_upper": "52/9",
+      "executed_expected_cost": "6",
+      "expected_allowance": "32/27",
+      "bound_slack": "26/27"
+    },
+    {
+      "seed": 99,
+      "horizon": 4,
+      "initial_upper": "6",
+      "executed_expected_cost": "6",
+      "expected_allowance": "100/81",
+      "bound_slack": "100/81"
+    },
+    {
+      "seed": 100,
+      "horizon": 3,
+      "initial_upper": "6",
+      "executed_expected_cost": "6",
+      "expected_allowance": "16/27",
+      "bound_slack": "16/27"
+    },
+    {
+      "seed": 101,
+      "horizon": 4,
+      "initial_upper": "200/27",
+      "executed_expected_cost": "200/27",
+      "expected_allowance": "73/81",
+      "bound_slack": "73/81"
+    },
+    {
+      "seed": 102,
+      "horizon": 3,
+      "initial_upper": "6",
+      "executed_expected_cost": "58/9",
+      "expected_allowance": "13/9",
+      "bound_slack": "1"
+    },
+    {
+      "seed": 103,
+      "horizon": 4,
+      "initial_upper": "4",
+      "executed_expected_cost": "4",
+      "expected_allowance": "136/81",
+      "bound_slack": "136/81"
+    },
+    {
+      "seed": 104,
+      "horizon": 3,
+      "initial_upper": "10",
+      "executed_expected_cost": "10",
+      "expected_allowance": "46/27",
+      "bound_slack": "46/27"
+    },
+    {
+      "seed": 105,
+      "horizon": 4,
+      "initial_upper": "26/3",
+      "executed_expected_cost": "26/3",
+      "expected_allowance": "134/81",
+      "bound_slack": "134/81"
+    },
+    {
+      "seed": 106,
+      "horizon": 3,
+      "initial_upper": "10",
+      "executed_expected_cost": "10",
+      "expected_allowance": "13/27",
+      "bound_slack": "13/27"
+    },
+    {
+      "seed": 107,
+      "horizon": 4,
+      "initial_upper": "305/27",
+      "executed_expected_cost": "103/9",
+      "expected_allowance": "23/27",
+      "bound_slack": "19/27"
+    },
+    {
+      "seed": 108,
+      "horizon": 3,
+      "initial_upper": "34/3",
+      "executed_expected_cost": "34/3",
+      "expected_allowance": "29/27",
+      "bound_slack": "29/27"
+    },
+    {
+      "seed": 109,
+      "horizon": 4,
+      "initial_upper": "10",
+      "executed_expected_cost": "10",
+      "expected_allowance": "139/81",
+      "bound_slack": "139/81"
+    },
+    {
+      "seed": 110,
+      "horizon": 3,
+      "initial_upper": "11",
+      "executed_expected_cost": "11",
+      "expected_allowance": "28/27",
+      "bound_slack": "28/27"
+    },
+    {
+      "seed": 111,
+      "horizon": 4,
+      "initial_upper": "44/9",
+      "executed_expected_cost": "44/9",
+      "expected_allowance": "40/27",
+      "bound_slack": "40/27"
+    },
+    {
+      "seed": 112,
+      "horizon": 3,
+      "initial_upper": "82/9",
+      "executed_expected_cost": "82/9",
+      "expected_allowance": "2/3",
+      "bound_slack": "2/3"
+    },
+    {
+      "seed": 113,
+      "horizon": 4,
+      "initial_upper": "4",
+      "executed_expected_cost": "4",
+      "expected_allowance": "107/81",
+      "bound_slack": "107/81"
+    },
+    {
+      "seed": 114,
+      "horizon": 3,
+      "initial_upper": "4",
+      "executed_expected_cost": "4",
+      "expected_allowance": "10/27",
+      "bound_slack": "10/27"
+    },
+    {
+      "seed": 115,
+      "horizon": 4,
+      "initial_upper": "278/27",
+      "executed_expected_cost": "278/27",
+      "expected_allowance": "80/81",
+      "bound_slack": "80/81"
+    },
+    {
+      "seed": 116,
+      "horizon": 3,
+      "initial_upper": "91/9",
+      "executed_expected_cost": "91/9",
+      "expected_allowance": "40/27",
+      "bound_slack": "40/27"
+    },
+    {
+      "seed": 117,
+      "horizon": 4,
+      "initial_upper": "256/27",
+      "executed_expected_cost": "256/27",
+      "expected_allowance": "128/81",
+      "bound_slack": "128/81"
+    },
+    {
+      "seed": 118,
+      "horizon": 3,
+      "initial_upper": "2",
+      "executed_expected_cost": "2",
+      "expected_allowance": "31/27",
+      "bound_slack": "31/27"
+    },
+    {
+      "seed": 119,
+      "horizon": 4,
+      "initial_upper": "364/27",
+      "executed_expected_cost": "368/27",
+      "expected_allowance": "146/81",
+      "bound_slack": "134/81"
+    },
+    {
+      "seed": 120,
+      "horizon": 3,
+      "initial_upper": "4",
+      "executed_expected_cost": "40/9",
+      "expected_allowance": "4/3",
+      "bound_slack": "8/9"
+    },
+    {
+      "seed": 121,
+      "horizon": 4,
+      "initial_upper": "4",
+      "executed_expected_cost": "4",
+      "expected_allowance": "112/81",
+      "bound_slack": "112/81"
+    },
+    {
+      "seed": 122,
+      "horizon": 3,
+      "initial_upper": "83/9",
+      "executed_expected_cost": "83/9",
+      "expected_allowance": "29/27",
+      "bound_slack": "29/27"
+    },
+    {
+      "seed": 123,
+      "horizon": 4,
+      "initial_upper": "6",
+      "executed_expected_cost": "6",
+      "expected_allowance": "109/81",
+      "bound_slack": "109/81"
+    },
+    {
+      "seed": 124,
+      "horizon": 3,
+      "initial_upper": "22/3",
+      "executed_expected_cost": "22/3",
+      "expected_allowance": "1",
+      "bound_slack": "1"
+    },
+    {
+      "seed": 125,
+      "horizon": 4,
+      "initial_upper": "14",
+      "executed_expected_cost": "14",
+      "expected_allowance": "34/27",
+      "bound_slack": "34/27"
+    },
+    {
+      "seed": 126,
+      "horizon": 3,
+      "initial_upper": "8",
+      "executed_expected_cost": "8",
+      "expected_allowance": "4/3",
+      "bound_slack": "4/3"
+    },
+    {
+      "seed": 127,
+      "horizon": 4,
+      "initial_upper": "8",
+      "executed_expected_cost": "8",
+      "expected_allowance": "44/81",
+      "bound_slack": "44/81"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "seed": 20261008,
+  "checks": {
+    "interval_flow_EDF_and_disjoint_deficit_cases": 250,
+    "tail_margin_against_independent_flow_LP": 180,
+    "bounded_run_finite_path_checks": 17820,
+    "three_job_exact_reserve_grid": 41,
+    "two_class_many_scenario_cut_vs_LP": 120,
+    "sparse_witness_sharpness_and_proper_subsets": 54,
+    "quadratic_closed_form_objective_checks": 240,
+    "trace_models_status_success_residual_and_gap": 54
+  },
+  "all_checks_passed": true,
+  "scope": "Numerical cross-checks supplement the analytic proof review. Original large-catalog simulations and their historical timings are retained, not rerun by this script."
+}

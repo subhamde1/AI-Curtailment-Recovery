@@ -1,0 +1,79 @@
+{
+  "source": "https://tre-clusterdata.oss-cn-hangzhou.aliyuncs.com/cluster-trace-gpu-v2026/data/asi_opensource_job_execution_summary.zip",
+  "zip_member": "asi_opensource_job_execution_summary/part-000.parquet",
+  "member_offset": 83,
+  "member_bytes": 1188294827,
+  "total_rows": 40522321,
+  "row_groups": 346,
+  "schema": "pod_id: string\nworkload_id: string\nserver_id: string\ngpu_spec_public: string\npriority_class: string\njob_type_public: string\nmodel_type_public: string\nis_genai_request: bool\ngpu_request: double\nduration_hours: double\nschedule_delay_sec: int64\nready_delay_sec: int64\nready_status: bool\nschedule_status: bool",
+  "selection_rule": "row groups 0, floor((G-1)/2), G-1, selected before examining values",
+  "selected_rowgroups": [
+    0,
+    172,
+    345
+  ],
+  "rows_read": 250571,
+  "positive_finite_rows": 250571,
+  "sha256_sample": "ba43b46c6375bc7558f018666547b2ea5cd577b61b2aa440b164f5f987b4aa4e",
+  "categories": {
+    "dev": {
+      "count": 177,
+      "duration_median": 11.022222222222222,
+      "gpu_hours_sum": 50111.787722222216,
+      "gpu_request_median": 1.0
+    },
+    "offline_inference": {
+      "count": 199651,
+      "duration_median": 0.3055555555555556,
+      "gpu_hours_sum": 323180.53494444443,
+      "gpu_request_median": 1.0
+    },
+    "online_inference": {
+      "count": 30753,
+      "duration_median": 1.1111111111111112,
+      "gpu_hours_sum": 782368.7153333334,
+      "gpu_request_median": 0.11
+    },
+    "other": {
+      "count": 432,
+      "duration_median": 0.44166666666666665,
+      "gpu_hours_sum": 13306.616666666665,
+      "gpu_request_median": 8.0
+    },
+    "training": {
+      "count": 18466,
+      "duration_median": 1.0,
+      "gpu_hours_sum": 301600.5713333334,
+      "gpu_request_median": 1.0
+    },
+    "unknown": {
+      "count": 1092,
+      "duration_median": 0.21666666666666667,
+      "gpu_hours_sum": 3573.4538333333335,
+      "gpu_request_median": 1.0
+    }
+  },
+  "priority_counts": {
+    "LP": 207450,
+    "HP": 40289,
+    "Other": 2832
+  },
+  "duration_quantiles": {
+    "0.1": 0.06111111111111111,
+    "0.25": 0.12777777777777777,
+    "0.5": 0.4,
+    "0.75": 1.3833333333333333,
+    "0.9": 4.4222222222222225,
+    "0.95": 9.055555555555555,
+    "0.99": 48.09944444444425
+  },
+  "gpu_request_quantiles": {
+    "0.1": 0.5,
+    "0.25": 1.0,
+    "0.5": 1.0,
+    "0.75": 1.0,
+    "0.9": 1.0,
+    "0.95": 2.0,
+    "0.99": 8.0
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "normalizer_gpu_hours": 3.0694444444444438,
+  "jobs": [
+    {
+      "source_hash": "00063d120d3ba916177ea3ac3f154b2ea7f00b4eb2c9412d20a47fbf7f0e3b0a",
+      "class": "training",
+      "duration_hours": 1.0,
+      "gpu_request": 1.0,
+      "work_coefficient": 0.32579185520362,
+      "rate": 0.32579185520362
+    },
+    {
+      "source_hash": "0006d4c200eaf0dd244f7580ac00a6499b06ecbb93632cb474d074c344aee961",
+      "class": "training",
+      "duration_hours": 0.5555555555555556,
+      "gpu_request": 0.5,
+      "work_coefficient": 0.09049773755656111,
+      "rate": 0.16289592760181
+    },
+    {
+      "source_hash": "000a96f752bd3d44e66750ec8279895c6210708087a930d24410106f8fa8dbe9",
+      "class": "training",
+      "duration_hours": 1.8611111111111112,
+      "gpu_request": 0.5,
+      "work_coefficient": 0.3031674208144797,
+      "rate": 0.16289592760181
+    },
+    {
+      "source_hash": "0000173fdb77766adb35adc15ae7954caf664ad6066c01b09791bf1418f15786",
+      "class": "offline_inference",
+      "duration_hours": 0.15555555555555556,
+      "gpu_request": 2.0,
+      "work_coefficient": 0.10135746606334844,
+      "rate": 0.65158371040724
+    },
+    {
+      "source_hash": "000043d7ab2d937038de0adf0438fe861b7f5a27047584a871487a82a1a793fc",
+      "class": "offline_inference",
+      "duration_hours": 0.16111111111111112,
+      "gpu_request": 1.0,
+      "work_coefficient": 0.052488687782805445,
+      "rate": 0.32579185520362
+    },
+    {
+      "source_hash": "000061ff56d821b001e2ad6b93411d43f88b3ed10c6d2acd3f67a7516d14fca7",
+      "class": "offline_inference",
+      "duration_hours": 0.19444444444444445,
+      "gpu_request": 2.0,
+      "work_coefficient": 0.12669683257918554,
+      "rate": 0.65158371040724
+    }
+  ]
+}

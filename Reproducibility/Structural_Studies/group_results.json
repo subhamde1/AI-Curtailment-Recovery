@@ -1,0 +1,828 @@
+[
+  {
+    "inputs": {
+      "p": 0.15,
+      "rho": 0,
+      "rate": 0.4,
+      "urgent": false,
+      "h": 1.2,
+      "z": 0.8
+    },
+    "single": {
+      "status": 0,
+      "seconds": 0.005870859000424389,
+      "variables": 112,
+      "rows": 268,
+      "value": 3.3482352941176456,
+      "dual": 3.348235294117647,
+      "max_violation": 0.0
+    },
+    "pairs": {
+      "status": 0,
+      "seconds": 0.004108789002202684,
+      "variables": 112,
+      "rows": 212,
+      "value": 3.3482352941176456,
+      "dual": 3.3482352941176474,
+      "max_violation": 0.0
+    },
+    "triple": {
+      "status": 0,
+      "seconds": 0.0036720710013469215,
+      "variables": 112,
+      "rows": 212,
+      "value": 3.499117647058823,
+      "dual": 3.499117647058823,
+      "max_violation": 1.1102230246251565e-16
+    },
+    "full": {
+      "status": 0,
+      "seconds": 0.003120089997537434,
+      "variables": 112,
+      "rows": 184,
+      "value": 4.151499999999999,
+      "dual": 4.1514999999999995,
+      "max_violation": 1.3877787807814457e-17
+    },
+    "foresight": {
+      "status": 0,
+      "seconds": 0.0036576900020008907,
+      "variables": 192,
+      "rows": 272,
+      "value": 2.545424999999998,
+      "dual": 2.545425,
+      "max_violation": 0.0
+    },
+    "calendar": {
+      "status": 0,
+      "value": 5.368274999999999
+    }
+  },
+  {
+    "inputs": {
+      "p": 0.15,
+      "rho": 0.4,
+      "rate": 0.4,
+      "urgent": false,
+      "h": 1.2,
+      "z": 0.8
+    },
+    "single": {
+      "status": 0,
+      "seconds": 0.0033143820000987034,
+      "variables": 112,
+      "rows": 268,
+      "value": 3.8442857142857134,
+      "dual": 3.844285714285714,
+      "max_violation": 0.0
+    },
+    "pairs": {
+      "status": 0,
+      "seconds": 0.0034710979998635594,
+      "variables": 112,
+      "rows": 212,
+      "value": 3.8442857142857134,
+      "dual": 3.844285714285714,
+      "max_violation": 0.0
+    },
+    "triple": {
+      "status": 0,
+      "seconds": 0.003582557001209352,
+      "variables": 112,
+      "rows": 212,
+      "value": 3.8442857142857143,
+      "dual": 3.8442857142857143,
+      "max_violation": 1.1102230246251565e-16
+    },
+    "full": {
+      "status": 0,
+      "seconds": 0.003417428000830114,
+      "variables": 112,
+      "rows": 184,
+      "value": 4.16,
+      "dual": 4.159999999999999,
+      "max_violation": 1.1102230246251565e-16
+    },
+    "foresight": {
+      "status": 0,
+      "seconds": 0.0033567159989615902,
+      "variables": 192,
+      "rows": 272,
+      "value": 2.706992999999998,
+      "dual": 2.706993,
+      "max_violation": 0.0
+    },
+    "calendar": {
+      "status": 0,
+      "value": 5.626539000000001
+    }
+  },
+  {
+    "inputs": {
+      "p": 0.15,
+      "rho": 0.75,
+      "rate": 0.4,
+      "urgent": false,
+      "h": 1.2,
+      "z": 0.8
+    },
+    "single": {
+      "status": 0,
+      "seconds": 0.00431767400004901,
+      "variables": 112,
+      "rows": 268,
+      "value": 3.9414285714285713,
+      "dual": 3.9414285714285704,
+      "max_violation": 0.0
+    },
+    "pairs": {
+      "status": 0,
+      "seconds": 0.0035816249983326998,
+      "variables": 112,
+      "rows": 212,
+      "value": 3.9414285714285717,
+      "dual": 3.9414285714285704,
+      "max_violation": 1.1102230246251565e-16
+    },
+    "triple": {
+      "status": 0,
+      "seconds": 0.003357988000061596,
+      "variables": 112,
+      "rows": 212,
+      "value": 3.9414285714285704,
+      "dual": 3.9414285714285704,
+      "max_violation": 0.0
+    },
+    "full": {
+      "status": 0,
+      "seconds": 0.0032988890015985817,
+      "variables": 112,
+      "rows": 184,
+      "value": 4.159999999999998,
+      "dual": 4.16,
+      "max_violation": 1.1102230246251565e-16
+    },
+    "foresight": {
+      "status": 0,
+      "seconds": 0.003543217000697041,
+      "variables": 192,
+      "rows": 272,
+      "value": 2.857401562500001,
+      "dual": 2.8574015624999998,
+      "max_violation": 0.0
+    },
+    "calendar": {
+      "status": 0,
+      "value": 5.859548437500001
+    }
+  },
+  {
+    "inputs": {
+      "p": 0.25,
+      "rho": 0,
+      "rate": 0.4,
+      "urgent": false,
+      "h": 1.2,
+      "z": 0.8
+    },
+    "single": {
+      "status": 0,
+      "seconds": 0.004233427000144729,
+      "variables": 112,
+      "rows": 268,
+      "value": 3.825,
+      "dual": 3.8249999999999997,
+      "max_violation": 0.0
+    },
+    "pairs": {
+      "status": 0,
+      "seconds": 0.0031006999997771345,
+      "variables": 112,
+      "rows": 212,
+      "value": 3.825,
+      "dual": 3.8249999999999997,
+      "max_violation": 0.0
+    },
+    "triple": {
+      "status": 0,
+      "seconds": 0.0031459480014746077,
+      "variables": 112,
+      "rows": 212,
+      "value": 4.075000000000001,
+      "dual": 4.075000000000001,
+      "max_violation": 1.1102230246251565e-16
+    },
+    "full": {
+      "status": 0,
+      "seconds": 0.003268612999818288,
+      "variables": 112,
+      "rows": 184,
+      "value": 4.687499999999998,
+      "dual": 4.6875,
+      "max_violation": 1.1102230246251565e-16
+    },
+    "foresight": {
+      "status": 0,
+      "seconds": 0.0037535950032179244,
+      "variables": 192,
+      "rows": 272,
+      "value": 3.1593750000000016,
+      "dual": 3.159375,
+      "max_violation": 0.0
+    },
+    "calendar": {
+      "status": 0,
+      "value": 5.503124999999999
+    }
+  },
+  {
+    "inputs": {
+      "p": 0.25,
+      "rho": 0.4,
+      "rate": 0.4,
+      "urgent": false,
+      "h": 1.2,
+      "z": 0.8
+    },
+    "single": {
+      "status": 0,
+      "seconds": 0.0036532430021907203,
+      "variables": 112,
+      "rows": 268,
+      "value": 4.521428571428572,
+      "dual": 4.5214285714285705,
+      "max_violation": 0.0
+    },
+    "pairs": {
+      "status": 0,
+      "seconds": 0.003523157000017818,
+      "variables": 112,
+      "rows": 212,
+      "value": 4.521428571428572,
+      "dual": 4.5214285714285705,
+      "max_violation": 0.0
+    },
+    "triple": {
+      "status": 0,
+      "seconds": 0.0035712890021386556,
+      "variables": 112,
+      "rows": 212,
+      "value": 4.5214285714285705,
+      "dual": 4.521428571428572,
+      "max_violation": 0.0
+    },
+    "full": {
+      "status": 0,
+      "seconds": 0.0032669710017216858,
+      "variables": 112,
+      "rows": 184,
+      "value": 4.7925,
+      "dual": 4.7925,
+      "max_violation": 2.220446049250313e-16
+    },
+    "foresight": {
+      "status": 0,
+      "seconds": 0.003677360000438057,
+      "variables": 192,
+      "rows": 272,
+      "value": 3.375375000000001,
+      "dual": 3.3753749999999996,
+      "max_violation": 0.0
+    },
+    "calendar": {
+      "status": 0,
+      "value": 5.866125
+    }
+  },
+  {
+    "inputs": {
+      "p": 0.25,
+      "rho": 0.75,
+      "rate": 0.4,
+      "urgent": false,
+      "h": 1.2,
+      "z": 0.8
+    },
+    "single": {
+      "status": 0,
+      "seconds": 0.0034687350016611163,
+      "variables": 112,
+      "rows": 268,
+      "value": 4.607142857142857,
+      "dual": 4.607142857142857,
+      "max_violation": 1.1102230246251565e-16
+    },
+    "pairs": {
+      "status": 0,
+      "seconds": 0.003630798997619422,
+      "variables": 112,
+      "rows": 212,
+      "value": 4.607142857142857,
+      "dual": 4.607142857142857,
+      "max_violation": 1.1102230246251565e-16
+    },
+    "triple": {
+      "status": 0,
+      "seconds": 0.004079235000972403,
+      "variables": 112,
+      "rows": 212,
+      "value": 4.607142857142858,
+      "dual": 4.607142857142857,
+      "max_violation": 0.0
+    },
+    "full": {
+      "status": 0,
+      "seconds": 0.003208632999303518,
+      "variables": 112,
+      "rows": 184,
+      "value": 4.799999999999999,
+      "dual": 4.800000000000001,
+      "max_violation": 2.7755575615628914e-16
+    },
+    "foresight": {
+      "status": 0,
+      "seconds": 0.003407161999348318,
+      "variables": 192,
+      "rows": 272,
+      "value": 3.5865234374999986,
+      "dual": 3.5865234375,
+      "max_violation": 0.0
+    },
+    "calendar": {
+      "status": 0,
+      "value": 6.2009765625
+    }
+  },
+  {
+    "inputs": {
+      "p": 0.4,
+      "rho": 0,
+      "rate": 0.4,
+      "urgent": false,
+      "h": 1.2,
+      "z": 0.8
+    },
+    "single": {
+      "status": 0,
+      "seconds": 0.0032803610010887496,
+      "variables": 112,
+      "rows": 268,
+      "value": 4.68,
+      "dual": 4.679999999999999,
+      "max_violation": 0.0
+    },
+    "pairs": {
+      "status": 0,
+      "seconds": 0.0036733029992319643,
+      "variables": 112,
+      "rows": 212,
+      "value": 4.68,
+      "dual": 4.679999999999999,
+      "max_violation": 0.0
+    },
+    "triple": {
+      "status": 0,
+      "seconds": 0.0036884260007354897,
+      "variables": 112,
+      "rows": 212,
+      "value": 4.847999999999999,
+      "dual": 4.848000000000001,
+      "max_violation": 0.0
+    },
+    "full": {
+      "status": 0,
+      "seconds": 0.0034942340025736485,
+      "variables": 112,
+      "rows": 184,
+      "value": 5.486400000000001,
+      "dual": 5.486400000000001,
+      "max_violation": 2.220446049250313e-16
+    },
+    "foresight": {
+      "status": 0,
+      "seconds": 0.003548094999132445,
+      "variables": 192,
+      "rows": 272,
+      "value": 4.228799999999999,
+      "dual": 4.2288,
+      "max_violation": 0.0
+    },
+    "calendar": {
+      "status": 0,
+      "value": 5.918399999999999
+    }
+  },
+  {
+    "inputs": {
+      "p": 0.4,
+      "rho": 0.4,
+      "rate": 0.4,
+      "urgent": false,
+      "h": 1.2,
+      "z": 0.8
+    },
+    "single": {
+      "status": 0,
+      "seconds": 0.0033369459997629747,
+      "variables": 112,
+      "rows": 268,
+      "value": 5.384516129032257,
+      "dual": 5.384516129032258,
+      "max_violation": 0.0
+    },
+    "pairs": {
+      "status": 0,
+      "seconds": 0.003540083002008032,
+      "variables": 112,
+      "rows": 212,
+      "value": 5.384516129032257,
+      "dual": 5.384516129032258,
+      "max_violation": 0.0
+    },
+    "triple": {
+      "status": 0,
+      "seconds": 0.0031926289993862156,
+      "variables": 112,
+      "rows": 212,
+      "value": 5.405714285714286,
+      "dual": 5.405714285714286,
+      "max_violation": 0.0
+    },
+    "full": {
+      "status": 0,
+      "seconds": 0.003420012002607109,
+      "variables": 112,
+      "rows": 184,
+      "value": 5.678400000000001,
+      "dual": 5.678400000000001,
+      "max_violation": 4.440892098500626e-16
+    },
+    "foresight": {
+      "status": 0,
+      "seconds": 0.0037472650001291186,
+      "variables": 192,
+      "rows": 272,
+      "value": 4.463808,
+      "dual": 4.463808,
+      "max_violation": 0.0
+    },
+    "calendar": {
+      "status": 0,
+      "value": 6.350783999999999
+    }
+  },
+  {
+    "inputs": {
+      "p": 0.4,
+      "rho": 0.75,
+      "rate": 0.4,
+      "urgent": false,
+      "h": 1.2,
+      "z": 0.8
+    },
+    "single": {
+      "status": 0,
+      "seconds": 0.0034799720015143976,
+      "variables": 112,
+      "rows": 268,
+      "value": 5.605714285714284,
+      "dual": 5.605714285714283,
+      "max_violation": 1.1102230246251565e-16
+    },
+    "pairs": {
+      "status": 0,
+      "seconds": 0.0031905360010568984,
+      "variables": 112,
+      "rows": 212,
+      "value": 5.605714285714284,
+      "dual": 5.605714285714283,
+      "max_violation": 1.1102230246251565e-16
+    },
+    "triple": {
+      "status": 0,
+      "seconds": 0.00321563400211744,
+      "variables": 112,
+      "rows": 212,
+      "value": 5.605714285714284,
+      "dual": 5.605714285714284,
+      "max_violation": 1.6653345369377348e-16
+    },
+    "full": {
+      "status": 0,
+      "seconds": 0.003067860998271499,
+      "variables": 112,
+      "rows": 184,
+      "value": 5.76,
+      "dual": 5.760000000000001,
+      "max_violation": 1.1102230246251565e-16
+    },
+    "foresight": {
+      "status": 0,
+      "seconds": 0.0033916989996214397,
+      "variables": 192,
+      "rows": 272,
+      "value": 4.714800000000001,
+      "dual": 4.7147999999999985,
+      "max_violation": 0.0
+    },
+    "calendar": {
+      "status": 0,
+      "value": 6.7644
+    }
+  },
+  {
+    "inputs": {
+      "p": 0.25,
+      "rho": 0.4,
+      "rate": 0.35,
+      "urgent": false,
+      "h": 1.2,
+      "z": 0.8
+    },
+    "single": {
+      "status": 0,
+      "seconds": 0.003354503001901321,
+      "variables": 112,
+      "rows": 268,
+      "value": 4.521428571428572,
+      "dual": 4.5214285714285705,
+      "max_violation": 0.0
+    },
+    "pairs": {
+      "status": 0,
+      "seconds": 0.0030755020015931223,
+      "variables": 112,
+      "rows": 212,
+      "value": 4.521428571428572,
+      "dual": 4.5214285714285705,
+      "max_violation": 0.0
+    },
+    "triple": {
+      "status": 0,
+      "seconds": 0.0030692429972987156,
+      "variables": 112,
+      "rows": 212,
+      "value": 4.521428571428571,
+      "dual": 4.5214285714285705,
+      "max_violation": 0.0
+    },
+    "full": {
+      "status": 0,
+      "seconds": 0.003102653001405997,
+      "variables": 112,
+      "rows": 184,
+      "value": 4.7925,
+      "dual": 4.7925,
+      "max_violation": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "seconds": 0.003357167002832284,
+      "variables": 192,
+      "rows": 272,
+      "value": 3.3753750000000005,
+      "dual": 3.3753749999999996,
+      "max_violation": 0.0
+    },
+    "calendar": {
+      "status": 0,
+      "value": 5.483625
+    }
+  },
+  {
+    "inputs": {
+      "p": 0.25,
+      "rho": 0.4,
+      "rate": 0.5,
+      "urgent": false,
+      "h": 1.2,
+      "z": 0.8
+    },
+    "single": {
+      "status": 0,
+      "seconds": 0.0032966760009003337,
+      "variables": 112,
+      "rows": 268,
+      "value": 4.521428571428569,
+      "dual": 4.5214285714285705,
+      "max_violation": 0.0
+    },
+    "pairs": {
+      "status": 0,
+      "seconds": 0.003220321003027493,
+      "variables": 112,
+      "rows": 212,
+      "value": 4.5214285714285705,
+      "dual": 4.5214285714285705,
+      "max_violation": 1.1102230246251565e-16
+    },
+    "triple": {
+      "status": 0,
+      "seconds": 0.003139989999908721,
+      "variables": 112,
+      "rows": 212,
+      "value": 4.521428571428571,
+      "dual": 4.521428571428572,
+      "max_violation": 1.1102230246251565e-16
+    },
+    "full": {
+      "status": 0,
+      "seconds": 0.003060189999814611,
+      "variables": 112,
+      "rows": 184,
+      "value": 4.7924999999999995,
+      "dual": 4.7925,
+      "max_violation": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "seconds": 0.0033517080009914935,
+      "variables": 192,
+      "rows": 272,
+      "value": 3.375375,
+      "dual": 3.3753749999999996,
+      "max_violation": 2.220446049250313e-16
+    },
+    "calendar": {
+      "status": 0,
+      "value": 6.07509375
+    }
+  },
+  {
+    "inputs": {
+      "p": 0.25,
+      "rho": 0.4,
+      "rate": 0.4,
+      "urgent": true,
+      "h": 1.2,
+      "z": 0.8
+    },
+    "single": {
+      "status": 0,
+      "seconds": 0.003110826000920497,
+      "variables": 96,
+      "rows": 252,
+      "value": 4.5214285714285705,
+      "dual": 4.521428571428572,
+      "max_violation": 0.0
+    },
+    "pairs": {
+      "status": 0,
+      "seconds": 0.0028880099998787045,
+      "variables": 96,
+      "rows": 196,
+      "value": 4.52142857142857,
+      "dual": 4.521428571428572,
+      "max_violation": 0.0
+    },
+    "triple": {
+      "status": 0,
+      "seconds": 0.002850934000889538,
+      "variables": 96,
+      "rows": 196,
+      "value": 4.521428571428571,
+      "dual": 4.521428571428572,
+      "max_violation": 1.1102230246251565e-16
+    },
+    "full": {
+      "status": 0,
+      "seconds": 0.002871295000659302,
+      "variables": 96,
+      "rows": 168,
+      "value": 4.7924999999999995,
+      "dual": 4.7925,
+      "max_violation": 2.220446049250313e-16
+    },
+    "foresight": {
+      "status": 0,
+      "seconds": 0.003228112000215333,
+      "variables": 176,
+      "rows": 256,
+      "value": 3.3753750000000013,
+      "dual": 3.3753749999999996,
+      "max_violation": 2.220446049250313e-16
+    },
+    "calendar": {
+      "status": 0,
+      "value": 5.17125
+    }
+  },
+  {
+    "inputs": {
+      "p": 0.25,
+      "rho": 0.4,
+      "rate": 0.4,
+      "urgent": false,
+      "h": 1.2,
+      "z": 1.0
+    },
+    "single": {
+      "status": 0,
+      "seconds": 0.003272008998465026,
+      "variables": 112,
+      "rows": 268,
+      "value": 4.133108108108107,
+      "dual": 4.133108108108108,
+      "max_violation": 1.1102230246251565e-16
+    },
+    "pairs": {
+      "status": 0,
+      "seconds": 0.003091806996962987,
+      "variables": 112,
+      "rows": 212,
+      "value": 4.133108108108107,
+      "dual": 4.133108108108108,
+      "max_violation": 2.220446049250313e-16
+    },
+    "triple": {
+      "status": 0,
+      "seconds": 0.0031360139983007684,
+      "variables": 112,
+      "rows": 212,
+      "value": 4.133108108108107,
+      "dual": 4.133108108108107,
+      "max_violation": 0.0
+    },
+    "full": {
+      "status": 0,
+      "seconds": 0.002954219999082852,
+      "variables": 112,
+      "rows": 184,
+      "value": 4.27125,
+      "dual": 4.27125,
+      "max_violation": 2.220446049250313e-16
+    },
+    "foresight": {
+      "status": 0,
+      "seconds": 0.003384257001016522,
+      "variables": 192,
+      "rows": 272,
+      "value": 3.375375000000001,
+      "dual": 3.3753749999999996,
+      "max_violation": 0.0
+    },
+    "calendar": {
+      "status": 0,
+      "value": 5.7558750000000005
+    }
+  },
+  {
+    "inputs": {
+      "p": 0.25,
+      "rho": 0.4,
+      "rate": 0.4,
+      "urgent": false,
+      "h": 1.0,
+      "z": 0.8
+    },
+    "single": {
+      "status": 0,
+      "seconds": 0.0032594799995422363,
+      "variables": 112,
+      "rows": 268,
+      "value": 4.6607142857142865,
+      "dual": 4.660714285714285,
+      "max_violation": 0.0
+    },
+    "pairs": {
+      "status": 0,
+      "seconds": 0.0031787890002306085,
+      "variables": 112,
+      "rows": 212,
+      "value": 4.6607142857142865,
+      "dual": 4.660714285714285,
+      "max_violation": 0.0
+    },
+    "triple": {
+      "status": 0,
+      "seconds": 0.0032740719980210997,
+      "variables": 112,
+      "rows": 212,
+      "value": 4.6607142857142865,
+      "dual": 4.660714285714285,
+      "max_violation": 5.551115123125783e-16
+    },
+    "full": {
+      "status": 0,
+      "seconds": 0.0031175559997791424,
+      "variables": 112,
+      "rows": 184,
+      "value": 4.79625,
+      "dual": 4.796250000000001,
+      "max_violation": 2.220446049250313e-16
+    },
+    "foresight": {
+      "status": 0,
+      "seconds": 0.00345997200201964,
+      "variables": 192,
+      "rows": 272,
+      "value": 4.0876875,
+      "dual": 4.0876874999999995,
+      "max_violation": 0.0
+    },
+    "calendar": {
+      "status": 0,
+      "value": 5.7091875
+    }
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "independent_interval_frontier_checks": 30,
+  "dynamic_cases": 16,
+  "group_cases": 14,
+  "maximum_group_primal_dual_gap": 2.6645352591003757e-15,
+  "maximum_dynamic_mip_gap_absolute": 0.0
+}

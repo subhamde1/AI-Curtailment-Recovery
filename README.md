@@ -6,7 +6,7 @@ This repository snapshot corresponds to the above titled manuscript. Cite the ar
 
 The manuscript PDF links to this repository, which provides the code, archived results, and instructions for reproducing and verifying the reported analyses. The manuscript source hash, Table 23 data hash, and frozen values for Tables
 47 and 48 are recorded in
-[`published\\\_reference.json`](reproducibility/extended_studies/published_reference.json).
+[`published_reference.json`](Reproducibility/Extended_Studies/published_reference.json).
 
 ## Rights and access
 
@@ -45,16 +45,16 @@ after installation. The proofs of general results are in the article.
 
 |Command from the repository root|Scope|
 |-|-|
-|`python reproducibility/run\\\_replay.py --extended-studies`|Rebuild the exchangeable and weighted-corridor checks, depth-sharpness checks through depth five, and original-law 48-slot Markov certificate.|
-|`python reproducibility/run\\\_replay.py --new-studies --multistage-studies`|Recompute the two-class conflict benchmark, matched multistage designs, and controls.|
-|`python reproducibility/run\\\_replay.py --legacy-quick`|Run the partial replay of the earlier experiments.|
-|`python reproducibility/earlier\\\_studies/run\\\_all.py`|Run the longer earlier-study workflow, including larger catalogs, scaling and lookahead profiles.|
+|`python Reproducibility/run_replay.py --extended-studies`|Rebuild the exchangeable and weighted-corridor checks, depth-sharpness checks through depth five, and original-law 48-slot Markov certificate.|
+|`python Reproducibility/run_replay.py --new-studies --multistage-studies`|Recompute the two-class conflict benchmark, matched multistage designs, and controls.|
+|`python Reproducibility/run_replay.py --legacy-quick`|Run the partial replay of the earlier experiments.|
+|`python Reproducibility/Earlier_Studies/run_all.py`|Run the longer earlier-study workflow, including larger catalogs, scaling and lookahead profiles.|
 
 Run recomputations in a working copy because programs write outputs. Fresh
 solves can select different optimal allocations and give slightly different
 certificate widths. The Markov check uses the reported interval
 `\\\[18.77934618, 18.81152705]`. Hardware-dependent timings in Table 23 and
-Figure 17 use the frozen records under `reproducibility/publication\\\_snapshot/`.
+Figure 17 use the frozen records under `Reproducibility/Publication_Snapshot/`.
 The four-leaf certificate concerns the separate two-observation model.
 
 ## Alibaba data and retrieval
@@ -78,40 +78,40 @@ columns. Run these commands from the repository root with the pinned PyArrow
 version and access to the source server.
 
 ```bash
-python reproducibility/retrieve\\\_hourly.py download
-python reproducibility/extended\\\_studies/retrieve\\\_additional\\\_hours.py
-python reproducibility/structural\\\_studies/trace\\\_read.py
-python reproducibility/run\\\_replay.py --trace-data --extended-studies
+python Reproducibility/retrieve_hourly.py download
+python Reproducibility/Extended_Studies/retrieve_additional_hours.py
+python Reproducibility/Structural_Studies/trace_read.py
+python Reproducibility/run_replay.py --trace-data --extended-studies
 ```
 
 `--trace-data` checks the local extracts and replays the saved hourly and
 inherited-debt policies. With `--extended-studies` it also recomputes all
 220 holdout cases. Add `--new-studies` to recompute the original hourly and
 debt experiments. For the execution-template counterfactuals, run
-`python reproducibility/structural\\\_studies/trace\\\_study.py` after retrieving
-the sample. `studies.py` and `group\\\_study.py` in that directory recompute the
+`python Reproducibility/Structural_Studies/trace_study.py` after retrieving
+the sample. `studies.py` and `group_study.py` in that directory recompute the
 dynamic-policy and grouped-certificate experiments. Workload measurements
 inform the study. Grid calls, deadlines,
 interruption costs and processing permissions are declared model inputs.
 
 ## Find the supporting records
 
-Paths below are relative to `reproducibility/`. Section, theorem, table, and
+Paths below are relative to `Reproducibility/`. Section, theorem, table, and
 figure numbers are the displayed numbers in the master manuscript.
 
 |Manuscript location|Programs and records|
 |-|-|
-|Sections 4–5, Theorems 1–4A|`multistage\\\_studies/`, `witness\\\_depth2/`, and the corridor and depth checks in `extended\\\_studies/`.|
-|Sections 6–12.19 and Appendices G–K|`earlier\\\_studies/` contains the algorithms, declared catalogs, full-precision records and experiment specifications.|
-|Proposition 5 and equations (116a)–(116b)|`verify\\\_adaptive\\\_certificate.py` and `adaptive\\\_certificate\\\_verification.json`.|
-|Table 23 and Figure 17|`publication\\\_snapshot/scaling.json` and `render\\\_publication\\\_scaling.py`.|
-|Sections 12.20–12.22 and Appendix L|`structural\\\_studies/`, `hourly\\\_trace/`, hourly study and debt-boundary scripts.|
-|Section 12.23.1 and Appendix M.3|`multistage\\\_studies/exact\\\_overlap\\\_certificate.py` and its rational certificate.|
-|Section 12.24, Theorem 31A and Table 47|`extended\\\_studies/window\\\_certificate.py`, `verify\\\_window\\\_bounds.py`, and the interval records.|
-|Table 48 and Figure 31|`extended\\\_studies/holdout\\\_results.csv`, `holdout\\\_summary.json`, `holdout\\\_validation.py`, and `plot\\\_holdout.py`.|
+|Sections 4–5, Theorems 1–4A|`Multistage_Studies/`, `Witness_Depth2/`, and the corridor and depth checks in `Extended_Studies/`.|
+|Sections 6–12.19 and Appendices G–K|`Earlier_Studies/` contains the algorithms, declared catalogs, full-precision records and experiment specifications.|
+|Proposition 5 and equations (116a)–(116b)|`verify_adaptive_certificate.py` and `adaptive_certificate_verification.json`.|
+|Table 23 and Figure 17|`Publication_Snapshot/scaling.json` and `render_publication_scaling.py`.|
+|Sections 12.20–12.22 and Appendix L|`Structural_Studies/`, `Hourly_Trace/`, hourly study and debt-boundary scripts.|
+|Section 12.23.1 and Appendix M.3|`Multistage_Studies/exact_overlap_certificate.py` and its rational certificate.|
+|Section 12.24, Theorem 31A and Table 47|`Extended_Studies/window_certificate.py`, `verify_window_bounds.py`, and the interval records.|
+|Table 48 and Figure 31|`Extended_Studies/holdout_results.csv`, `holdout_summary.json`, `holdout_validation.py`, and `plot_holdout.py`.|
 
 After rebuilding the hourly panel, redraw the 31 figures from study records
-using `python reproducibility/render\\\_figure\\\_sources.py --output-dir redrawn\\\_figures`.
-Use `python reproducibility/render\\\_publication\\\_scaling.py --output scaling.png`
+using `python Reproducibility/render_figure_sources.py --output-dir redrawn_figures`.
+Use `python Reproducibility/render_publication_scaling.py --output scaling.png`
 to redraw Figure 17 from its frozen timing data.
 

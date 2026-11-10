@@ -1,7 +1,7 @@
 # The Cost of Repeatable Flexibility
 
-Replication and verification files for Subham De, *The Cost of Repeatable
-Flexibility: Stochastic Scheduling of AI Data Centers under Grid Curtailment*.
+Replication and verification files for the article, *The Cost of Repeatable
+Flexibility: Stochastic Scheduling of AI Data Centers under Grid Curtailment* by Subham De.
 This repository snapshot corresponds to the above titled manuscript. Cite the article when referring to the study or its results.
 
 The manuscript PDF links to this repository, which provides the code, archived results, and instructions for reproducing and verifying the reported analyses. The manuscript source hash, Table 23 data hash, and frozen values for Tables

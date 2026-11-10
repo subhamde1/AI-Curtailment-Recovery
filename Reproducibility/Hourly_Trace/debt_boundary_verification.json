@@ -1,0 +1,6 @@
+{
+  "policies_replayed": 8,
+  "independent_all_stress_LPs": 16,
+  "max_frontier_error": 2.220446049250313e-16,
+  "max_replay_violation": 1.6121002102686965e-15
+}

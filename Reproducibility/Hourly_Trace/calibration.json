@@ -1,0 +1,218 @@
+{
+  "source": "Alibaba Cluster Trace GPU v2026 asi_opensource_pod_hourly",
+  "days": [
+    109,
+    110
+  ],
+  "hours": 48,
+  "panel_rule": "source pod_id starts with '00'; gpu_request>0; all consecutive hourly partitions",
+  "training_days": [
+    109
+  ],
+  "holdout_days": [
+    110
+  ],
+  "first_partition_is_left_censored": true,
+  "rows": 22777,
+  "unique_pods": 3539,
+  "invalid_occupation_rows": 0,
+  "left_censored_pods": 431,
+  "right_censored_pods": 482,
+  "complete_observed_spans": 2880,
+  "observed_span_distribution": {
+    "n": 2880,
+    "mean": 2.3850694444444445,
+    "q10": 1.0,
+    "median": 1.0,
+    "q90": 5.0,
+    "maximum": 42.0
+  },
+  "observed_occupation_distribution": {
+    "n": 2880,
+    "mean": 1.557399228395062,
+    "q10": 0.0222222222222222,
+    "median": 0.23888888888888882,
+    "q90": 3.7727777777777773,
+    "maximum": 153.0222222222222
+  },
+  "normalizer_GPU_hours": 102.52224999999999,
+  "categories": {
+    "dev": 292,
+    "offline_inference": 7402,
+    "online_inference": 13321,
+    "other": 167,
+    "training": 1448,
+    "unknown": 147
+  },
+  "category_occupation": {
+    "dev": 879.1166666666667,
+    "offline_inference": 5558.695444444445,
+    "online_inference": 12666.942833333333,
+    "other": 1087.2444444444445,
+    "training": 5050.825,
+    "unknown": 99.54261111111111
+  },
+  "hour_request_bound_violations": 0,
+  "split": {
+    "training": {
+      "observed_pods": {
+        "n": 24,
+        "mean": 466.5833333333333,
+        "q10": 451.0,
+        "median": 467.5,
+        "q90": 487.2,
+        "maximum": 495.0
+      },
+      "requested_GPUs": {
+        "n": 24,
+        "mean": 596.0791666666667,
+        "q10": 554.756,
+        "median": 595.69,
+        "q90": 653.717,
+        "maximum": 665.25
+      },
+      "attributed_GPU_hours": {
+        "n": 24,
+        "mean": 507.20445138888886,
+        "q10": 478.16443888888887,
+        "median": 505.95327777777777,
+        "q90": 539.5078833333333,
+        "maximum": 547.8483333333334
+      },
+      "first_appearances": {
+        "n": 23,
+        "mean": 70.69565217391305,
+        "q10": 47.6,
+        "median": 70.0,
+        "q90": 88.4,
+        "maximum": 104.0
+      },
+      "eligible_pods": {
+        "n": 24,
+        "mean": 144.20833333333334,
+        "q10": 126.6,
+        "median": 144.5,
+        "q90": 161.4,
+        "maximum": 169.0
+      },
+      "eligible_requested_GPUs": {
+        "n": 24,
+        "mean": 163.25583333333333,
+        "q10": 136.6,
+        "median": 162.5,
+        "q90": 191.29999999999998,
+        "maximum": 205.32
+      },
+      "eligible_GPU_hours": {
+        "n": 24,
+        "mean": 102.52224999999999,
+        "q10": 89.11111111111111,
+        "median": 100.55833333333334,
+        "q90": 118.58114444444445,
+        "maximum": 128.4388888888889
+      },
+      "pod_hours": 11198,
+      "unique_pods": 2057,
+      "request_distribution": {
+        "n": 11198,
+        "mean": 1.27754063225576,
+        "q10": 0.5,
+        "median": 1.0,
+        "q90": 1.0,
+        "maximum": 16.0
+      },
+      "positive_occupation_distribution": {
+        "n": 11198,
+        "mean": 1.087060799547538,
+        "q10": 0.07,
+        "median": 1.0,
+        "q90": 1.0,
+        "maximum": 16.0
+      },
+      "arrival_variance_to_mean": 3.7966006932796597,
+      "arrival_lag1_correlation": 0.019851008580205675,
+      "eligible_demand_lag1_correlation": 0.6860629515410599
+    },
+    "holdout": {
+      "observed_pods": {
+        "n": 24,
+        "mean": 482.4583333333333,
+        "q10": 467.8,
+        "median": 482.0,
+        "q90": 492.4,
+        "maximum": 513.0
+      },
+      "requested_GPUs": {
+        "n": 24,
+        "mean": 626.2687500000001,
+        "q10": 593.225,
+        "median": 617.51,
+        "q90": 663.74,
+        "maximum": 683.96
+      },
+      "attributed_GPU_hours": {
+        "n": 24,
+        "mean": 548.7275069444445,
+        "q10": 513.7952055555555,
+        "median": 539.3638333333333,
+        "q90": 603.2769388888888,
+        "maximum": 627.2149444444444
+      },
+      "first_appearances": {
+        "n": 24,
+        "mean": 61.75,
+        "q10": 39.1,
+        "median": 60.5,
+        "q90": 84.19999999999999,
+        "maximum": 103.0
+      },
+      "eligible_pods": {
+        "n": 24,
+        "mean": 158.54166666666666,
+        "q10": 141.0,
+        "median": 162.0,
+        "q90": 172.4,
+        "maximum": 192.0
+      },
+      "eligible_requested_GPUs": {
+        "n": 24,
+        "mean": 182.04083333333332,
+        "q10": 165.95,
+        "median": 183.5,
+        "q90": 194.448,
+        "maximum": 220.0
+      },
+      "eligible_GPU_hours": {
+        "n": 24,
+        "mean": 124.69712037037038,
+        "q10": 112.53888888888888,
+        "median": 122.96111111111111,
+        "q90": 140.84833333333333,
+        "maximum": 151.45555555555555
+      },
+      "pod_hours": 11579,
+      "unique_pods": 1902,
+      "request_distribution": {
+        "n": 11579,
+        "mean": 1.2980784178253735,
+        "q10": 0.5,
+        "median": 1.0,
+        "q90": 1.0,
+        "maximum": 16.0
+      },
+      "positive_occupation_distribution": {
+        "n": 11579,
+        "mean": 1.1373572991334888,
+        "q10": 0.0722222222222222,
+        "median": 1.0,
+        "q90": 1.0,
+        "maximum": 16.0
+      },
+      "arrival_variance_to_mean": 4.981165287801443,
+      "arrival_lag1_correlation": 0.23411416810234914,
+      "eligible_demand_lag1_correlation": 0.7677153837750461
+    }
+  },
+  "sha256_panel": "6cc177ab70feb42e2e99f227accfbb07a933c0a58fe746df689932299a86a25f",
+  "interpretation": "Hourly first observed GPU-demand arrivals; observed request concurrency; GPU-occupation demand proxies; no exact submissions or useful-compute/power measurements."
+}

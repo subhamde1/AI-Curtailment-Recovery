@@ -1,0 +1,8 @@
+{
+  "primary_optima_checked": 216,
+  "heldout_policies_replayed": 8,
+  "independent_leaf_LPs": 128,
+  "max_leaf_comparison_error": 3.3306690738754696e-16,
+  "max_action_violation": 5.204170427930421e-18,
+  "max_budget_error": 1.1102230246251565e-16
+}

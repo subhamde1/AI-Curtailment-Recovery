@@ -1,0 +1,453 @@
+{
+  "source": "Alibaba Cluster Trace GPU v2026",
+  "table": "asi_opensource_pod_hourly",
+  "archive_bytes": 351803513445,
+  "rule": "pod_id starts with 00; gpu_request>0",
+  "columns": [
+    "pod_id",
+    "cluster_id",
+    "state_public",
+    "priority_class",
+    "job_type_public",
+    "gpu_request",
+    "used_gpu_hours"
+  ],
+  "days": [
+    109,
+    110
+  ],
+  "partitions": [
+    {
+      "day": 109,
+      "hour": 0,
+      "source_rows": 1489135,
+      "panel_rows": 431,
+      "member": "asi_opensource_pod_hourly/day=109/hour=00/part-000.parquet",
+      "source_bytes": 28840123,
+      "sha256": "5c79e08cfdfebaf71178e20bffb600141ff69f070925b49b3c7782cdf43b383f"
+    },
+    {
+      "day": 109,
+      "hour": 1,
+      "source_rows": 1433842,
+      "panel_rows": 451,
+      "member": "asi_opensource_pod_hourly/day=109/hour=01/part-000.parquet",
+      "source_bytes": 27771692,
+      "sha256": "e76d9d1e0cbf8c48dc7d7a02bd3cc6780fae950f07b8c00974459267f40f267f"
+    },
+    {
+      "day": 109,
+      "hour": 2,
+      "source_rows": 1515621,
+      "panel_rows": 475,
+      "member": "asi_opensource_pod_hourly/day=109/hour=02/part-000.parquet",
+      "source_bytes": 29308876,
+      "sha256": "07100801c4d3f0a0d3facbb1f7368833872ccc03fbc6fbb5a51d2e8886ddbe37"
+    },
+    {
+      "day": 109,
+      "hour": 3,
+      "source_rows": 1534453,
+      "panel_rows": 462,
+      "member": "asi_opensource_pod_hourly/day=109/hour=03/part-000.parquet",
+      "source_bytes": 29672095,
+      "sha256": "3181e619968b71bd6067ccd44a9a28d8f940d897876c3629fb0dbe4e680e2500"
+    },
+    {
+      "day": 109,
+      "hour": 4,
+      "source_rows": 1483577,
+      "panel_rows": 453,
+      "member": "asi_opensource_pod_hourly/day=109/hour=04/part-000.parquet",
+      "source_bytes": 28698266,
+      "sha256": "c684e38c90bde36d3e21a16c1fd018d9d1d6425a80639349b10b636bc4b8fff2"
+    },
+    {
+      "day": 109,
+      "hour": 5,
+      "source_rows": 1502459,
+      "panel_rows": 476,
+      "member": "asi_opensource_pod_hourly/day=109/hour=05/part-000.parquet",
+      "source_bytes": 29068686,
+      "sha256": "b7969961eea873988b99e28047615fa80c83991cebd4113ebb6bfddc3699715c"
+    },
+    {
+      "day": 109,
+      "hour": 6,
+      "source_rows": 1512649,
+      "panel_rows": 475,
+      "member": "asi_opensource_pod_hourly/day=109/hour=06/part-000.parquet",
+      "source_bytes": 29266999,
+      "sha256": "463a60e5acb448b41c6769d992f77afd4c38db5b6a8da0840ef9c8d7567dd531"
+    },
+    {
+      "day": 109,
+      "hour": 7,
+      "source_rows": 1523228,
+      "panel_rows": 452,
+      "member": "asi_opensource_pod_hourly/day=109/hour=07/part-000.parquet",
+      "source_bytes": 29362859,
+      "sha256": "c3c420151bd355f7d618b0a33c9417ba2ad5a7861f9ce8dc899c45f2e74b34b3"
+    },
+    {
+      "day": 109,
+      "hour": 8,
+      "source_rows": 1552226,
+      "panel_rows": 453,
+      "member": "asi_opensource_pod_hourly/day=109/hour=08/part-000.parquet",
+      "source_bytes": 29950429,
+      "sha256": "f4403f371a6e264623f7c2a0ae6439f5548a53016b38ca6fdf1eb95eead894c4"
+    },
+    {
+      "day": 109,
+      "hour": 9,
+      "source_rows": 1533398,
+      "panel_rows": 451,
+      "member": "asi_opensource_pod_hourly/day=109/hour=09/part-000.parquet",
+      "source_bytes": 29607113,
+      "sha256": "90d2feefc66ad1d653c762b58c3340157a673d2fec742ef6093e6052191b3f42"
+    },
+    {
+      "day": 109,
+      "hour": 10,
+      "source_rows": 1506515,
+      "panel_rows": 495,
+      "member": "asi_opensource_pod_hourly/day=109/hour=10/part-000.parquet",
+      "source_bytes": 29224422,
+      "sha256": "4f565020a5a9f46cb74e506587a54f76dea0631c7deafc752b905179b10f07ca"
+    },
+    {
+      "day": 109,
+      "hour": 11,
+      "source_rows": 1536384,
+      "panel_rows": 477,
+      "member": "asi_opensource_pod_hourly/day=109/hour=11/part-000.parquet",
+      "source_bytes": 29756356,
+      "sha256": "cd4739db0e77bab21852befdd9d33b52ca7a86acd897387a23cb2083635d14d7"
+    },
+    {
+      "day": 109,
+      "hour": 12,
+      "source_rows": 1510238,
+      "panel_rows": 460,
+      "member": "asi_opensource_pod_hourly/day=109/hour=12/part-000.parquet",
+      "source_bytes": 29215730,
+      "sha256": "806cd004b33a23956930b9e5c58a0062e8f416398a3dc7413161dd15578b0522"
+    },
+    {
+      "day": 109,
+      "hour": 13,
+      "source_rows": 1495724,
+      "panel_rows": 441,
+      "member": "asi_opensource_pod_hourly/day=109/hour=13/part-000.parquet",
+      "source_bytes": 28923633,
+      "sha256": "f00101fc1621d5cfc14e7ac6f5f4aa4ba5744763455e65806b713746d73e55f8"
+    },
+    {
+      "day": 109,
+      "hour": 14,
+      "source_rows": 1547544,
+      "panel_rows": 483,
+      "member": "asi_opensource_pod_hourly/day=109/hour=14/part-000.parquet",
+      "source_bytes": 29979261,
+      "sha256": "c7588d62b728303bf236d11ea6a39fa0be4e1216012be86ede2ab323f2ea2cac"
+    },
+    {
+      "day": 109,
+      "hour": 15,
+      "source_rows": 1545488,
+      "panel_rows": 462,
+      "member": "asi_opensource_pod_hourly/day=109/hour=15/part-000.parquet",
+      "source_bytes": 29914176,
+      "sha256": "a36909f332590c3edc6bee9e0a12dd212b2d3b03f0a77f160bfa58e301aa9e8c"
+    },
+    {
+      "day": 109,
+      "hour": 16,
+      "source_rows": 1549920,
+      "panel_rows": 474,
+      "member": "asi_opensource_pod_hourly/day=109/hour=16/part-000.parquet",
+      "source_bytes": 30012489,
+      "sha256": "54e5e3bd83fb4fe558d9d81e4c29834e86701e49c29ca0d62247f5ac91c5dd55"
+    },
+    {
+      "day": 109,
+      "hour": 17,
+      "source_rows": 1446286,
+      "panel_rows": 473,
+      "member": "asi_opensource_pod_hourly/day=109/hour=17/part-000.parquet",
+      "source_bytes": 28027832,
+      "sha256": "3aea5c15d5df6a806769dc5e29f21cc283849bc2ad654bd3ae27a02da7623c94"
+    },
+    {
+      "day": 109,
+      "hour": 18,
+      "source_rows": 1398187,
+      "panel_rows": 459,
+      "member": "asi_opensource_pod_hourly/day=109/hour=18/part-000.parquet",
+      "source_bytes": 27103654,
+      "sha256": "32991f30f8d18460b3d8755102007cff5e77c385495723e1efdf8077b569c809"
+    },
+    {
+      "day": 109,
+      "hour": 19,
+      "source_rows": 1503535,
+      "panel_rows": 478,
+      "member": "asi_opensource_pod_hourly/day=109/hour=19/part-000.parquet",
+      "source_bytes": 29091206,
+      "sha256": "6104beafae62eac750a11e0484edd2f9e0d168d159ff71b7c2a69b645f9ceffe"
+    },
+    {
+      "day": 109,
+      "hour": 20,
+      "source_rows": 1599313,
+      "panel_rows": 493,
+      "member": "asi_opensource_pod_hourly/day=109/hour=20/part-000.parquet",
+      "source_bytes": 30829858,
+      "sha256": "ddfdde632e4306670236ede2bce421a1df3e4a31d23bb1f495a1547dd4de42ce"
+    },
+    {
+      "day": 109,
+      "hour": 21,
+      "source_rows": 1585483,
+      "panel_rows": 489,
+      "member": "asi_opensource_pod_hourly/day=109/hour=21/part-000.parquet",
+      "source_bytes": 30608613,
+      "sha256": "6bfdb8a6ec471be3187417a67459c87f25c219642bf7e0440de8ccc904c002b4"
+    },
+    {
+      "day": 109,
+      "hour": 22,
+      "source_rows": 1483258,
+      "panel_rows": 475,
+      "member": "asi_opensource_pod_hourly/day=109/hour=22/part-000.parquet",
+      "source_bytes": 28646262,
+      "sha256": "b9f96f85f17954ca4df5e2836c1517406925b5d5182a891322826877aff82922"
+    },
+    {
+      "day": 109,
+      "hour": 23,
+      "source_rows": 1475852,
+      "panel_rows": 460,
+      "member": "asi_opensource_pod_hourly/day=109/hour=23/part-000.parquet",
+      "source_bytes": 28573026,
+      "sha256": "129e154e26a97d55f674d9a594687873755a5a2bfd491f31aacbebc9da92e853"
+    },
+    {
+      "day": 110,
+      "hour": 0,
+      "source_rows": 1581414,
+      "panel_rows": 489,
+      "member": "asi_opensource_pod_hourly/day=110/hour=00/part-000.parquet",
+      "source_bytes": 30603814,
+      "sha256": "84675bec9025351f0df78bb25a9a33fffb38adb4e94358e86e4bd636ea6f00a0"
+    },
+    {
+      "day": 110,
+      "hour": 1,
+      "source_rows": 1526721,
+      "panel_rows": 513,
+      "member": "asi_opensource_pod_hourly/day=110/hour=01/part-000.parquet",
+      "source_bytes": 29575227,
+      "sha256": "1d34b502c979c76adb2308a227398456a6e4374ad75f15e1fcac6dcdcc36bd91"
+    },
+    {
+      "day": 110,
+      "hour": 2,
+      "source_rows": 1504077,
+      "panel_rows": 487,
+      "member": "asi_opensource_pod_hourly/day=110/hour=02/part-000.parquet",
+      "source_bytes": 29115158,
+      "sha256": "d316c9e98ef8487b48a46928a3ef30c6eda04ef83250c667041e0985dd10bd86"
+    },
+    {
+      "day": 110,
+      "hour": 3,
+      "source_rows": 1488406,
+      "panel_rows": 483,
+      "member": "asi_opensource_pod_hourly/day=110/hour=03/part-000.parquet",
+      "source_bytes": 28805252,
+      "sha256": "7fecba70eea84671a19a8b1b0855ebf90a2603c496ef926f304b25bce7d80583"
+    },
+    {
+      "day": 110,
+      "hour": 4,
+      "source_rows": 1478259,
+      "panel_rows": 476,
+      "member": "asi_opensource_pod_hourly/day=110/hour=04/part-000.parquet",
+      "source_bytes": 28658636,
+      "sha256": "bffcdf3c64b2ee609bd443b49d32213e8d4086924e9e876992eb497cc7124406"
+    },
+    {
+      "day": 110,
+      "hour": 5,
+      "source_rows": 1486331,
+      "panel_rows": 493,
+      "member": "asi_opensource_pod_hourly/day=110/hour=05/part-000.parquet",
+      "source_bytes": 28871231,
+      "sha256": "dde58ee916bf45dc77199f1b4896aca140a8d36236deb28c88d9660af0edafe1"
+    },
+    {
+      "day": 110,
+      "hour": 6,
+      "source_rows": 1532851,
+      "panel_rows": 481,
+      "member": "asi_opensource_pod_hourly/day=110/hour=06/part-000.parquet",
+      "source_bytes": 29660986,
+      "sha256": "e2671c1f5739b9027420e92e8903811ee212565615ac9ef7bfa80f7cbe6f9dcc"
+    },
+    {
+      "day": 110,
+      "hour": 7,
+      "source_rows": 1508847,
+      "panel_rows": 473,
+      "member": "asi_opensource_pod_hourly/day=110/hour=07/part-000.parquet",
+      "source_bytes": 29178940,
+      "sha256": "c5bcbc99b448ffd3715b8707fa871deeb397ccc5d9644c6ced0dec73a61160a7"
+    },
+    {
+      "day": 110,
+      "hour": 8,
+      "source_rows": 1509551,
+      "panel_rows": 489,
+      "member": "asi_opensource_pod_hourly/day=110/hour=08/part-000.parquet",
+      "source_bytes": 29210048,
+      "sha256": "84e341dc28a8fd7156e56f849e96ea0169db9fafe039f1401b8f462083c394bc"
+    },
+    {
+      "day": 110,
+      "hour": 9,
+      "source_rows": 1516498,
+      "panel_rows": 480,
+      "member": "asi_opensource_pod_hourly/day=110/hour=09/part-000.parquet",
+      "source_bytes": 29346648,
+      "sha256": "2c609021ce88edef9cd3374702f332bdc2f433f866fc705f60aee6eb95147546"
+    },
+    {
+      "day": 110,
+      "hour": 10,
+      "source_rows": 1572609,
+      "panel_rows": 489,
+      "member": "asi_opensource_pod_hourly/day=110/hour=10/part-000.parquet",
+      "source_bytes": 30427556,
+      "sha256": "3e5e33bfc5ba235c9065216104ee87920f2cb2c1797e55a697a69e12a6be5e1b"
+    },
+    {
+      "day": 110,
+      "hour": 11,
+      "source_rows": 1639105,
+      "panel_rows": 502,
+      "member": "asi_opensource_pod_hourly/day=110/hour=11/part-000.parquet",
+      "source_bytes": 31693524,
+      "sha256": "09cd53dd280d2650c4276e6cd5df6124183f54d9677d2d1885a8f24e60b10097"
+    },
+    {
+      "day": 110,
+      "hour": 12,
+      "source_rows": 1600734,
+      "panel_rows": 472,
+      "member": "asi_opensource_pod_hourly/day=110/hour=12/part-000.parquet",
+      "source_bytes": 30984554,
+      "sha256": "2564db5b1ea165fbd233c703b7e6fb5f1547c7f19c5cbf95b3ec68b69dc1ad2b"
+    },
+    {
+      "day": 110,
+      "hour": 13,
+      "source_rows": 1590300,
+      "panel_rows": 483,
+      "member": "asi_opensource_pod_hourly/day=110/hour=13/part-000.parquet",
+      "source_bytes": 30730631,
+      "sha256": "6e0822f356ab5f8ac8ad5848ffb1184117038f0e7c10ea95afa35531623accba"
+    },
+    {
+      "day": 110,
+      "hour": 14,
+      "source_rows": 1700798,
+      "panel_rows": 474,
+      "member": "asi_opensource_pod_hourly/day=110/hour=14/part-000.parquet",
+      "source_bytes": 32834732,
+      "sha256": "67afd2d19de3968b77faa0982de0eadfb19ae0a52a5c8b4b9daca97bef398b12"
+    },
+    {
+      "day": 110,
+      "hour": 15,
+      "source_rows": 1590294,
+      "panel_rows": 491,
+      "member": "asi_opensource_pod_hourly/day=110/hour=15/part-000.parquet",
+      "source_bytes": 30806258,
+      "sha256": "4be2c4fe5551e6f4f6ee92e93c6ea7d7f78fdc07ca55621b0f8f38ea147053dd"
+    },
+    {
+      "day": 110,
+      "hour": 16,
+      "source_rows": 1550178,
+      "panel_rows": 466,
+      "member": "asi_opensource_pod_hourly/day=110/hour=16/part-000.parquet",
+      "source_bytes": 30004251,
+      "sha256": "5d059f93b9911213b1ec8f602c8f391032989a198d40e4e83323f88349162f2a"
+    },
+    {
+      "day": 110,
+      "hour": 17,
+      "source_rows": 1514591,
+      "panel_rows": 491,
+      "member": "asi_opensource_pod_hourly/day=110/hour=17/part-000.parquet",
+      "source_bytes": 29341318,
+      "sha256": "acf1d4882ff30978f6461334574e3fad343900f1b3f91d4f6cb9a7258f7c1d00"
+    },
+    {
+      "day": 110,
+      "hour": 18,
+      "source_rows": 1505477,
+      "panel_rows": 477,
+      "member": "asi_opensource_pod_hourly/day=110/hour=18/part-000.parquet",
+      "source_bytes": 29104883,
+      "sha256": "0b71f6fe1460c78f0a308959657178177177506da2ab37ee560782cb50776fcb"
+    },
+    {
+      "day": 110,
+      "hour": 19,
+      "source_rows": 1493377,
+      "panel_rows": 474,
+      "member": "asi_opensource_pod_hourly/day=110/hour=19/part-000.parquet",
+      "source_bytes": 28910395,
+      "sha256": "fd1a0bd53d5eaf4b58116fb2890009cd23c94f480b0b2956c70fa9ab543109b9"
+    },
+    {
+      "day": 110,
+      "hour": 20,
+      "source_rows": 1524414,
+      "panel_rows": 482,
+      "member": "asi_opensource_pod_hourly/day=110/hour=20/part-000.parquet",
+      "source_bytes": 29455553,
+      "sha256": "20b6e4ed3d2696bbe6dc9710363aa4fd281426ed49b8bd96d8f50a4a759298c8"
+    },
+    {
+      "day": 110,
+      "hour": 21,
+      "source_rows": 1637787,
+      "panel_rows": 466,
+      "member": "asi_opensource_pod_hourly/day=110/hour=21/part-000.parquet",
+      "source_bytes": 31546236,
+      "sha256": "48033fa36df15007f23be3c0f03a07c9375fb9f7b0304fcdfecee575b36f171d"
+    },
+    {
+      "day": 110,
+      "hour": 22,
+      "source_rows": 1715024,
+      "panel_rows": 466,
+      "member": "asi_opensource_pod_hourly/day=110/hour=22/part-000.parquet",
+      "source_bytes": 32976201,
+      "sha256": "b17c481ea2986991edc7aa1807d508e0923174539f5a87e4f93b239c5b078b09"
+    },
+    {
+      "day": 110,
+      "hour": 23,
+      "source_rows": 1773833,
+      "panel_rows": 482,
+      "member": "asi_opensource_pod_hourly/day=110/hour=23/part-000.parquet",
+      "source_bytes": 34101571,
+      "sha256": "ed806164b928d02c37e244d5e8ffe4712eae9f35478fd8b8624524f6f56f904e"
+    }
+  ]
+}

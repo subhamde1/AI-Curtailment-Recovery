@@ -1,0 +1,11 @@
+{
+  "configurations": 32,
+  "rank_selected_policy_checks": 29,
+  "max_cut_vs_extensive_error": 0.0,
+  "feasible_cost_cases": 29,
+  "infeasible_cost_cases": [
+    "p_0.4",
+    "b_1.0",
+    "cross_0_0.65_0.7_0.0"
+  ]
+}

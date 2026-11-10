@@ -1,0 +1,9 @@
+{
+  "seed": 20261009,
+  "feasibility_LP_checks": 120,
+  "reserve_LP_checks": 35,
+  "selected_subtree_checks": 20,
+  "max_reserve_error": 9.998471495187289e-11,
+  "three_class_counterexample_infeasible": true,
+  "seconds": 0.7897819589998107
+}

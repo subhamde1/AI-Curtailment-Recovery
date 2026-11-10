@@ -1,0 +1,69 @@
+{
+  "seed": 20261102,
+  "routing_cases": 400,
+  "independent_LP_solves": 1600,
+  "maximum_endpoint_error": 2.220446049250313e-16,
+  "exact_witness_family_checks": [
+    {
+      "s": "3/2",
+      "reserve": "0",
+      "range_A": [
+        "1/2",
+        "1/2"
+      ],
+      "range_B": [
+        "1/2",
+        "1/2"
+      ]
+    },
+    {
+      "s": "8/5",
+      "reserve": "1/15",
+      "range_A": [
+        "8/15",
+        "8/15"
+      ],
+      "range_B": [
+        "8/15",
+        "8/15"
+      ]
+    },
+    {
+      "s": "7/4",
+      "reserve": "1/6",
+      "range_A": [
+        "7/12",
+        "7/12"
+      ],
+      "range_B": [
+        "7/12",
+        "7/12"
+      ]
+    },
+    {
+      "s": "19/10",
+      "reserve": "4/15",
+      "range_A": [
+        "19/30",
+        "19/30"
+      ],
+      "range_B": [
+        "19/30",
+        "19/30"
+      ]
+    },
+    {
+      "s": "2",
+      "reserve": "1/3",
+      "range_A": [
+        "2/3",
+        "2/3"
+      ],
+      "range_B": [
+        "2/3",
+        "2/3"
+      ]
+    }
+  ],
+  "scope": "Fixed selected success tree; ranges are coordinate projections, not a Cartesian feasible set. No approximation of the full cost frontier."
+}

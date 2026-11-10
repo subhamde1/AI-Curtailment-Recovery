@@ -1,0 +1,7 @@
+{
+  "exported_policies_checked": 29,
+  "max_physical_violation": 5.551115123125783e-17,
+  "max_expected_cost_error": 4.440892098500626e-16,
+  "max_success_probability_error": 1.1102230246251565e-16,
+  "representation": "Direct exported-history actions; no optimizer matrix used"
+}

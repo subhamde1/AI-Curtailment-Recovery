@@ -1,0 +1,45 @@
+{
+  "seed": 9042026,
+  "multistage_witnesses_checked": 66,
+  "largest_retained_witness": 2,
+  "max_branching_observations": 3,
+  "witness_bound": 8,
+  "independent_selected_subtree_LP_infeasibility": true,
+  "scale": [
+    {
+      "branches": 2,
+      "nodes": 15,
+      "leaves": 8,
+      "rank_seconds": 0.00045314099952520337,
+      "LP_seconds": 0.002266935000079684,
+      "LP_variables": 115,
+      "feasible": true
+    },
+    {
+      "branches": 4,
+      "nodes": 85,
+      "leaves": 64,
+      "rank_seconds": 0.0018290370007889578,
+      "LP_seconds": 0.004161650000241934,
+      "LP_variables": null,
+      "feasible": false
+    },
+    {
+      "branches": 8,
+      "nodes": 585,
+      "leaves": 512,
+      "rank_seconds": 0.025610337001126027,
+      "LP_seconds": 0.03458047400090436,
+      "LP_variables": null,
+      "feasible": false
+    }
+  ],
+  "seconds": 0.303862263001065,
+  "reserve_endpoint_check": {
+    "fixed_reserve_cases": 18,
+    "left_infimum": 1,
+    "left_attains_infimum": false,
+    "right_minimum": 2,
+    "full_tree_minimum": 2
+  }
+}

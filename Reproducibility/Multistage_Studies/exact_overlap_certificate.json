@@ -1,0 +1,13 @@
+{
+  "lower": 16.1766320424,
+  "upper": 16.1766320425,
+  "certified_width": 1e-10,
+  "exact_unrounded_width": 6.639536892958546e-14,
+  "repair_weight": 3.552713678800501e-15,
+  "projected_rows_repaired": 8,
+  "inequalities_checked": 5825,
+  "variables": 3306,
+  "all_checks_exact_rational": true,
+  "probability_convention": "Normalize exact binary-rational leaf weights and sum their descendant masses",
+  "seconds": 0.6555825390005339
+}

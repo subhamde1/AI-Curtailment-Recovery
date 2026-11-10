@@ -1,0 +1,9 @@
+{
+  "declared_before_control_solve":true,
+  "selection":"Algebraic boundary controls rather than outcome-dependent parameter search",
+  "controls":[
+    {"label":"uniform_unit_cost","base":"base specification","eligibility":"both","b":1.0,"z":0.4,"prices":[1.0,1.0]},
+    {"label":"binding_conflict","initial_work":[0.8,0.8],"rates":[1.0,0.5],"deadlines":[2,4],"root_local":1.0,"future_high_local":2.0,"first_signal_prob":[0.5,0.5],"second_signal_reversal_probability":0.95,"b":0.9,"z":0.025},
+    {"label":"conflict_with_more_reserve","same_as":"binding_conflict","z":0.1}
+  ]
+}

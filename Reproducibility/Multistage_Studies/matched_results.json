@@ -1,0 +1,8565 @@
+[
+  {
+    "label": "base",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.4,
+      "rate_scale": 1.0,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.35,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.5453700000000001,
+      "lower": 1.5453700000000001,
+      "seconds": 0.0026834139998754836,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.1822700000000004,
+      "lower": 1.1822700000000004,
+      "seconds": 0.0017315899999630346,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0023271670002031897,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0014709960000800493,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.923076923076923,
+      "lower": -0.923076923076923,
+      "seconds": 0.001633522000247467,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.923076923076923
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.002202359999955661,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0010814699999173172,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.5235625,
+      "lower": 2.5235625,
+      "seconds": 0.0018489170001885213,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9174999999999999,
+    "cuts": {
+      "status": 0,
+      "value": 1.5453700000000001,
+      "lower": 1.5453700000000001,
+      "seconds": 0.0011489620001157164,
+      "variables": 43,
+      "rows": 83,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.8517000000000001,
+          "value": 0.8517000000000001,
+          "retained": 0,
+          "max_violation": 0.98
+        },
+        {
+          "round": 1,
+          "lower": 1.5302025000000001,
+          "value": 1.5302025000000001,
+          "retained": 2,
+          "max_violation": 0.45
+        },
+        {
+          "round": 2,
+          "lower": 1.5453700000000001,
+          "value": 1.5453700000000001,
+          "retained": 3,
+          "max_violation": 0.04000000000000001
+        },
+        {
+          "round": 3,
+          "lower": 1.5453700000000001,
+          "value": 1.5453700000000001,
+          "retained": 4,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 4,
+      "retained_rows": 4,
+      "total_seconds": 0.007009695000760985,
+      "certified_gap": 0
+    },
+    "success": 0.9174999999999999,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.39
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.37000000000000005
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.19
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.04000000000000001
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.13999999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.19
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.26
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      }
+    ],
+    "rank_root": [
+      0.9600000000000001,
+      1.2,
+      2.16
+    ],
+    "tail_rank_root": [
+      0.41000000000000003,
+      0.75,
+      1.1600000000000001
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.39,
+      0.56
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "rho_0.0",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.0,
+      "rate_scale": 1.0,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.35,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.5132500000000002,
+      "lower": 1.5132500000000002,
+      "seconds": 0.0023173219997261185,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.1877499999999999,
+      "lower": 1.1877499999999999,
+      "seconds": 0.001205776999995578,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0010663869998097653,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0011551009997674555,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.923076923076923,
+      "lower": -0.923076923076923,
+      "seconds": 0.0011317060002511425,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.923076923076923
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.001099988000078156,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.001140658999702282,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.5315625,
+      "lower": 2.5315625,
+      "seconds": 0.0012146410003879282,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9375,
+    "cuts": {
+      "status": 0,
+      "value": 1.5132500000000002,
+      "lower": 1.5132500000000002,
+      "seconds": 0.0010341090001020348,
+      "variables": 43,
+      "rows": 82,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.9199999999999999,
+          "value": 0.9199999999999999,
+          "retained": 0,
+          "max_violation": 0.98
+        },
+        {
+          "round": 1,
+          "lower": 1.5014374999999998,
+          "value": 1.5014375000000002,
+          "retained": 2,
+          "max_violation": 0.19
+        },
+        {
+          "round": 2,
+          "lower": 1.5132500000000002,
+          "value": 1.5132500000000002,
+          "retained": 3,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 3,
+      "retained_rows": 3,
+      "total_seconds": 0.003441918000135047,
+      "certified_gap": 0
+    },
+    "success": 0.9375,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.39
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.45
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.11000000000000004
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.13999999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.11000000000000004
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.26
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.11000000000000004
+      }
+    ],
+    "rank_root": [
+      0.9600000000000001,
+      1.2,
+      2.16
+    ],
+    "tail_rank_root": [
+      0.41000000000000003,
+      0.75,
+      1.1600000000000001
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.39,
+      0.56
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "rho_0.75",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.75,
+      "rate_scale": 1.0,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.35,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.2981406249999998,
+      "lower": 1.2981406249999998,
+      "seconds": 0.0012475399998947978,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 0.9788281249999997,
+      "lower": 0.9788281249999997,
+      "seconds": 0.0011722860003828828,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0011252949998379336,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0011215310000807222,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0012553319998005463,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0012631740000870195,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.00105705299984038,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.36275390625,
+      "lower": 2.36275390625,
+      "seconds": 0.001240429000063159,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.94921875,
+    "cuts": {
+      "status": 0,
+      "value": 1.2981406249999998,
+      "lower": 1.2981406249999998,
+      "seconds": 0.0010914149997915956,
+      "variables": 43,
+      "rows": 84,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.7748749999999998,
+          "value": 0.7748749999999998,
+          "retained": 0,
+          "max_violation": 0.98
+        },
+        {
+          "round": 1,
+          "lower": 1.2385507812499998,
+          "value": 1.2385507812499998,
+          "retained": 2,
+          "max_violation": 0.45
+        },
+        {
+          "round": 2,
+          "lower": 1.2517343749999998,
+          "value": 1.2517343749999998,
+          "retained": 3,
+          "max_violation": 0.30000000000000004
+        },
+        {
+          "round": 3,
+          "lower": 1.2517343749999998,
+          "value": 1.2517343749999998,
+          "retained": 4,
+          "max_violation": 0.15000000000000005
+        },
+        {
+          "round": 4,
+          "lower": 1.2981406249999998,
+          "value": 1.2981406249999998,
+          "retained": 5,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 5,
+      "retained_rows": 5,
+      "total_seconds": 0.005261500999040436,
+      "certified_gap": 0
+    },
+    "success": 0.94921875,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.39
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.26000000000000006
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.3
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.13999999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.3
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.15000000000000002
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.10999999999999999
+      }
+    ],
+    "rank_root": [
+      0.9600000000000001,
+      1.2,
+      2.16
+    ],
+    "tail_rank_root": [
+      0.41000000000000003,
+      0.75,
+      1.1600000000000001
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.39,
+      0.56
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "p_0.15",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.15,
+      "rho": 0.4,
+      "rate_scale": 1.0,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.35,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.3093092,
+      "lower": 1.3093092,
+      "seconds": 0.0011292320000393374,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 0.9800171999999998,
+      "lower": 0.9800171999999998,
+      "seconds": 0.0011542590000317432,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0010924660000455333,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0012714569998024672,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.001384096000037971,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.001334311000391608,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.001168881000012334,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.3683905,
+      "lower": 2.3683905,
+      "seconds": 0.0011540999998942425,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9559000000000001,
+    "cuts": {
+      "status": 0,
+      "value": 1.3093092,
+      "lower": 1.3093092,
+      "seconds": 0.0011034119997930247,
+      "variables": 43,
+      "rows": 84,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.7990199999999996,
+          "value": 0.7990199999999996,
+          "retained": 0,
+          "max_violation": 0.98
+        },
+        {
+          "round": 1,
+          "lower": 1.2710697,
+          "value": 1.2710697,
+          "retained": 2,
+          "max_violation": 0.45
+        },
+        {
+          "round": 2,
+          "lower": 1.2894971999999996,
+          "value": 1.2894971999999996,
+          "retained": 3,
+          "max_violation": 0.30000000000000004
+        },
+        {
+          "round": 3,
+          "lower": 1.2894971999999996,
+          "value": 1.2894971999999996,
+          "retained": 4,
+          "max_violation": 0.15000000000000005
+        },
+        {
+          "round": 4,
+          "lower": 1.3093092,
+          "value": 1.3093092,
+          "retained": 5,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 5,
+      "retained_rows": 5,
+      "total_seconds": 0.005328378999820416,
+      "certified_gap": 0
+    },
+    "success": 0.9559000000000001,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.39
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.26000000000000006
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.3
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.13999999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.3
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.15000000000000002
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.10999999999999999
+      }
+    ],
+    "rank_root": [
+      0.9600000000000001,
+      1.2,
+      2.16
+    ],
+    "tail_rank_root": [
+      0.41000000000000003,
+      0.75,
+      1.1600000000000001
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.39,
+      0.56
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "p_0.4",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.4,
+      "rho": 0.4,
+      "rate_scale": 1.0,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.35,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 2,
+      "seconds": 0.0008387340003537247,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    "foresight": {
+      "status": 2,
+      "seconds": 0.0008458349998363701,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    "reserve": {
+      "status": 2,
+      "seconds": 0.0007873869999457384,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    "foresight_reserve": {
+      "status": 2,
+      "seconds": 0.0007242210003823857,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    "frontier": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0009739779998199083,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": -0.0
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0008022890001484484,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": -0.0
+    },
+    "shield_first": {
+      "status": 2,
+      "seconds": 0.0007043409996185801,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    }
+  },
+  {
+    "label": "rate_scale_0.65",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.4,
+      "rate_scale": 0.65,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.35,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.6245781250000002,
+      "lower": 1.6245781250000002,
+      "seconds": 0.0010962920000565646,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.33943375,
+      "lower": 1.3394337500000004,
+      "seconds": 0.001509646000158682,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0012450570002329187,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0017115789996751118,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.5596153846153846,
+      "lower": -0.5596153846153846,
+      "seconds": 0.001534232000267366,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.5596153846153846
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -0.7903846153846154,
+      "lower": -0.7903846153846154,
+      "seconds": 0.0018160959998567705,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.7903846153846154
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.30899999999999994,
+      "lower": 0.30899999999999994,
+      "seconds": 0.001062281000031362,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.2284225,
+      "lower": 2.2284225,
+      "seconds": 0.0010433229999762261,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9174999999999999,
+    "cuts": {
+      "status": 0,
+      "value": 1.6245781250000002,
+      "lower": 1.6245781250000002,
+      "seconds": 0.001024083000174869,
+      "variables": 43,
+      "rows": 83,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.9950000000000001,
+          "value": 0.9950000000000001,
+          "retained": 0,
+          "max_violation": 0.6500000000000001
+        },
+        {
+          "round": 1,
+          "lower": 1.6072312500000003,
+          "value": 1.6072312500000003,
+          "retained": 2,
+          "max_violation": 0.29250000000000004
+        },
+        {
+          "round": 2,
+          "lower": 1.6245781250000002,
+          "value": 1.6245781250000002,
+          "retained": 3,
+          "max_violation": 0.11750000000000002
+        },
+        {
+          "round": 3,
+          "lower": 1.6245781250000002,
+          "value": 1.6245781250000002,
+          "retained": 4,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 4,
+      "retained_rows": 4,
+      "total_seconds": 0.004259688999809441,
+      "certified_gap": 0
+    },
+    "success": 0.9174999999999999,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.35750000000000004
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.03249999999999997
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.2675
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.11750000000000002
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.03249999999999997
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.13999999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.03250000000000003
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.26
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.235
+      }
+    ],
+    "rank_root": [
+      0.5750000000000001,
+      0.7675000000000001,
+      1.3425000000000002
+    ],
+    "tail_rank_root": [
+      0.21750000000000005,
+      0.4750000000000001,
+      0.6925000000000001
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.39,
+      0.56
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "rate_scale_1.35",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.4,
+      "rate_scale": 1.35,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.35,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.5303000000000004,
+      "lower": 1.5303000000000004,
+      "seconds": 0.0010918650000348862,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.1468250000000002,
+      "lower": 1.1468250000000002,
+      "seconds": 0.001365096999961679,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0012164230001872056,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0011652060002234066,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.001265607999812346,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0012538789997051936,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0010534879997976532,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.5235625,
+      "lower": 2.5235625,
+      "seconds": 0.0011581559997466684,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9174999999999999,
+    "cuts": {
+      "status": 0,
+      "value": 1.5303000000000004,
+      "lower": 1.5303000000000004,
+      "seconds": 0.0011651449999590113,
+      "variables": 43,
+      "rows": 84,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.7803125,
+          "value": 0.7803125,
+          "retained": 0,
+          "max_violation": 1.1375000000000002
+        },
+        {
+          "round": 1,
+          "lower": 1.4991425,
+          "value": 1.4991425,
+          "retained": 2,
+          "max_violation": 0.56
+        },
+        {
+          "round": 2,
+          "lower": 1.5237925000000003,
+          "value": 1.5237925000000003,
+          "retained": 3,
+          "max_violation": 0.19750000000000004
+        },
+        {
+          "round": 3,
+          "lower": 1.5237925000000003,
+          "value": 1.5237925000000003,
+          "retained": 4,
+          "max_violation": 0.19750000000000004
+        },
+        {
+          "round": 4,
+          "lower": 1.5303000000000004,
+          "value": 1.5303000000000004,
+          "retained": 5,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 5,
+      "retained_rows": 5,
+      "total_seconds": 0.005344624999906955,
+      "certified_gap": 0
+    },
+    "success": 0.9174999999999999,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.39
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.26000000000000006
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.3
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.13999999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.3
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.26
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      }
+    ],
+    "rank_root": [
+      1.3450000000000002,
+      1.5150000000000001,
+      2.4000000000000004
+    ],
+    "tail_rank_root": [
+      0.6025000000000001,
+      0.9075,
+      1.35
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.39,
+      0.56
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "slack_1",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.4,
+      "rate_scale": 1.0,
+      "slack": 1,
+      "z": 0.15,
+      "urgency": 0.35,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.5167700000000002,
+      "lower": 1.5167700000000002,
+      "seconds": 0.0013205899999775284,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 2.7755575615628914e-17,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.1712850000000001,
+      "lower": 1.1712850000000001,
+      "seconds": 0.0012876699997832475,
+      "variables": 76,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0011842250000881904,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0013554219999605266,
+      "variables": 77,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0015052189996822563,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0015724099998806196,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0013561840000875236,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.2205250000000003,
+      "lower": 2.2205250000000003,
+      "seconds": 0.0012278300000616582,
+      "variables": 61,
+      "rows": 144,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9174999999999999,
+    "cuts": {
+      "status": 0,
+      "value": 1.5167700000000002,
+      "lower": 1.5167700000000002,
+      "seconds": 0.001124675000028219,
+      "variables": 61,
+      "rows": 119,
+      "resource_rows": 30,
+      "max_capacity_violation": 2.7755575615628914e-17,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.7666000000000004,
+          "value": 0.7666000000000004,
+          "retained": 0,
+          "max_violation": 0.98
+        },
+        {
+          "round": 1,
+          "lower": 1.0942200000000004,
+          "value": 1.0942200000000004,
+          "retained": 2,
+          "max_violation": 0.45
+        },
+        {
+          "round": 2,
+          "lower": 1.2840800000000003,
+          "value": 1.2840800000000003,
+          "retained": 4,
+          "max_violation": 0.51
+        },
+        {
+          "round": 3,
+          "lower": 1.5167700000000002,
+          "value": 1.5167700000000002,
+          "retained": 6,
+          "max_violation": 0.30000000000000004
+        },
+        {
+          "round": 4,
+          "lower": 1.5167700000000002,
+          "value": 1.5167700000000002,
+          "retained": 7,
+          "max_violation": 0.15000000000000005
+        },
+        {
+          "round": 5,
+          "lower": 1.5167700000000002,
+          "value": 1.5167700000000002,
+          "retained": 8,
+          "max_violation": 2.7755575615628914e-17
+        }
+      ],
+      "rounds": 6,
+      "retained_rows": 8,
+      "total_seconds": 0.0072213919993373565,
+      "certified_gap": 0
+    },
+    "success": 0.9174999999999999,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.39
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.11000000000000004
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.45
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15000000000000002
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.13999999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.45
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.26
+      }
+    ],
+    "rank_root": [
+      1.1,
+      1.3499999999999999,
+      2.45
+    ],
+    "tail_rank_root": [
+      0.55,
+      0.8999999999999999,
+      1.45
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.39,
+      0.56
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "slack_2",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.4,
+      "rate_scale": 1.0,
+      "slack": 2,
+      "z": 0.15,
+      "urgency": 0.35,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.5167700000000002,
+      "lower": 1.5167700000000002,
+      "seconds": 0.0015036459999464569,
+      "variables": 79,
+      "rows": 181,
+      "resource_rows": 38,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.1712850000000001,
+      "lower": 1.1712850000000001,
+      "seconds": 0.0014006309997967037,
+      "variables": 94,
+      "rows": 221,
+      "resource_rows": 48,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.001426950999757537,
+      "variables": 80,
+      "rows": 181,
+      "resource_rows": 38,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0017270130001634243,
+      "variables": 95,
+      "rows": 221,
+      "resource_rows": 48,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0017571690000295348,
+      "variables": 80,
+      "rows": 181,
+      "resource_rows": 38,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0020950070002072607,
+      "variables": 80,
+      "rows": 181,
+      "resource_rows": 38,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0014163739997457014,
+      "variables": 79,
+      "rows": 181,
+      "resource_rows": 38,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.0835475000000003,
+      "lower": 2.0835475000000003,
+      "seconds": 0.0014255890000640647,
+      "variables": 79,
+      "rows": 184,
+      "resource_rows": 38,
+      "max_capacity_violation": 2.220446049250313e-16,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9174999999999999,
+    "cuts": {
+      "status": 0,
+      "value": 1.5167700000000002,
+      "lower": 1.5167700000000002,
+      "seconds": 0.0015060499999890453,
+      "variables": 79,
+      "rows": 153,
+      "resource_rows": 38,
+      "max_capacity_violation": 2.7755575615628914e-17,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.7666000000000004,
+          "value": 0.7666000000000004,
+          "retained": 0,
+          "max_violation": 0.98
+        },
+        {
+          "round": 1,
+          "lower": 0.8763750000000003,
+          "value": 0.8763750000000003,
+          "retained": 2,
+          "max_violation": 0.98
+        },
+        {
+          "round": 2,
+          "lower": 1.1981700000000002,
+          "value": 1.1981700000000002,
+          "retained": 4,
+          "max_violation": 0.45
+        },
+        {
+          "round": 3,
+          "lower": 1.2840800000000003,
+          "value": 1.2840800000000003,
+          "retained": 6,
+          "max_violation": 0.51
+        },
+        {
+          "round": 4,
+          "lower": 1.5167700000000002,
+          "value": 1.5167700000000002,
+          "retained": 8,
+          "max_violation": 0.30000000000000004
+        },
+        {
+          "round": 5,
+          "lower": 1.5167700000000002,
+          "value": 1.5167700000000002,
+          "retained": 9,
+          "max_violation": 0.15000000000000005
+        },
+        {
+          "round": 6,
+          "lower": 1.5167700000000002,
+          "value": 1.5167700000000002,
+          "retained": 10,
+          "max_violation": 2.7755575615628914e-17
+        }
+      ],
+      "rounds": 7,
+      "retained_rows": 10,
+      "total_seconds": 0.01127611599940792,
+      "certified_gap": 0
+    },
+    "success": 0.9174999999999999,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.39
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.11000000000000004
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.45
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.13999999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.45
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.14999999999999997
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.26
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      }
+    ],
+    "rank_root": [
+      1.1,
+      1.5,
+      2.6
+    ],
+    "tail_rank_root": [
+      0.55,
+      1.05,
+      1.6
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.39,
+      0.56
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "z_0.05",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.4,
+      "rate_scale": 1.0,
+      "slack": 0,
+      "z": 0.05,
+      "urgency": 0.35,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.5716725000000005,
+      "lower": 1.5716725,
+      "seconds": 0.0013789380000162055,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.1822700000000004,
+      "lower": 1.1822700000000004,
+      "seconds": 0.0015037160001156735,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0011785360002249945,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0012504540000009001,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.8461538461538463,
+      "lower": -0.8461538461538463,
+      "seconds": 0.0015940729999783798,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.8461538461538463
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.001346489000297879,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.012000000000000077,
+      "lower": 0.012000000000000066,
+      "seconds": 0.0011476390000098036,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.8145500000000006,
+      "lower": 2.8145500000000006,
+      "seconds": 0.0011636540002655238,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9174999999999999,
+    "cuts": {
+      "status": 0,
+      "value": 1.5716725000000005,
+      "lower": 1.5716725,
+      "seconds": 0.0011989070003437519,
+      "variables": 43,
+      "rows": 84,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.8517000000000001,
+          "value": 0.8517000000000001,
+          "retained": 0,
+          "max_violation": 0.98
+        },
+        {
+          "round": 1,
+          "lower": 1.5302025000000001,
+          "value": 1.5302025000000001,
+          "retained": 2,
+          "max_violation": 0.45
+        },
+        {
+          "round": 2,
+          "lower": 1.5453700000000001,
+          "value": 1.5453700000000001,
+          "retained": 3,
+          "max_violation": 0.14
+        },
+        {
+          "round": 3,
+          "lower": 1.5453700000000001,
+          "value": 1.5453700000000001,
+          "retained": 4,
+          "max_violation": 0.09000000000000001
+        },
+        {
+          "round": 4,
+          "lower": 1.5716725,
+          "value": 1.5716725000000005,
+          "retained": 5,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 5,
+      "retained_rows": 5,
+      "total_seconds": 0.005668192000484851,
+      "certified_gap": 4.440892098500626e-16
+    },
+    "success": 0.9174999999999999,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.39
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.45000000000000007
+      },
+      {
+        "history": [
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.010000000000000009
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.09999999999999998
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.05
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.13999999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.10999999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.26
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.05
+      }
+    ],
+    "rank_root": [
+      0.9600000000000001,
+      1.0,
+      1.9100000000000001
+    ],
+    "tail_rank_root": [
+      0.41000000000000003,
+      0.55,
+      0.9600000000000001
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.39,
+      0.56
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "z_0.4",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.4,
+      "rate_scale": 1.0,
+      "slack": 0,
+      "z": 0.4,
+      "urgency": 0.35,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.5453700000000001,
+      "lower": 1.5453700000000001,
+      "seconds": 0.0011039440000786271,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.1822700000000004,
+      "lower": 1.1822700000000004,
+      "seconds": 0.001363634999961505,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0012067090001437464,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0012154119999649993,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.001422103000095376,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0014076409997869632,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0010704840001380944,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.293425,
+      "lower": 2.293425,
+      "seconds": 0.001112757000100828,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9174999999999999,
+    "cuts": {
+      "status": 0,
+      "value": 1.5453700000000001,
+      "lower": 1.5453700000000001,
+      "seconds": 0.0010182339997300005,
+      "variables": 43,
+      "rows": 82,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.8517000000000001,
+          "value": 0.8517000000000001,
+          "retained": 0,
+          "max_violation": 0.98
+        },
+        {
+          "round": 1,
+          "lower": 1.5302025000000001,
+          "value": 1.5302025000000001,
+          "retained": 2,
+          "max_violation": 0.45
+        },
+        {
+          "round": 2,
+          "lower": 1.5453700000000001,
+          "value": 1.5453700000000001,
+          "retained": 3,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 3,
+      "retained_rows": 3,
+      "total_seconds": 0.0033157969992316794,
+      "certified_gap": 0
+    },
+    "success": 0.9174999999999999,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.39
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.37000000000000005
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.19
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.13999999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.19
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.26
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.19
+      }
+    ],
+    "rank_root": [
+      0.9600000000000001,
+      1.49,
+      2.4499999999999997
+    ],
+    "tail_rank_root": [
+      0.41000000000000003,
+      1.04,
+      1.4499999999999997
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.39,
+      0.56
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "urgency_0.15",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.4,
+      "rate_scale": 1.0,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.15,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.5604900000000002,
+      "lower": 1.5604900000000002,
+      "seconds": 0.001573019999796088,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.24465,
+      "lower": 1.24465,
+      "seconds": 0.0016006719997676555,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0014259179997679894,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0016062300001067342,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.7058823529411764,
+      "lower": -0.7058823529411764,
+      "seconds": 0.002046084000085102,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.7058823529411764
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -0.8823529411764706,
+      "lower": -0.8823529411764706,
+      "seconds": 0.002064811999844096,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 2.7755575615628914e-17,
+      "mip_gap": 0.0,
+      "commitment": 0.8823529411764706
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.001092906999929255,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.5677825000000003,
+      "lower": 2.5677825000000003,
+      "seconds": 0.001094929999908345,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 2.7755575615628914e-17,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9174999999999999,
+    "cuts": {
+      "status": 0,
+      "value": 1.5604900000000002,
+      "lower": 1.5604900000000002,
+      "seconds": 0.00106781000022238,
+      "variables": 43,
+      "rows": 83,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.9192999999999998,
+          "value": 0.9192999999999998,
+          "retained": 0,
+          "max_violation": 0.8200000000000001
+        },
+        {
+          "round": 1,
+          "lower": 1.5453225000000002,
+          "value": 1.5453225000000002,
+          "retained": 2,
+          "max_violation": 0.45
+        },
+        {
+          "round": 2,
+          "lower": 1.5604900000000002,
+          "value": 1.5604900000000002,
+          "retained": 3,
+          "max_violation": 0.04000000000000001
+        },
+        {
+          "round": 3,
+          "lower": 1.5604900000000002,
+          "value": 1.5604900000000002,
+          "retained": 4,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 4,
+      "retained_rows": 4,
+      "total_seconds": 0.004600143000971002,
+      "certified_gap": 0
+    },
+    "success": 0.9174999999999999,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.31
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.45
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.19
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.04000000000000001
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.06
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.10999999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.34
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.08000000000000002
+      }
+    ],
+    "rank_root": [
+      1.04,
+      1.1600000000000001,
+      2.1999999999999997
+    ],
+    "tail_rank_root": [
+      0.49000000000000005,
+      0.7100000000000001,
+      1.1999999999999997
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.31,
+      0.64
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "urgency_0.7",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.4,
+      "rate_scale": 1.0,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.7,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.5303000000000004,
+      "lower": 1.5303000000000004,
+      "seconds": 0.001118436000069778,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.1468250000000002,
+      "lower": 1.1468250000000002,
+      "seconds": 0.0012093119999008195,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.00134957399995983,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.001276243000120303,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.6071428571428572,
+      "lower": -0.6071428571428572,
+      "seconds": 0.0018260319998262275,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.6071428571428572
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -0.7857142857142858,
+      "lower": -0.7857142857142858,
+      "seconds": 0.0019888779997927486,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.7857142857142858
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.31199999999999994,
+      "lower": 0.31199999999999994,
+      "seconds": 0.0011810599999080296,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.1111375000000003,
+      "lower": 2.1111375000000003,
+      "seconds": 0.0010386659996584058,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9174999999999999,
+    "cuts": {
+      "status": 0,
+      "value": 1.5303000000000004,
+      "lower": 1.5303000000000004,
+      "seconds": 0.0010190060002059909,
+      "variables": 43,
+      "rows": 84,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.82775,
+          "value": 0.82775,
+          "retained": 0,
+          "max_violation": 1.0
+        },
+        {
+          "round": 1,
+          "lower": 1.5040950000000004,
+          "value": 1.5040950000000004,
+          "retained": 2,
+          "max_violation": 0.42000000000000004
+        },
+        {
+          "round": 2,
+          "lower": 1.5261900000000002,
+          "value": 1.5261900000000002,
+          "retained": 3,
+          "max_violation": 0.17999999999999997
+        },
+        {
+          "round": 3,
+          "lower": 1.5261900000000002,
+          "value": 1.5261900000000002,
+          "retained": 4,
+          "max_violation": 0.17999999999999997
+        },
+        {
+          "round": 4,
+          "lower": 1.5303000000000004,
+          "value": 1.5303000000000004,
+          "retained": 5,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 5,
+      "retained_rows": 5,
+      "total_seconds": 0.005846080999617698,
+      "certified_gap": 0
+    },
+    "success": 0.9174999999999999,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.53
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.12000000000000005
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.3
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.27999999999999997
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.3
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.12000000000000002
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      }
+    ],
+    "rank_root": [
+      0.8200000000000001,
+      1.2,
+      2.02
+    ],
+    "tail_rank_root": [
+      0.2700000000000001,
+      0.75,
+      1.02
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.53,
+      0.42000000000000004
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "b_0.7",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.4,
+      "rate_scale": 1.0,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.35,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.7
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.5453700000000001,
+      "lower": 1.5453700000000001,
+      "seconds": 0.001273239000056492,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.1822700000000004,
+      "lower": 1.1822700000000004,
+      "seconds": 0.0012774450001415971,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0011366429998815875,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.001195511999867449,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0010419700001875754,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0008791549998932169,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0008395649997510191,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 1.9018300000000004,
+      "lower": 1.9018300000000004,
+      "seconds": 0.001077323000117758,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.7899999999999999,
+    "cuts": {
+      "status": 0,
+      "value": 1.5453700000000001,
+      "lower": 1.5453700000000001,
+      "seconds": 0.001039897000282508,
+      "variables": 43,
+      "rows": 83,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.8517000000000001,
+          "value": 0.8517000000000001,
+          "retained": 0,
+          "max_violation": 0.98
+        },
+        {
+          "round": 1,
+          "lower": 1.5302025000000001,
+          "value": 1.5302025000000001,
+          "retained": 2,
+          "max_violation": 0.45
+        },
+        {
+          "round": 2,
+          "lower": 1.5453700000000001,
+          "value": 1.5453700000000001,
+          "retained": 3,
+          "max_violation": 0.04000000000000001
+        },
+        {
+          "round": 3,
+          "lower": 1.5453700000000001,
+          "value": 1.5453700000000001,
+          "retained": 4,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 4,
+      "retained_rows": 4,
+      "total_seconds": 0.004570508000142581,
+      "certified_gap": 0
+    },
+    "success": 0.9174999999999999,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.39
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.37000000000000005
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.19
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.03999999999999998
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.13999999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.19
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.26
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      }
+    ],
+    "rank_root": [
+      0.9600000000000001,
+      1.2,
+      2.16
+    ],
+    "tail_rank_root": [
+      0.41000000000000003,
+      0.75,
+      1.1600000000000001
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.39,
+      0.56
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "b_1.0",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.4,
+      "rate_scale": 1.0,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.35,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 1.0
+    },
+    "causal": {
+      "status": 2,
+      "seconds": 0.0006128740001258848,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    "foresight": {
+      "status": 2,
+      "seconds": 0.000671922000037739,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    "reserve": {
+      "status": 2,
+      "seconds": 0.000635538000096858,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    "foresight_reserve": {
+      "status": 2,
+      "seconds": 0.0006423679997169529,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    "frontier": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0009409680001226661,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": -0.0
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0010092709999298677,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": -0.0
+    },
+    "shield_first": {
+      "status": 2,
+      "seconds": 0.0007667549998586765,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    }
+  },
+  {
+    "label": "eligibility_both",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.4,
+      "rate_scale": 1.0,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.35,
+      "eligibility": "both",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.5303000000000004,
+      "lower": 1.5303000000000004,
+      "seconds": 0.0013629239997499099,
+      "variables": 52,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.1822700000000004,
+      "lower": 1.1822700000000004,
+      "seconds": 0.0014171159996294591,
+      "variables": 72,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0013249359999463195,
+      "variables": 53,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0017831870000009076,
+      "variables": 73,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.9230769230769237,
+      "lower": -0.9230769230769237,
+      "seconds": 0.0018307790001017565,
+      "variables": 53,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 2.498001805406602e-16,
+      "mip_gap": 0.0,
+      "commitment": 0.9230769230769237
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0015977879997990385,
+      "variables": 53,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.001283023999803845,
+      "variables": 52,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.5235625,
+      "lower": 2.5235625,
+      "seconds": 0.0011858470002152899,
+      "variables": 52,
+      "rows": 105,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9174999999999999,
+    "cuts": {
+      "status": 0,
+      "value": 1.5303000000000004,
+      "lower": 1.5303000000000004,
+      "seconds": 0.001577827999881265,
+      "variables": 52,
+      "rows": 87,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.8517000000000001,
+          "value": 0.8517000000000001,
+          "retained": 0,
+          "max_violation": 0.98
+        },
+        {
+          "round": 1,
+          "lower": 1.2898550000000002,
+          "value": 1.2898550000000002,
+          "retained": 2,
+          "max_violation": 0.37000000000000005
+        },
+        {
+          "round": 2,
+          "lower": 1.3121300000000002,
+          "value": 1.3121300000000002,
+          "retained": 4,
+          "max_violation": 0.11000000000000001
+        },
+        {
+          "round": 3,
+          "lower": 1.4919400000000005,
+          "value": 1.4919400000000005,
+          "retained": 6,
+          "max_violation": 0.24000000000000002
+        },
+        {
+          "round": 4,
+          "lower": 1.5303000000000004,
+          "value": 1.5303000000000004,
+          "retained": 8,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 5,
+      "retained_rows": 8,
+      "total_seconds": 0.00644449200035524,
+      "certified_gap": 0
+    },
+    "success": 0.9174999999999999,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.24000000000000002
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.41000000000000003
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.15000000000000002
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 0,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.13999999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.15000000000000002
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.26
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      }
+    ],
+    "rank_root": [
+      1.11,
+      1.2,
+      2.1999999999999997
+    ],
+    "tail_rank_root": [
+      0.56,
+      0.75,
+      1.1999999999999997
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.39,
+      0.56
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "cross_0_0.65_0.15_0.0",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.0,
+      "rate_scale": 0.65,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.15,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.8345156249999999,
+      "lower": 1.8345156249999999,
+      "seconds": 0.0011733390001609223,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.6040937499999997,
+      "lower": 1.6040937499999997,
+      "seconds": 0.0013442459999168932,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.10249999999999992,
+      "lower": 0.10249999999999992,
+      "seconds": 0.0010697420002543367,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.10249999999999992,
+      "lower": 0.10249999999999992,
+      "seconds": 0.0011977149997619563,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.427941176470588,
+      "lower": -0.4279411764705878,
+      "seconds": 0.001270704000035039,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.427941176470588
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -0.6044117647058824,
+      "lower": -0.6044117647058824,
+      "seconds": 0.0013993390002724482,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.6044117647058824
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.3089999999999999,
+      "lower": 0.3089999999999999,
+      "seconds": 0.0011992380000265257,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.2833125,
+      "lower": 2.2833125,
+      "seconds": 0.0010315049999007897,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 2.7755575615628914e-17,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9375,
+    "cuts": {
+      "status": 0,
+      "value": 1.8345156249999999,
+      "lower": 1.8345156249999999,
+      "seconds": 0.0010278089998791984,
+      "variables": 43,
+      "rows": 84,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 1.2223124999999997,
+          "value": 1.2223124999999997,
+          "retained": 0,
+          "max_violation": 0.6500000000000001
+        },
+        {
+          "round": 1,
+          "lower": 1.7814687500000002,
+          "value": 1.7814687499999997,
+          "retained": 2,
+          "max_violation": 0.29250000000000004
+        },
+        {
+          "round": 2,
+          "lower": 1.8345156249999999,
+          "value": 1.8345156249999999,
+          "retained": 4,
+          "max_violation": 0.14250000000000004
+        },
+        {
+          "round": 3,
+          "lower": 1.8345156249999999,
+          "value": 1.8345156249999999,
+          "retained": 5,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 4,
+      "retained_rows": 5,
+      "total_seconds": 0.004219178999846918,
+      "certified_gap": 0
+    },
+    "success": 0.9375,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.31
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.05499999999999994
+      },
+      {
+        "history": [
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.10249999999999992
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.14250000000000004
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.06
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.24500000000000005
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.04749999999999999
+      }
+    ],
+    "rank_root": [
+      0.655,
+      0.6875,
+      1.3425000000000002
+    ],
+    "tail_rank_root": [
+      0.29750000000000004,
+      0.395,
+      0.6925000000000001
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.31,
+      0.64
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "cross_0_0.65_0.15_0.75",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.75,
+      "rate_scale": 0.65,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.15,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.4206181640624997,
+      "lower": 1.4206181640624997,
+      "seconds": 0.0027532989997780533,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.2111933593749997,
+      "lower": 1.2111933593749997,
+      "seconds": 0.001498618999903556,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.02749999999999997,
+      "lower": 0.02749999999999997,
+      "seconds": 0.001156583000010869,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.02749999999999997,
+      "lower": 0.02749999999999997,
+      "seconds": 0.0012577960001181054,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.6882352941176472,
+      "lower": -0.6882352941176472,
+      "seconds": 0.0013127290003467351,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.6882352941176472
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0013779760001852992,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.05699999999999998,
+      "lower": 0.05699999999999998,
+      "seconds": 0.0008747689998926944,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.33737109375,
+      "lower": 2.3373710937500003,
+      "seconds": 0.0009047230000760464,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9375,
+    "cuts": {
+      "status": 0,
+      "value": 1.4206181640624997,
+      "lower": 1.4206181640624997,
+      "seconds": 0.0020166690001133247,
+      "variables": 43,
+      "rows": 84,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 1.009125,
+          "value": 1.009125,
+          "retained": 0,
+          "max_violation": 0.6500000000000001
+        },
+        {
+          "round": 1,
+          "lower": 1.4056425781249997,
+          "value": 1.4056425781249997,
+          "retained": 2,
+          "max_violation": 0.29250000000000004
+        },
+        {
+          "round": 2,
+          "lower": 1.4206181640624997,
+          "value": 1.4206181640624997,
+          "retained": 4,
+          "max_violation": 0.14250000000000004
+        },
+        {
+          "round": 3,
+          "lower": 1.4206181640624997,
+          "value": 1.4206181640624997,
+          "retained": 5,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 4,
+      "retained_rows": 5,
+      "total_seconds": 0.00709234700025263,
+      "certified_gap": 0
+    },
+    "success": 0.94921875,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.31
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.05499999999999994
+      },
+      {
+        "history": [
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.10250000000000008
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.14250000000000004
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.06
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.24499999999999988
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.04749999999999999
+      }
+    ],
+    "rank_root": [
+      0.655,
+      0.6875,
+      1.3425000000000002
+    ],
+    "tail_rank_root": [
+      0.29750000000000004,
+      0.395,
+      0.6925000000000001
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.31,
+      0.64
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "cross_0_0.65_0.7_0.0",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.0,
+      "rate_scale": 0.65,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.7,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 2,
+      "seconds": 0.0009614189998501388,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    "foresight": {
+      "status": 2,
+      "seconds": 0.000812604999737232,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    "reserve": {
+      "status": 2,
+      "seconds": 0.0007009259998085327,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    "foresight_reserve": {
+      "status": 2,
+      "seconds": 0.0008719839997866075,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.33214285714285724,
+      "lower": -0.33214285714285724,
+      "seconds": 0.001290414999857603,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.33214285714285724
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -0.5107142857142858,
+      "lower": -0.5107142857142858,
+      "seconds": 0.0014218029996300174,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.5107142857142858
+    },
+    "shield_first": {
+      "status": 2,
+      "seconds": 0.0006965499997022562,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    }
+  },
+  {
+    "label": "cross_0_0.65_0.7_0.75",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.75,
+      "rate_scale": 0.65,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.7,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.6281669921875,
+      "lower": 1.6281669921875,
+      "seconds": 0.001113608000196109,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.1272460937500002,
+      "lower": 1.1272460937500002,
+      "seconds": 0.0012448059997041128,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.001113789000100951,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0012230729998918832,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.6642857142857145,
+      "lower": -0.6642857142857145,
+      "seconds": 0.0013014410001233045,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.6642857142857145
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.001397897000060766,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.207,
+      "lower": 0.207,
+      "seconds": 0.0011912760000996059,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.1320732421875,
+      "lower": 2.1320732421875004,
+      "seconds": 0.0013851979997525632,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9375,
+    "cuts": {
+      "status": 0,
+      "value": 1.6281669921875,
+      "lower": 1.6281669921875,
+      "seconds": 0.0011122460000478895,
+      "variables": 43,
+      "rows": 84,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.8899999999999997,
+          "value": 0.8899999999999997,
+          "retained": 0,
+          "max_violation": 0.6500000000000001
+        },
+        {
+          "round": 1,
+          "lower": 1.5890703125,
+          "value": 1.5890703125,
+          "retained": 2,
+          "max_violation": 0.29250000000000004
+        },
+        {
+          "round": 2,
+          "lower": 1.6281669921875,
+          "value": 1.6281669921875,
+          "retained": 4,
+          "max_violation": 0.14250000000000004
+        },
+        {
+          "round": 3,
+          "lower": 1.6281669921875,
+          "value": 1.6281669921875,
+          "retained": 5,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 4,
+      "retained_rows": 5,
+      "total_seconds": 0.005974826000056055,
+      "certified_gap": 0
+    },
+    "success": 0.9375,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.35750000000000004
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.1275
+      },
+      {
+        "history": [
+          0,
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.1725
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.14250000000000004
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      }
+    ],
+    "rank_root": [
+      0.7150000000000001,
+      0.885,
+      1.6
+    ],
+    "tail_rank_root": [
+      0.35750000000000004,
+      0.5925,
+      0.9500000000000001
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ]
+    ],
+    "initial_debt": [
+      0.53,
+      0.42000000000000004
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "cross_0_1.0_0.15_0.0",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.0,
+      "rate_scale": 1.0,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.15,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.5612500000000002,
+      "lower": 1.5612500000000002,
+      "seconds": 0.001116422999984934,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.2792499999999998,
+      "lower": 1.2792499999999998,
+      "seconds": 0.0015557750002699322,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.001572310000028665,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0015587799998684204,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.7058823529411765,
+      "lower": -0.7058823529411765,
+      "seconds": 0.0013747819998570776,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.7058823529411765
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -0.8823529411764706,
+      "lower": -0.8823529411764706,
+      "seconds": 0.0024584650000178954,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.8823529411764706
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0022057850001147017,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.6010625,
+      "lower": 2.6010625,
+      "seconds": 0.001272057000278437,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 2.7755575615628914e-17,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9375,
+    "cuts": {
+      "status": 0,
+      "value": 1.5612500000000002,
+      "lower": 1.5612500000000002,
+      "seconds": 0.0014156929996715917,
+      "variables": 43,
+      "rows": 83,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 1.0060000000000002,
+          "value": 1.0060000000000002,
+          "retained": 0,
+          "max_violation": 0.8200000000000001
+        },
+        {
+          "round": 1,
+          "lower": 1.5434375,
+          "value": 1.5434375,
+          "retained": 2,
+          "max_violation": 0.19
+        },
+        {
+          "round": 2,
+          "lower": 1.5612500000000002,
+          "value": 1.5612500000000002,
+          "retained": 3,
+          "max_violation": 0.04000000000000001
+        },
+        {
+          "round": 3,
+          "lower": 1.5612500000000002,
+          "value": 1.5612500000000002,
+          "retained": 4,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 4,
+      "retained_rows": 4,
+      "total_seconds": 0.004998101999262872,
+      "certified_gap": 0
+    },
+    "success": 0.9375,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.31
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.45
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.19
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.04000000000000001
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.06
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.10999999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.34
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.08000000000000002
+      }
+    ],
+    "rank_root": [
+      1.04,
+      1.1600000000000001,
+      2.1999999999999997
+    ],
+    "tail_rank_root": [
+      0.49000000000000005,
+      0.7100000000000001,
+      1.1999999999999997
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.31,
+      0.64
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "cross_0_1.0_0.15_0.75",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.75,
+      "rate_scale": 1.0,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.15,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.300765625,
+      "lower": 1.300765625,
+      "seconds": 0.0019569389996831887,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.0250468750000001,
+      "lower": 1.0250468750000001,
+      "seconds": 0.0015173959995991027,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0012277400001039496,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0016425049998360919,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.003397339999992255,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0019227679999858083,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0010843340000974422,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.38209765625,
+      "lower": 2.38209765625,
+      "seconds": 0.0020408359996508807,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 2.7755575615628914e-17,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.94921875,
+    "cuts": {
+      "status": 0,
+      "value": 1.300765625,
+      "lower": 1.300765625,
+      "seconds": 0.0016288050001094234,
+      "variables": 43,
+      "rows": 84,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.8263749999999996,
+          "value": 0.8263749999999996,
+          "retained": 0,
+          "max_violation": 0.8200000000000001
+        },
+        {
+          "round": 1,
+          "lower": 1.24117578125,
+          "value": 1.24117578125,
+          "retained": 2,
+          "max_violation": 0.45
+        },
+        {
+          "round": 2,
+          "lower": 1.254359375,
+          "value": 1.254359375,
+          "retained": 3,
+          "max_violation": 0.30000000000000004
+        },
+        {
+          "round": 3,
+          "lower": 1.254359375,
+          "value": 1.254359375,
+          "retained": 4,
+          "max_violation": 0.15000000000000005
+        },
+        {
+          "round": 4,
+          "lower": 1.300765625,
+          "value": 1.300765625,
+          "retained": 5,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 5,
+      "retained_rows": 5,
+      "total_seconds": 0.0070181269998101925,
+      "certified_gap": 0
+    },
+    "success": 0.94921875,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.31
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.34
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.3
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.06
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.3
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.15000000000000002
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.19
+      }
+    ],
+    "rank_root": [
+      1.04,
+      1.1600000000000001,
+      2.1999999999999997
+    ],
+    "tail_rank_root": [
+      0.49000000000000005,
+      0.7100000000000001,
+      1.1999999999999997
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.31,
+      0.64
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "cross_0_1.0_0.7_0.0",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.0,
+      "rate_scale": 1.0,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.7,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.50875,
+      "lower": 1.50875,
+      "seconds": 0.001859934000094654,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.1506250000000002,
+      "lower": 1.1506249999999998,
+      "seconds": 0.0015377069998976367,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0016240670001934632,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0012618720002137707,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.6071428571428572,
+      "lower": -0.6071428571428572,
+      "seconds": 0.0016226950001509977,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.6071428571428572
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -0.7857142857142858,
+      "lower": -0.7857142857142858,
+      "seconds": 0.0012787269997716066,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.7857142857142858
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.31199999999999994,
+      "lower": 0.31199999999999994,
+      "seconds": 0.0013607209998554026,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.0879375000000002,
+      "lower": 2.0879375000000002,
+      "seconds": 0.0013949220001450158,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9375,
+    "cuts": {
+      "status": 0,
+      "value": 1.50875,
+      "lower": 1.50875,
+      "seconds": 0.0011459769998509728,
+      "variables": 43,
+      "rows": 83,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.9100000000000001,
+          "value": 0.9100000000000001,
+          "retained": 0,
+          "max_violation": 1.0
+        },
+        {
+          "round": 1,
+          "lower": 1.4988125,
+          "value": 1.4988125,
+          "retained": 2,
+          "max_violation": 0.32999999999999996
+        },
+        {
+          "round": 2,
+          "lower": 1.504999999999999,
+          "value": 1.505,
+          "retained": 3,
+          "max_violation": 0.050000000000000044
+        },
+        {
+          "round": 3,
+          "lower": 1.50875,
+          "value": 1.50875,
+          "retained": 4,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 4,
+      "retained_rows": 4,
+      "total_seconds": 0.004678889999468083,
+      "certified_gap": 0
+    },
+    "success": 0.9375,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.53
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.37
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.050000000000000044
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.27999999999999997
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.050000000000000044
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.12000000000000002
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.050000000000000044
+      }
+    ],
+    "rank_root": [
+      0.8200000000000001,
+      1.2,
+      2.02
+    ],
+    "tail_rank_root": [
+      0.2700000000000001,
+      0.75,
+      1.02
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.53,
+      0.42000000000000004
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "cross_0_1.0_0.7_0.75",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.75,
+      "rate_scale": 1.0,
+      "slack": 0,
+      "z": 0.15,
+      "urgency": 0.7,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.29453125,
+      "lower": 1.29453125,
+      "seconds": 0.0016633870000077877,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 0.9461328125000001,
+      "lower": 0.9461328125000001,
+      "seconds": 0.0017665430000306515,
+      "variables": 58,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0022288089999165095,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0016415039999628789,
+      "variables": 59,
+      "rows": 141,
+      "resource_rows": 32,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0024202770000556484,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0017653400000199326,
+      "variables": 44,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0013633739999932004,
+      "variables": 43,
+      "rows": 101,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.3955078125,
+      "lower": 2.3955078125,
+      "seconds": 0.0013541610001084337,
+      "variables": 43,
+      "rows": 104,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9375,
+    "cuts": {
+      "status": 0,
+      "value": 1.29453125,
+      "lower": 1.29453125,
+      "seconds": 0.0011279300001660886,
+      "variables": 43,
+      "rows": 84,
+      "resource_rows": 22,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.7328124999999996,
+          "value": 0.7328124999999996,
+          "retained": 0,
+          "max_violation": 1.0
+        },
+        {
+          "round": 1,
+          "lower": 1.2441171875,
+          "value": 1.2441171875,
+          "retained": 2,
+          "max_violation": 0.42000000000000004
+        },
+        {
+          "round": 2,
+          "lower": 1.256421875,
+          "value": 1.256421875,
+          "retained": 3,
+          "max_violation": 0.27
+        },
+        {
+          "round": 3,
+          "lower": 1.256421875,
+          "value": 1.256421875,
+          "retained": 4,
+          "max_violation": 0.27
+        },
+        {
+          "round": 4,
+          "lower": 1.29453125,
+          "value": 1.29453125,
+          "retained": 5,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 5,
+      "retained_rows": 5,
+      "total_seconds": 0.006963954000184458,
+      "certified_gap": 0
+    },
+    "success": 0.94921875,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.53
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.12000000000000005
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.3
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.27999999999999997
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.3
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.12000000000000002
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      }
+    ],
+    "rank_root": [
+      0.8200000000000001,
+      1.2,
+      2.02
+    ],
+    "tail_rank_root": [
+      0.2700000000000001,
+      0.75,
+      1.02
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.53,
+      0.42000000000000004
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "cross_1_0.65_0.15_0.0",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.0,
+      "rate_scale": 0.65,
+      "slack": 1,
+      "z": 0.15,
+      "urgency": 0.15,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.6191874999999998,
+      "lower": 1.6191874999999998,
+      "seconds": 0.00188982899999246,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.39071875,
+      "lower": 1.39071875,
+      "seconds": 0.0016331209999407292,
+      "variables": 76,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.018333333333333313,
+      "lower": 0.018333333333333313,
+      "seconds": 0.0017686649998722714,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.018333333333333313,
+      "lower": 0.018333333333333313,
+      "seconds": 0.001471718000175315,
+      "variables": 77,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.6000000000000002,
+      "lower": -0.6000000000000003,
+      "seconds": 0.0016295750001518172,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.6000000000000002
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -0.7764705882352941,
+      "lower": -0.7764705882352941,
+      "seconds": 0.0018455819999871892,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.7764705882352941
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0014619739999943704,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.435921875,
+      "lower": 2.435921875,
+      "seconds": 0.002388379999956669,
+      "variables": 61,
+      "rows": 144,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9375,
+    "cuts": {
+      "status": 0,
+      "value": 1.6191874999999998,
+      "lower": 1.6191874999999998,
+      "seconds": 0.0015336710002884502,
+      "variables": 61,
+      "rows": 118,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.9921875,
+          "value": 0.9921875,
+          "retained": 0,
+          "max_violation": 0.6500000000000001
+        },
+        {
+          "round": 1,
+          "lower": 1.2493124999999998,
+          "value": 1.2493124999999998,
+          "retained": 2,
+          "max_violation": 0.35250000000000004
+        },
+        {
+          "round": 2,
+          "lower": 1.5861874999999999,
+          "value": 1.5861874999999999,
+          "retained": 4,
+          "max_violation": 0.5900000000000001
+        },
+        {
+          "round": 3,
+          "lower": 1.6191874999999998,
+          "value": 1.6191874999999998,
+          "retained": 5,
+          "max_violation": 0.14250000000000004
+        },
+        {
+          "round": 4,
+          "lower": 1.6191874999999998,
+          "value": 1.6191874999999998,
+          "retained": 6,
+          "max_violation": 0.04749999999999999
+        },
+        {
+          "round": 5,
+          "lower": 1.6191874999999998,
+          "value": 1.6191874999999998,
+          "retained": 7,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 6,
+      "retained_rows": 7,
+      "total_seconds": 0.009234077000201069,
+      "certified_gap": 0
+    },
+    "success": 0.9375,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.31
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.04749999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.06
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.10249999999999992
+      },
+      {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.05499999999999994
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.24500000000000005
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.04749999999999999
+      }
+    ],
+    "rank_root": [
+      0.7150000000000001,
+      0.9800000000000002,
+      1.6950000000000003
+    ],
+    "tail_rank_root": [
+      0.35750000000000004,
+      0.6875000000000001,
+      1.0450000000000002
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.31,
+      0.64
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "cross_1_0.65_0.15_0.75",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.75,
+      "rate_scale": 0.65,
+      "slack": 1,
+      "z": 0.15,
+      "urgency": 0.15,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.3023476562499998,
+      "lower": 1.3023476562499998,
+      "seconds": 0.0015927910003483703,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.0896464843750002,
+      "lower": 1.0896464843749998,
+      "seconds": 0.0019320920000609476,
+      "variables": 76,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.018333333333333313,
+      "lower": 0.018333333333333313,
+      "seconds": 0.0015003809999143414,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.018333333333333313,
+      "lower": 0.018333333333333313,
+      "seconds": 0.0014623240003857063,
+      "variables": 77,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.8647058823529413,
+      "lower": -0.8647058823529413,
+      "seconds": 0.0019362580001143215,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.8647058823529413
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0022113619997981004,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.001299948999985645,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.1450888671875,
+      "lower": 2.1450888671875,
+      "seconds": 0.004014020000340679,
+      "variables": 61,
+      "rows": 144,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.94921875,
+    "cuts": {
+      "status": 0,
+      "value": 1.3023476562499998,
+      "lower": 1.3023476562499998,
+      "seconds": 0.0019539850000001024,
+      "variables": 61,
+      "rows": 118,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.8732187500000004,
+          "value": 0.8732187500000004,
+          "retained": 0,
+          "max_violation": 0.65
+        },
+        {
+          "round": 1,
+          "lower": 1.03049609375,
+          "value": 1.03049609375,
+          "retained": 2,
+          "max_violation": 0.45999999999999996
+        },
+        {
+          "round": 2,
+          "lower": 1.2526455078124998,
+          "value": 1.2526455078124998,
+          "retained": 4,
+          "max_violation": 0.29250000000000004
+        },
+        {
+          "round": 3,
+          "lower": 1.3023476562499998,
+          "value": 1.3023476562499998,
+          "retained": 5,
+          "max_violation": 0.14250000000000004
+        },
+        {
+          "round": 4,
+          "lower": 1.3023476562499998,
+          "value": 1.3023476562499998,
+          "retained": 6,
+          "max_violation": 0.04749999999999999
+        },
+        {
+          "round": 5,
+          "lower": 1.3023476562499998,
+          "value": 1.3023476562499998,
+          "retained": 7,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 6,
+      "retained_rows": 7,
+      "total_seconds": 0.009859499000413052,
+      "certified_gap": 0
+    },
+    "success": 0.94921875,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.31
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.04749999999999999
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.06
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.05499999999999994
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.04749999999999999
+      },
+      {
+        "history": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.05499999999999994
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      }
+    ],
+    "rank_root": [
+      0.7150000000000001,
+      0.9800000000000002,
+      1.6950000000000003
+    ],
+    "tail_rank_root": [
+      0.35750000000000004,
+      0.6875000000000001,
+      1.0450000000000002
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.31,
+      0.64
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "cross_1_0.65_0.7_0.0",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.0,
+      "rate_scale": 0.65,
+      "slack": 1,
+      "z": 0.15,
+      "urgency": 0.7,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.7682031249999999,
+      "lower": 1.7682031249999999,
+      "seconds": 0.0014088630000514968,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.35790625,
+      "lower": 1.35790625,
+      "seconds": 0.0013168639998184517,
+      "variables": 76,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.00153758700025719,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.00160277600025438,
+      "variables": 77,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.5875000000000001,
+      "lower": -0.5875000000000001,
+      "seconds": 0.001682375000200409,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.5875000000000001
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -0.7660714285714287,
+      "lower": -0.7660714285714287,
+      "seconds": 0.001388603000123112,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.7660714285714287
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.207,
+      "lower": 0.207,
+      "seconds": 0.0016111989998535137,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.1530468750000002,
+      "lower": 2.1530468750000002,
+      "seconds": 0.0014124879999144468,
+      "variables": 61,
+      "rows": 144,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9375,
+    "cuts": {
+      "status": 0,
+      "value": 1.7682031249999999,
+      "lower": 1.7682031249999999,
+      "seconds": 0.0013626130003103754,
+      "variables": 61,
+      "rows": 116,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 1.0313750000000002,
+          "value": 1.0313750000000002,
+          "retained": 0,
+          "max_violation": 0.6500000000000001
+        },
+        {
+          "round": 1,
+          "lower": 1.2445,
+          "value": 1.2445,
+          "retained": 2,
+          "max_violation": 0.47750000000000004
+        },
+        {
+          "round": 2,
+          "lower": 1.5484062500000002,
+          "value": 1.5484062500000002,
+          "retained": 4,
+          "max_violation": 0.345
+        },
+        {
+          "round": 3,
+          "lower": 1.7682031249999999,
+          "value": 1.7682031249999999,
+          "retained": 5,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 4,
+      "retained_rows": 5,
+      "total_seconds": 0.006497571000181779,
+      "certified_gap": 0
+    },
+    "success": 0.9375,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.35750000000000004
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.1725
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.1275
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.07750000000000007
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.27999999999999997
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.1275
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.12000000000000002
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.09499999999999992
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.1275
+      }
+    ],
+    "rank_root": [
+      0.7150000000000001,
+      1.035,
+      1.7500000000000002
+    ],
+    "tail_rank_root": [
+      0.35750000000000004,
+      0.7424999999999999,
+      1.1
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.53,
+      0.42000000000000004
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "cross_1_0.65_0.7_0.75",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.75,
+      "rate_scale": 0.65,
+      "slack": 1,
+      "z": 0.15,
+      "urgency": 0.7,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.5803486328125,
+      "lower": 1.5803486328125,
+      "seconds": 0.0018992620002791227,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.074892578125,
+      "lower": 1.074892578125,
+      "seconds": 0.0013621830003103241,
+      "variables": 76,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0015333809997173375,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.001406038999903103,
+      "variables": 77,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.6642857142857145,
+      "lower": -0.6642857142857145,
+      "seconds": 0.0019849109999086068,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.6642857142857145
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.001736517000153981,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.207,
+      "lower": 0.207,
+      "seconds": 0.0010238029999527498,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 1.8880419921875,
+      "lower": 1.8880419921875,
+      "seconds": 0.001246738999725494,
+      "variables": 61,
+      "rows": 144,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.94921875,
+    "cuts": {
+      "status": 0,
+      "value": 1.5803486328125,
+      "lower": 1.5803486328125,
+      "seconds": 0.0020690779997494246,
+      "variables": 61,
+      "rows": 117,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.8630000000000004,
+          "value": 0.8630000000000004,
+          "retained": 0,
+          "max_violation": 0.6500000000000001
+        },
+        {
+          "round": 1,
+          "lower": 1.01228125,
+          "value": 1.01228125,
+          "retained": 2,
+          "max_violation": 0.4
+        },
+        {
+          "round": 2,
+          "lower": 1.530646484375,
+          "value": 1.530646484375,
+          "retained": 4,
+          "max_violation": 0.29250000000000004
+        },
+        {
+          "round": 3,
+          "lower": 1.5803486328125,
+          "value": 1.5803486328125,
+          "retained": 5,
+          "max_violation": 0.14250000000000004
+        },
+        {
+          "round": 4,
+          "lower": 1.5803486328125,
+          "value": 1.5803486328125,
+          "retained": 6,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 5,
+      "retained_rows": 6,
+      "total_seconds": 0.00993831699997827,
+      "certified_gap": 0
+    },
+    "success": 0.94921875,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.35750000000000004
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.1275
+      },
+      {
+        "history": [
+          0,
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.1725
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.07750000000000007
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.27999999999999997
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.29250000000000004
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.14250000000000004
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.09499999999999992
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.12000000000000002
+      }
+    ],
+    "rank_root": [
+      0.7150000000000001,
+      1.035,
+      1.7500000000000002
+    ],
+    "tail_rank_root": [
+      0.35750000000000004,
+      0.7424999999999999,
+      1.1
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.53,
+      0.42000000000000004
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "cross_1_1.0_0.15_0.0",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.0,
+      "rate_scale": 1.0,
+      "slack": 1,
+      "z": 0.15,
+      "urgency": 0.15,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.5252500000000002,
+      "lower": 1.5252500000000002,
+      "seconds": 0.0016994920001707214,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.225625,
+      "lower": 1.225625,
+      "seconds": 0.0019211849999010155,
+      "variables": 76,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.002171072000237473,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0027569449998736673,
+      "variables": 77,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -0.9705882352941178,
+      "lower": -0.9705882352941178,
+      "seconds": 0.0025664479999250034,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 0.9705882352941178
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0016445490000478458,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.001767393000136508,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.205125,
+      "lower": 2.205125,
+      "seconds": 0.001515674000074796,
+      "variables": 61,
+      "rows": 144,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9375,
+    "cuts": {
+      "status": 0,
+      "value": 1.5252500000000002,
+      "lower": 1.5252499999999998,
+      "seconds": 0.0015125099998840597,
+      "variables": 61,
+      "rows": 118,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.8529999999999998,
+          "value": 0.8529999999999998,
+          "retained": 0,
+          "max_violation": 0.8200000000000001
+        },
+        {
+          "round": 1,
+          "lower": 1.1255000000000002,
+          "value": 1.1255000000000002,
+          "retained": 2,
+          "max_violation": 0.45
+        },
+        {
+          "round": 2,
+          "lower": 1.3265000000000002,
+          "value": 1.3265000000000002,
+          "retained": 4,
+          "max_violation": 0.51
+        },
+        {
+          "round": 3,
+          "lower": 1.5252499999999998,
+          "value": 1.5252500000000002,
+          "retained": 6,
+          "max_violation": 0.04000000000000001
+        },
+        {
+          "round": 4,
+          "lower": 1.5252499999999998,
+          "value": 1.5252500000000002,
+          "retained": 7,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 5,
+      "retained_rows": 7,
+      "total_seconds": 0.007344688999182836,
+      "certified_gap": 4.440892098500626e-16
+    },
+    "success": 0.9375,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.31
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.45
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.19
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.06
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.19
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.26
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.04000000000000001
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.08000000000000002
+      }
+    ],
+    "rank_root": [
+      1.1,
+      1.3499999999999999,
+      2.45
+    ],
+    "tail_rank_root": [
+      0.55,
+      0.8999999999999999,
+      1.45
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.31,
+      0.64
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "cross_1_1.0_0.15_0.75",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.75,
+      "rate_scale": 1.0,
+      "slack": 1,
+      "z": 0.15,
+      "urgency": 0.15,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.244796875,
+      "lower": 1.244796875,
+      "seconds": 0.0015314080001189723,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 2.7755575615628914e-17,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.0056640625000002,
+      "lower": 1.0056640625000002,
+      "seconds": 0.0013439250001283654,
+      "variables": 76,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0013061689996902714,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.001278246999845578,
+      "variables": 77,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0016333810003743565,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0018309400002181064,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0011651959998744132,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.0582890625,
+      "lower": 2.0582890625,
+      "seconds": 0.0014720789999955741,
+      "variables": 61,
+      "rows": 144,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.94921875,
+    "cuts": {
+      "status": 0,
+      "value": 1.244796875,
+      "lower": 1.244796875,
+      "seconds": 0.001308531999711704,
+      "variables": 61,
+      "rows": 119,
+      "resource_rows": 30,
+      "max_capacity_violation": 2.7755575615628914e-17,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.7750000000000004,
+          "value": 0.7750000000000004,
+          "retained": 0,
+          "max_violation": 0.8200000000000001
+        },
+        {
+          "round": 1,
+          "lower": 0.9495312499999997,
+          "value": 0.9495312499999997,
+          "retained": 2,
+          "max_violation": 0.45
+        },
+        {
+          "round": 2,
+          "lower": 1.0676562499999998,
+          "value": 1.0676562500000002,
+          "retained": 4,
+          "max_violation": 0.8200000000000001
+        },
+        {
+          "round": 3,
+          "lower": 1.244796875,
+          "value": 1.244796875,
+          "retained": 6,
+          "max_violation": 0.30000000000000004
+        },
+        {
+          "round": 4,
+          "lower": 1.244796875,
+          "value": 1.244796875,
+          "retained": 7,
+          "max_violation": 0.15000000000000005
+        },
+        {
+          "round": 5,
+          "lower": 1.244796875,
+          "value": 1.244796875,
+          "retained": 8,
+          "max_violation": 2.7755575615628914e-17
+        }
+      ],
+      "rounds": 6,
+      "retained_rows": 8,
+      "total_seconds": 0.007943979999708972,
+      "certified_gap": 0
+    },
+    "success": 0.94921875,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.31
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.19
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.45
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15000000000000002
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.06
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.45
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.34
+      }
+    ],
+    "rank_root": [
+      1.1,
+      1.3499999999999999,
+      2.45
+    ],
+    "tail_rank_root": [
+      0.55,
+      0.8999999999999999,
+      1.45
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.31,
+      0.64
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "cross_1_1.0_0.7_0.0",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.0,
+      "rate_scale": 1.0,
+      "slack": 1,
+      "z": 0.15,
+      "urgency": 0.7,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.50875,
+      "lower": 1.50875,
+      "seconds": 0.0014368059996741067,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 1.14425,
+      "lower": 1.14425,
+      "seconds": 0.0015498059997298697,
+      "variables": 76,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0014302059998954064,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0015250279998326732,
+      "variables": 77,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0016562360001444176,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0013963339997644653,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.001487402000293514,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 1.1102230246251565e-16,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.3133125000000003,
+      "lower": 2.3133125000000003,
+      "seconds": 0.0011497020000206248,
+      "variables": 61,
+      "rows": 144,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.9375,
+    "cuts": {
+      "status": 0,
+      "value": 1.50875,
+      "lower": 1.50875,
+      "seconds": 0.001313860000209388,
+      "variables": 61,
+      "rows": 119,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.8739999999999997,
+          "value": 0.8739999999999997,
+          "retained": 0,
+          "max_violation": 1.0
+        },
+        {
+          "round": 1,
+          "lower": 1.1142500000000002,
+          "value": 1.1142500000000002,
+          "retained": 2,
+          "max_violation": 0.44999999999999996
+        },
+        {
+          "round": 2,
+          "lower": 1.2799999999999998,
+          "value": 1.2799999999999998,
+          "retained": 4,
+          "max_violation": 0.4
+        },
+        {
+          "round": 3,
+          "lower": 1.49375,
+          "value": 1.49375,
+          "retained": 6,
+          "max_violation": 0.6000000000000001
+        },
+        {
+          "round": 4,
+          "lower": 1.50875,
+          "value": 1.50875,
+          "retained": 8,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 5,
+      "retained_rows": 8,
+      "total_seconds": 0.006405971999356552,
+      "certified_gap": 0
+    },
+    "success": 0.9375,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.53
+      },
+      {
+        "history": [
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.37
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.050000000000000044
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.27999999999999997
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.050000000000000044
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.12000000000000002
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.050000000000000044
+      }
+    ],
+    "rank_root": [
+      1.1,
+      1.3499999999999999,
+      2.45
+    ],
+    "tail_rank_root": [
+      0.55,
+      0.8999999999999999,
+      1.45
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.53,
+      0.42000000000000004
+    ],
+    "reserve_premium": 0.0
+  },
+  {
+    "label": "cross_1_1.0_0.7_0.75",
+    "inputs": {
+      "r": 0.4,
+      "p": 0.25,
+      "rho": 0.75,
+      "rate_scale": 1.0,
+      "slack": 1,
+      "z": 0.15,
+      "urgency": 0.7,
+      "eligibility": "mixed",
+      "debt": [
+        0.25,
+        0.3
+      ],
+      "h": 0.9,
+      "b": 0.9
+    },
+    "causal": {
+      "status": 0,
+      "value": 1.253890625,
+      "lower": 1.253890625,
+      "seconds": 0.001433189999715978,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight": {
+      "status": 0,
+      "value": 0.9415156250000001,
+      "lower": 0.9415156250000001,
+      "seconds": 0.0019006349998562655,
+      "variables": 76,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0013464590001603938,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "foresight_reserve": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0013534990002881386,
+      "variables": 77,
+      "rows": 181,
+      "resource_rows": 40,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0016480539998156019,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 2.7755575615628914e-17,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "static_frontier": {
+      "status": 0,
+      "value": -1.0,
+      "lower": -1.0,
+      "seconds": 0.0015835569997761922,
+      "variables": 62,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "commitment": 1.0
+    },
+    "shield_first": {
+      "status": 0,
+      "value": 0.0,
+      "lower": 0.0,
+      "seconds": 0.0013217820001045766,
+      "variables": 61,
+      "rows": 141,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0
+    },
+    "shield": {
+      "status": 0,
+      "value": 2.12186328125,
+      "lower": 2.12186328125,
+      "seconds": 0.0012595379998856515,
+      "variables": 61,
+      "rows": 144,
+      "resource_rows": 30,
+      "max_capacity_violation": 1.1102230246251565e-16,
+      "mip_gap": 0.0
+    },
+    "shield_success": 0.94921875,
+    "cuts": {
+      "status": 0,
+      "value": 1.253890625,
+      "lower": 1.253890625,
+      "seconds": 0.0014003400001456612,
+      "variables": 61,
+      "rows": 119,
+      "resource_rows": 30,
+      "max_capacity_violation": 0.0,
+      "mip_gap": 0.0,
+      "history": [
+        {
+          "round": 0,
+          "lower": 0.7221250000000001,
+          "value": 0.7221250000000001,
+          "retained": 0,
+          "max_violation": 1.0
+        },
+        {
+          "round": 1,
+          "lower": 0.916953125,
+          "value": 0.916953125,
+          "retained": 2,
+          "max_violation": 0.55
+        },
+        {
+          "round": 2,
+          "lower": 1.1825234375,
+          "value": 1.1825234375,
+          "retained": 4,
+          "max_violation": 0.42000000000000004
+        },
+        {
+          "round": 3,
+          "lower": 1.253890625,
+          "value": 1.253890625,
+          "retained": 5,
+          "max_violation": 0.27
+        },
+        {
+          "round": 4,
+          "lower": 1.253890625,
+          "value": 1.253890625,
+          "retained": 6,
+          "max_violation": 0.27
+        },
+        {
+          "round": 5,
+          "lower": 1.253890625,
+          "value": 1.253890625,
+          "retained": 7,
+          "max_violation": 0.27
+        },
+        {
+          "round": 6,
+          "lower": 1.253890625,
+          "value": 1.253890625,
+          "retained": 8,
+          "max_violation": 0.0
+        }
+      ],
+      "rounds": 7,
+      "retained_rows": 8,
+      "total_seconds": 0.011042731000543426,
+      "certified_gap": 0
+    },
+    "success": 0.94921875,
+    "actions": [
+      {
+        "history": [
+          0
+        ],
+        "job": 0,
+        "channel": 0,
+        "quantity": 0.53
+      },
+      {
+        "history": [
+          0,
+          0,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.42000000000000004
+      },
+      {
+        "history": [
+          0,
+          0,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.12000000000000005
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 1,
+        "channel": 0,
+        "quantity": 0.27999999999999997
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 2,
+        "channel": 0,
+        "quantity": 0.42000000000000004
+      },
+      {
+        "history": [
+          0,
+          1,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.029999999999999943
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "job": 2,
+        "channel": 1,
+        "quantity": 0.15
+      },
+      {
+        "history": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "job": 3,
+        "channel": 0,
+        "quantity": 0.09000000000000008
+      }
+    ],
+    "rank_root": [
+      1.1,
+      1.3499999999999999,
+      2.45
+    ],
+    "tail_rank_root": [
+      0.55,
+      0.8999999999999999,
+      1.45
+    ],
+    "selected_leaves": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "initial_debt": [
+      0.53,
+      0.42000000000000004
+    ],
+    "reserve_premium": 0.0
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "frozen_before_numerical_run": true,
+  "date_UTC": "2026-10-09",
+  "base": {"r": 0.4, "p": 0.25, "rho": 0.4, "rate_scale": 1.0, "slack": 0, "z": 0.15, "urgency": 0.35, "eligibility": "mixed", "debt": [0.25,0.3], "h":0.9, "b":0.9},
+  "one_factor_ranges": {
+    "rho": [0.0,0.4,0.75],
+    "p": [0.15,0.25,0.4],
+    "rate_scale": [0.65,1.0,1.35],
+    "slack": [0,1,2],
+    "z": [0.05,0.15,0.4],
+    "urgency": [0.15,0.35,0.7],
+    "b": [0.7,0.9,1.0],
+    "eligibility": ["mixed","both"]
+  },
+  "crossed_ranges": {"slack":[0,1],"rate_scale":[0.65,1.0],"urgency":[0.15,0.7],"rho":[0.0,0.75]},
+  "comparisons": ["current-cost shield and future-cost optimization at common target", "fixed-state debt-free and debt-aware commitment", "causal and perfect-foresight reserve and cost", "conditional-mean resource relaxation and generated physical resource cuts"],
+  "report_infeasibility_and_zero_advantage": true,
+  "large_catalog": {"source":"exact original 100-job catalog", "horizon":48,"uncertain_observation_slots":[10,24],"state_between_observations":"hold last observed state","p":0.2,"rho":0.6,"h":1.2,"z":1.6,"r":0.4,"admission_horizon":42,"criterion":"all-support hard deadlines", "law_changed_from_original":true},
+  "claims": "No alteration of the original full Markov benchmark is reported as a gap closure for that benchmark."
+}

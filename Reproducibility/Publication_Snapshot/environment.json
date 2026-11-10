@@ -1,0 +1,11 @@
+{
+  "measurement_record": "scaling.json",
+  "measurement_timestamp_ist": "2026-11-03T02:03:32.593196+05:30",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "scope": "Complete offline audit replay; nine catalogues, eight evaluation paths per catalogue. Runtime is an observation under the execution environment and host load, not a performance guarantee.",
+  "legacy_full_log_sha256": "06aed6ff568b2feb8f25f245ac8b9c4346bdad47f5f609fc37b0e7d9c2196c0d"
+}

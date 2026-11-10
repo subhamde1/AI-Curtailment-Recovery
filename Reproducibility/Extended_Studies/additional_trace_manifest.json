@@ -1,0 +1,259 @@
+{
+  "source_url": "https://tre-clusterdata.oss-cn-hangzhou.aliyuncs.com/cluster-trace-gpu-v2026/data/asi_opensource_pod_hourly.zip",
+  "archive_bytes": 351803513445,
+  "days": [
+    111
+  ],
+  "columns": [
+    "pod_id",
+    "cluster_id",
+    "state_public",
+    "priority_class",
+    "job_type_public",
+    "gpu_request",
+    "used_gpu_hours"
+  ],
+  "rule": "pod_id starts with 00; gpu_request>0",
+  "partitions": [
+    {
+      "day": 111,
+      "hour": 0,
+      "member": "asi_opensource_pod_hourly/day=111/hour=00/part-000.parquet",
+      "archive_offset": 26948586992,
+      "source_rows": 1712740,
+      "selected_rows": 472,
+      "source_bytes": 33000009,
+      "sha256": "b1ffa71c06ecf999b453d63de9b5fdd4a615420bd303dfa9e380a7916a0390ef"
+    },
+    {
+      "day": 111,
+      "hour": 1,
+      "member": "asi_opensource_pod_hourly/day=111/hour=01/part-000.parquet",
+      "archive_offset": 27041513494,
+      "source_rows": 1643752,
+      "selected_rows": 506,
+      "source_bytes": 31787358,
+      "sha256": "dc9593edd2743905dae286020f4f98a4be98223b06e21bf56fa2e327ceff7346"
+    },
+    {
+      "day": 111,
+      "hour": 2,
+      "member": "asi_opensource_pod_hourly/day=111/hour=02/part-000.parquet",
+      "archive_offset": 27131043325,
+      "source_rows": 1640016,
+      "selected_rows": 518,
+      "source_bytes": 31742861,
+      "sha256": "29c111c3c28c3810dd5c4e6d41ec43df8b2fd2c7b5c7a5e954934e01d77980c1"
+    },
+    {
+      "day": 111,
+      "hour": 3,
+      "member": "asi_opensource_pod_hourly/day=111/hour=03/part-000.parquet",
+      "archive_offset": 27220145711,
+      "source_rows": 1671026,
+      "selected_rows": 501,
+      "source_bytes": 32236279,
+      "sha256": "69bcddd5aac90ad7bf42b3b1b3ae90a0905defc43f55439d57d993f408fe7819"
+    },
+    {
+      "day": 111,
+      "hour": 4,
+      "member": "asi_opensource_pod_hourly/day=111/hour=04/part-000.parquet",
+      "archive_offset": 27310184880,
+      "source_rows": 1615821,
+      "selected_rows": 512,
+      "source_bytes": 31225248,
+      "sha256": "b655b90e4e6337fb99a08a95a03c3b1760090f2fdafdc514d83c2f2685c0e946"
+    },
+    {
+      "day": 111,
+      "hour": 5,
+      "member": "asi_opensource_pod_hourly/day=111/hour=05/part-000.parquet",
+      "archive_offset": 27397160264,
+      "source_rows": 1597880,
+      "selected_rows": 486,
+      "source_bytes": 30889138,
+      "sha256": "57e91c95c12d999e5eaa06ee32464dd380dcaa69671c3dd9a821df65e59a9a15"
+    },
+    {
+      "day": 111,
+      "hour": 6,
+      "member": "asi_opensource_pod_hourly/day=111/hour=06/part-000.parquet",
+      "archive_offset": 27483066043,
+      "source_rows": 1538718,
+      "selected_rows": 487,
+      "source_bytes": 29807596,
+      "sha256": "13a8fc27e2d0ba89358922a5edc088c96cc3ae8599389a111b188e00944de392"
+    },
+    {
+      "day": 111,
+      "hour": 7,
+      "member": "asi_opensource_pod_hourly/day=111/hour=07/part-000.parquet",
+      "archive_offset": 27566228309,
+      "source_rows": 1600815,
+      "selected_rows": 472,
+      "source_bytes": 30903398,
+      "sha256": "4c650d136f6037a7a828fc71dbd26ab22740626f7194165da75594231efc7b5c"
+    },
+    {
+      "day": 111,
+      "hour": 8,
+      "member": "asi_opensource_pod_hourly/day=111/hour=08/part-000.parquet",
+      "archive_offset": 27652668601,
+      "source_rows": 1647136,
+      "selected_rows": 494,
+      "source_bytes": 31731686,
+      "sha256": "ce37516dc15bcebddec7f85a4e90bd62e0f7af1be84aaad82fcaf3b7ccda36c4"
+    },
+    {
+      "day": 111,
+      "hour": 9,
+      "member": "asi_opensource_pod_hourly/day=111/hour=09/part-000.parquet",
+      "archive_offset": 27741119547,
+      "source_rows": 1642351,
+      "selected_rows": 492,
+      "source_bytes": 31640179,
+      "sha256": "f53f9e4518b47a42d2fc57b946e341754532417cc269ffb0fe402aec426ac292"
+    },
+    {
+      "day": 111,
+      "hour": 10,
+      "member": "asi_opensource_pod_hourly/day=111/hour=10/part-000.parquet",
+      "archive_offset": 27829402847,
+      "source_rows": 1683883,
+      "selected_rows": 489,
+      "source_bytes": 32541364,
+      "sha256": "f41632e5306e69cd28d3c93476d311682f348d36e56415410365892e86579940"
+    },
+    {
+      "day": 111,
+      "hour": 11,
+      "member": "asi_opensource_pod_hourly/day=111/hour=11/part-000.parquet",
+      "archive_offset": 27920217714,
+      "source_rows": 1617820,
+      "selected_rows": 497,
+      "source_bytes": 31228162,
+      "sha256": "5102c3b6d58c95d4a5cc3cd225ff40679ab1d3996ca935ccdbb2c206bdf4a594"
+    },
+    {
+      "day": 111,
+      "hour": 12,
+      "member": "asi_opensource_pod_hourly/day=111/hour=12/part-000.parquet",
+      "archive_offset": 28007853347,
+      "source_rows": 1737815,
+      "selected_rows": 488,
+      "source_bytes": 33482637,
+      "sha256": "42f62b0b08fecfeab81255d18626e92b0149ef74698e5d8b38558ad908fb6374"
+    },
+    {
+      "day": 111,
+      "hour": 13,
+      "member": "asi_opensource_pod_hourly/day=111/hour=13/part-000.parquet",
+      "archive_offset": 28100447183,
+      "source_rows": 2052326,
+      "selected_rows": 494,
+      "source_bytes": 39397143,
+      "sha256": "61cd4c8227606322442728a01f1a643063db74eae6c77450d44e06ea18437239"
+    },
+    {
+      "day": 111,
+      "hour": 14,
+      "member": "asi_opensource_pod_hourly/day=111/hour=14/part-000.parquet",
+      "archive_offset": 28208174766,
+      "source_rows": 2135867,
+      "selected_rows": 505,
+      "source_bytes": 40950426,
+      "sha256": "aa51f4d093261dba81c7ce713d112ad0c0704bcfac147f87d21ac9d5c2a83bb8"
+    },
+    {
+      "day": 111,
+      "hour": 15,
+      "member": "asi_opensource_pod_hourly/day=111/hour=15/part-000.parquet",
+      "archive_offset": 28319501566,
+      "source_rows": 1810655,
+      "selected_rows": 504,
+      "source_bytes": 34844577,
+      "sha256": "6afbbd4a54ae41294b51999371df9e8a4979cb145676a4d3b48fa850429a317d"
+    },
+    {
+      "day": 111,
+      "hour": 16,
+      "member": "asi_opensource_pod_hourly/day=111/hour=16/part-000.parquet",
+      "archive_offset": 28415340928,
+      "source_rows": 1755505,
+      "selected_rows": 530,
+      "source_bytes": 33864685,
+      "sha256": "95cf2ac34c757b99b071d307938a5010a884064ef1e4f80bf8ab7275ffa89908"
+    },
+    {
+      "day": 111,
+      "hour": 17,
+      "member": "asi_opensource_pod_hourly/day=111/hour=17/part-000.parquet",
+      "archive_offset": 28508624013,
+      "source_rows": 1591001,
+      "selected_rows": 501,
+      "source_bytes": 30733220,
+      "sha256": "6a672abc3d1ccc1f899e7e33672aa3bb218734a69d6e4f9c22afc7baf0ff1b7a"
+    },
+    {
+      "day": 111,
+      "hour": 18,
+      "member": "asi_opensource_pod_hourly/day=111/hour=18/part-000.parquet",
+      "archive_offset": 28594015212,
+      "source_rows": 1509202,
+      "selected_rows": 502,
+      "source_bytes": 29230419,
+      "sha256": "f2885b64f1bc869dbb8b40a8a58212ffabe90446a8b17ac94f91e35ab979f1a5"
+    },
+    {
+      "day": 111,
+      "hour": 19,
+      "member": "asi_opensource_pod_hourly/day=111/hour=19/part-000.parquet",
+      "archive_offset": 28675348206,
+      "source_rows": 1516198,
+      "selected_rows": 508,
+      "source_bytes": 29355142,
+      "sha256": "c4041e54635f563288f3a41286762ecfebc880b590d673a0400d6928190ae605"
+    },
+    {
+      "day": 111,
+      "hour": 20,
+      "member": "asi_opensource_pod_hourly/day=111/hour=20/part-000.parquet",
+      "archive_offset": 28756960048,
+      "source_rows": 1563274,
+      "selected_rows": 490,
+      "source_bytes": 30181825,
+      "sha256": "78509a9e090f4e9909bb5d065f52eab6e333d5df8a57c66956336278fba8df46"
+    },
+    {
+      "day": 111,
+      "hour": 21,
+      "member": "asi_opensource_pod_hourly/day=111/hour=21/part-000.parquet",
+      "archive_offset": 28840546792,
+      "source_rows": 1592524,
+      "selected_rows": 494,
+      "source_bytes": 30778502,
+      "sha256": "22ce09b43bf20bff071981b1b16c8644ba7419c6c94a180c253c153bc4f39b6f"
+    },
+    {
+      "day": 111,
+      "hour": 22,
+      "member": "asi_opensource_pod_hourly/day=111/hour=22/part-000.parquet",
+      "archive_offset": 28925494398,
+      "source_rows": 1560284,
+      "selected_rows": 491,
+      "source_bytes": 30075576,
+      "sha256": "382ea6a5b173a7f71f1e226373095cc092e5ffa1bd95462ee6048eba3a7afd42"
+    },
+    {
+      "day": 111,
+      "hour": 23,
+      "member": "asi_opensource_pod_hourly/day=111/hour=23/part-000.parquet",
+      "archive_offset": 29008644078,
+      "source_rows": 1512070,
+      "selected_rows": 480,
+      "source_bytes": 29172268,
+      "sha256": "5a79f96e8ec432020fd6e78dd47d3800fc724b6e2b039b0d15eff463878e077c"
+    }
+  ]
+}

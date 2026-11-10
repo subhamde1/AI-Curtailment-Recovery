@@ -1,0 +1,463 @@
+{
+  "independent_full_tree_cases": 12,
+  "window_comparisons": 36,
+  "max_full_window_error": 5.10702591327572e-15,
+  "cases": [
+    {
+      "case": 0,
+      "horizon": 7,
+      "full_tree_cost": 0.8690167442754664,
+      "error_at_full_window": 3.3306690738754696e-16,
+      "windows": [
+        {
+          "conditioning_window": 2,
+          "decisions": 255,
+          "pathwise_capacity_rows": 117,
+          "deadline_rows": 96,
+          "projected_lower": 0.8690167442754662,
+          "policy_upper": 0.8690167442754662,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 3,
+          "decisions": 465,
+          "pathwise_capacity_rows": 189,
+          "deadline_rows": 176,
+          "projected_lower": 0.8690167442754664,
+          "policy_upper": 0.8690167442754664,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 7,
+          "decisions": 657,
+          "pathwise_capacity_rows": 189,
+          "deadline_rows": 256,
+          "projected_lower": 0.869016744275466,
+          "policy_upper": 0.869016744275466,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        }
+      ]
+    },
+    {
+      "case": 1,
+      "horizon": 8,
+      "full_tree_cost": 1.0379109246683451,
+      "error_at_full_window": 0.0,
+      "windows": [
+        {
+          "conditioning_window": 2,
+          "decisions": 492,
+          "pathwise_capacity_rows": 383,
+          "deadline_rows": 176,
+          "projected_lower": 1.0379109246683433,
+          "policy_upper": 1.0379109246683433,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 3,
+          "decisions": 636,
+          "pathwise_capacity_rows": 383,
+          "deadline_rows": 232,
+          "projected_lower": 1.0379109246683438,
+          "policy_upper": 1.0379109246683438,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 8,
+          "decisions": 1224,
+          "pathwise_capacity_rows": 383,
+          "deadline_rows": 456,
+          "projected_lower": 1.0379109246683451,
+          "policy_upper": 1.0379109246683451,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        }
+      ]
+    },
+    {
+      "case": 2,
+      "horizon": 7,
+      "full_tree_cost": 1.0474452249005777,
+      "error_at_full_window": 2.220446049250313e-16,
+      "windows": [
+        {
+          "conditioning_window": 2,
+          "decisions": 286,
+          "pathwise_capacity_rows": 95,
+          "deadline_rows": 106,
+          "projected_lower": 1.0474452249005772,
+          "policy_upper": 1.0474452249005772,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 3,
+          "decisions": 328,
+          "pathwise_capacity_rows": 95,
+          "deadline_rows": 122,
+          "projected_lower": 1.0474452249005775,
+          "policy_upper": 1.0474452249005775,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 7,
+          "decisions": 328,
+          "pathwise_capacity_rows": 95,
+          "deadline_rows": 122,
+          "projected_lower": 1.0474452249005775,
+          "policy_upper": 1.0474452249005775,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        }
+      ]
+    },
+    {
+      "case": 3,
+      "horizon": 8,
+      "full_tree_cost": 1.4777775833028048,
+      "error_at_full_window": 5.10702591327572e-15,
+      "windows": [
+        {
+          "conditioning_window": 2,
+          "decisions": 648,
+          "pathwise_capacity_rows": 381,
+          "deadline_rows": 236,
+          "projected_lower": 1.4777775833028022,
+          "policy_upper": 1.4777775833028022,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 3,
+          "decisions": 990,
+          "pathwise_capacity_rows": 381,
+          "deadline_rows": 364,
+          "projected_lower": 1.4777775833028035,
+          "policy_upper": 1.4777775833028035,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 8,
+          "decisions": 2214,
+          "pathwise_capacity_rows": 381,
+          "deadline_rows": 876,
+          "projected_lower": 1.4777775833027997,
+          "policy_upper": 1.4777775833027997,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        }
+      ]
+    },
+    {
+      "case": 4,
+      "horizon": 7,
+      "full_tree_cost": 0.9094741335377933,
+      "error_at_full_window": 1.1102230246251565e-16,
+      "windows": [
+        {
+          "conditioning_window": 2,
+          "decisions": 276,
+          "pathwise_capacity_rows": 102,
+          "deadline_rows": 104,
+          "projected_lower": 0.9094741335377929,
+          "policy_upper": 0.9094741335377929,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 3,
+          "decisions": 372,
+          "pathwise_capacity_rows": 114,
+          "deadline_rows": 144,
+          "projected_lower": 0.9094741335377935,
+          "policy_upper": 0.9094741335377935,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 7,
+          "decisions": 696,
+          "pathwise_capacity_rows": 186,
+          "deadline_rows": 288,
+          "projected_lower": 0.9094741335377932,
+          "policy_upper": 0.9094741335377932,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        }
+      ]
+    },
+    {
+      "case": 5,
+      "horizon": 8,
+      "full_tree_cost": 1.1194216441339175,
+      "error_at_full_window": 1.3322676295501878e-15,
+      "windows": [
+        {
+          "conditioning_window": 2,
+          "decisions": 497,
+          "pathwise_capacity_rows": 383,
+          "deadline_rows": 180,
+          "projected_lower": 1.1194216441339155,
+          "policy_upper": 1.1194216441339155,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 3,
+          "decisions": 683,
+          "pathwise_capacity_rows": 383,
+          "deadline_rows": 252,
+          "projected_lower": 1.1194216441339149,
+          "policy_upper": 1.1194216441339149,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 8,
+          "decisions": 1271,
+          "pathwise_capacity_rows": 383,
+          "deadline_rows": 492,
+          "projected_lower": 1.1194216441339162,
+          "policy_upper": 1.1194216441339162,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        }
+      ]
+    },
+    {
+      "case": 6,
+      "horizon": 7,
+      "full_tree_cost": 1.233892175248006,
+      "error_at_full_window": 4.440892098500626e-16,
+      "windows": [
+        {
+          "conditioning_window": 2,
+          "decisions": 265,
+          "pathwise_capacity_rows": 119,
+          "deadline_rows": 100,
+          "projected_lower": 1.2338921752480045,
+          "policy_upper": 1.2338921752480045,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 3,
+          "decisions": 361,
+          "pathwise_capacity_rows": 143,
+          "deadline_rows": 140,
+          "projected_lower": 1.2338921752480048,
+          "policy_upper": 1.2338921752480048,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 7,
+          "decisions": 661,
+          "pathwise_capacity_rows": 191,
+          "deadline_rows": 268,
+          "projected_lower": 1.2338921752480057,
+          "policy_upper": 1.2338921752480057,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        }
+      ]
+    },
+    {
+      "case": 7,
+      "horizon": 8,
+      "full_tree_cost": 1.414923255626791,
+      "error_at_full_window": 1.5543122344752192e-15,
+      "windows": [
+        {
+          "conditioning_window": 2,
+          "decisions": 587,
+          "pathwise_capacity_rows": 383,
+          "deadline_rows": 214,
+          "projected_lower": 1.4149232556267892,
+          "policy_upper": 1.4149232556267892,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 3,
+          "decisions": 839,
+          "pathwise_capacity_rows": 383,
+          "deadline_rows": 310,
+          "projected_lower": 1.4149232556267888,
+          "policy_upper": 1.4149232556267888,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 8,
+          "decisions": 1883,
+          "pathwise_capacity_rows": 383,
+          "deadline_rows": 726,
+          "projected_lower": 1.4149232556267926,
+          "policy_upper": 1.4149232556267926,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        }
+      ]
+    },
+    {
+      "case": 8,
+      "horizon": 7,
+      "full_tree_cost": 1.0715770031502847,
+      "error_at_full_window": 8.881784197001252e-16,
+      "windows": [
+        {
+          "conditioning_window": 2,
+          "decisions": 162,
+          "pathwise_capacity_rows": 99,
+          "deadline_rows": 64,
+          "projected_lower": 1.0715770031502825,
+          "policy_upper": 1.0715770031502825,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 3,
+          "decisions": 306,
+          "pathwise_capacity_rows": 189,
+          "deadline_rows": 120,
+          "projected_lower": 1.071577003150282,
+          "policy_upper": 1.071577003150282,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 7,
+          "decisions": 558,
+          "pathwise_capacity_rows": 189,
+          "deadline_rows": 232,
+          "projected_lower": 1.0715770031502838,
+          "policy_upper": 1.0715770031502838,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        }
+      ]
+    },
+    {
+      "case": 9,
+      "horizon": 8,
+      "full_tree_cost": 1.0001486289864778,
+      "error_at_full_window": 4.440892098500626e-16,
+      "windows": [
+        {
+          "conditioning_window": 2,
+          "decisions": 663,
+          "pathwise_capacity_rows": 381,
+          "deadline_rows": 236,
+          "projected_lower": 1.0000703431072955,
+          "policy_upper": 1.0001486289864787,
+          "pilot_interval_width": 7.828587918323748e-05,
+          "max_policy_residual": 2.220446049250313e-16
+        },
+        {
+          "conditioning_window": 3,
+          "decisions": 993,
+          "pathwise_capacity_rows": 381,
+          "deadline_rows": 356,
+          "projected_lower": 1.0000887977612114,
+          "policy_upper": 1.0001486289864785,
+          "pilot_interval_width": 5.983122526709295e-05,
+          "max_policy_residual": 2.220446049250313e-16
+        },
+        {
+          "conditioning_window": 8,
+          "decisions": 1137,
+          "pathwise_capacity_rows": 381,
+          "deadline_rows": 420,
+          "projected_lower": 1.0001486289864774,
+          "policy_upper": 1.0001486289864774,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 2.220446049250313e-16
+        }
+      ]
+    },
+    {
+      "case": 10,
+      "horizon": 7,
+      "full_tree_cost": 1.1667319041770636,
+      "error_at_full_window": 6.661338147750939e-16,
+      "windows": [
+        {
+          "conditioning_window": 2,
+          "decisions": 115,
+          "pathwise_capacity_rows": 65,
+          "deadline_rows": 46,
+          "projected_lower": 1.1667319041770625,
+          "policy_upper": 1.1667319041770625,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 3,
+          "decisions": 133,
+          "pathwise_capacity_rows": 83,
+          "deadline_rows": 54,
+          "projected_lower": 1.1667319041770625,
+          "policy_upper": 1.1667319041770625,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 7,
+          "decisions": 241,
+          "pathwise_capacity_rows": 191,
+          "deadline_rows": 102,
+          "projected_lower": 1.166731904177063,
+          "policy_upper": 1.166731904177063,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        }
+      ]
+    },
+    {
+      "case": 11,
+      "horizon": 8,
+      "full_tree_cost": 1.1443594269873807,
+      "error_at_full_window": 8.881784197001252e-16,
+      "windows": [
+        {
+          "conditioning_window": 2,
+          "decisions": 804,
+          "pathwise_capacity_rows": 383,
+          "deadline_rows": 284,
+          "projected_lower": 1.1435954382124176,
+          "policy_upper": 1.144366761165251,
+          "pilot_interval_width": 0.000771322952833442,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 3,
+          "decisions": 1230,
+          "pathwise_capacity_rows": 383,
+          "deadline_rows": 436,
+          "projected_lower": 1.1439193776114684,
+          "policy_upper": 1.1443594269873816,
+          "pilot_interval_width": 0.00044004937591313187,
+          "max_policy_residual": 0.0
+        },
+        {
+          "conditioning_window": 8,
+          "decisions": 1530,
+          "pathwise_capacity_rows": 383,
+          "deadline_rows": 548,
+          "projected_lower": 1.1443594269873816,
+          "policy_upper": 1.1443594269873816,
+          "pilot_interval_width": 0.0,
+          "max_policy_residual": 0.0
+        }
+      ]
+    }
+  ]
+}

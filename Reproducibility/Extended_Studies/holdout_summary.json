@@ -1,0 +1,104 @@
+{
+  "training_day": 109,
+  "holdout_days": [
+    110,
+    111
+  ],
+  "training_normalizer": 102.52224999999999,
+  "observed_hours": 72,
+  "observed_rows": 34690,
+  "unique_pods": 5109,
+  "daily_panel": [
+    {
+      "day": 109,
+      "rows": 11198,
+      "unique_pods": 2057
+    },
+    {
+      "day": 110,
+      "rows": 11579,
+      "unique_pods": 1902
+    },
+    {
+      "day": 111,
+      "rows": 11913,
+      "unique_pods": 1988
+    }
+  ],
+  "matched_origins": 44,
+  "base_models": 132,
+  "all_models": 220,
+  "daily": [
+    {
+      "day": 110,
+      "calls": 1,
+      "origins": 22,
+      "mean_frontier": 0.5210025571715096,
+      "min_frontier": 0.5096368876080688,
+      "max_frontier": 0.5304488695487656,
+      "finite_reserve": 22,
+      "mean_finite_reserve": 0.11997482849616227
+    },
+    {
+      "day": 110,
+      "calls": 2,
+      "origins": 22,
+      "mean_frontier": 0.3824963176619566,
+      "min_frontier": 0.3776370029097967,
+      "max_frontier": 0.386080924457501,
+      "finite_reserve": 22,
+      "mean_finite_reserve": 0.16340603395766304
+    },
+    {
+      "day": 110,
+      "calls": 3,
+      "origins": 22,
+      "mean_frontier": 0.3375357601759544,
+      "min_frontier": 0.3348923473913395,
+      "max_frontier": 0.3394372453512241,
+      "finite_reserve": 22,
+      "mean_finite_reserve": 0.18516849829247023
+    },
+    {
+      "day": 111,
+      "calls": 1,
+      "origins": 22,
+      "mean_frontier": 0.5416657462435482,
+      "min_frontier": 0.5072785170021611,
+      "max_frontier": 0.5796645702306077,
+      "finite_reserve": 22,
+      "mean_finite_reserve": 0.11554375329854344
+    },
+    {
+      "day": 111,
+      "calls": 2,
+      "origins": 22,
+      "mean_frontier": 0.39023699936716766,
+      "min_frontier": 0.37770972112453466,
+      "max_frontier": 0.40266990291262095,
+      "finite_reserve": 22,
+      "mean_finite_reserve": 0.16020664514323324
+    },
+    {
+      "day": 111,
+      "calls": 3,
+      "origins": 22,
+      "mean_frontier": 0.34252894436352554,
+      "min_frontier": 0.33493523559226596,
+      "max_frontier": 0.34933670246367643,
+      "finite_reserve": 22,
+      "mean_finite_reserve": 0.18248648383582886
+    }
+  ],
+  "strict_single_to_three_declines": 44,
+  "mean_single_to_three_decline": 0.191301799437789,
+  "lineage_relaxation_strict_origins": 0,
+  "max_lineage_relaxation": 3.3306690738754696e-16,
+  "joint_stress_mean_frontier": 0.33734438409071626,
+  "three_call_mean_frontier": 0.34003235226973993,
+  "three_call_mean_reserve": 0.18382749106414956,
+  "joint_stress_mean_reserve": 0.18528061104184704,
+  "joint_stress_finite_reserve": 44,
+  "largest_lp_residual": 1.3877787807814457e-15,
+  "original_matches": 24
+}

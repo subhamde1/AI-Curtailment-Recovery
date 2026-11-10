@@ -1,0 +1,27 @@
+{
+  "trees": 48,
+  "rank_lp_checks": 252,
+  "root_workload_checks": 240,
+  "feasible_root_workloads": 81,
+  "empty_trees": 30,
+  "individual_leaf_lp_checks": 815,
+  "max_rank_error": 1.7763568394002505e-15,
+  "max_minimum_service_error": 4.996003610813204e-16,
+  "crossing_example": {
+    "root_ranks": [
+      0.0,
+      1.4,
+      2.6,
+      2.7
+    ],
+    "residual_ranks": [
+      0.0,
+      1.0,
+      1.8,
+      1.8
+    ],
+    "minimum_service": 0.8
+  },
+  "pivot_lp_checks": 64,
+  "feasible_pivot_cases": 16
+}

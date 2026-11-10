@@ -1,4 +1,4 @@
-# The Cost of Repeatable Flexibility
+# The Cost of Repeatable Flexibility: Stochastic Scheduling of AI Data Centers under Grid Curtailment
 
 Replication and verification files for the article, *The Cost of Repeatable
 Flexibility: Stochastic Scheduling of AI Data Centers under Grid Curtailment*, written by Subham De.

@@ -1,0 +1,12 @@
+__pycache__/
+.venv/
+figures/
+redrawn_figures/
+redrawn_vectors/
+*.parquet
+/reproducibility/hourly_trace/panel.csv
+/reproducibility/hourly_trace/observed_pods.csv
+/reproducibility/hourly_trace/source_partitions/*
+!/reproducibility/hourly_trace/source_partitions/archive_members.json
+/reproducibility/extended_studies/additional_trace_partitions/
+/reproducibility/structural_studies/trace_ranges/

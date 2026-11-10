@@ -1,0 +1,2 @@
+# Keep archived file bytes stable across Git checkouts.
+* -text

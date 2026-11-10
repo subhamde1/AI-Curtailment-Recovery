@@ -1,0 +1,157 @@
+[
+  {
+    "number": 1,
+    "file": "asset_31",
+    "source": "multistage_decisions"
+  },
+  {
+    "number": 2,
+    "file": "Figure30_Witness_Reliability",
+    "source": "Figure30_Witness_Reliability"
+  },
+  {
+    "number": 3,
+    "file": "asset_02",
+    "source": "paths"
+  },
+  {
+    "number": 4,
+    "file": "asset_04",
+    "source": "joint_robust"
+  },
+  {
+    "number": 5,
+    "file": "asset_05",
+    "source": "threshold"
+  },
+  {
+    "number": 6,
+    "file": "asset_06",
+    "source": "cost_economics"
+  },
+  {
+    "number": 7,
+    "file": "asset_09",
+    "source": "causal_reserve"
+  },
+  {
+    "number": 8,
+    "file": "asset_10",
+    "source": "frontier"
+  },
+  {
+    "number": 9,
+    "file": "asset_11",
+    "source": "risk_floor"
+  },
+  {
+    "number": 10,
+    "file": "asset_12",
+    "source": "policy_cost"
+  },
+  {
+    "number": 11,
+    "file": "asset_13",
+    "source": "heterogeneous_policy"
+  },
+  {
+    "number": 12,
+    "file": "asset_14",
+    "source": "revision_reserve_phase"
+  },
+  {
+    "number": 13,
+    "file": "asset_15",
+    "source": "revision_frontier_surface"
+  },
+  {
+    "number": 14,
+    "file": "asset_16",
+    "source": "revision_duration"
+  },
+  {
+    "number": 15,
+    "file": "asset_17",
+    "source": "revision_bound_hierarchy"
+  },
+  {
+    "number": 16,
+    "file": "asset_18",
+    "source": "revision_larger_bounds"
+  },
+  {
+    "number": 17,
+    "file": "asset_19",
+    "source": "frozen_scaling"
+  },
+  {
+    "number": 18,
+    "file": "asset_20",
+    "source": "revision_physical_battery"
+  },
+  {
+    "number": 19,
+    "file": "asset_21",
+    "source": "final_joint_cost"
+  },
+  {
+    "number": 20,
+    "file": "asset_22",
+    "source": "final_reserve_condition"
+  },
+  {
+    "number": 21,
+    "file": "asset_23",
+    "source": "final_lookahead_depth"
+  },
+  {
+    "number": 22,
+    "file": "asset_24",
+    "source": "final_ai_interaction"
+  },
+  {
+    "number": 23,
+    "file": "asset_25",
+    "source": "Figure22_Early_Service"
+  },
+  {
+    "number": 24,
+    "file": "asset_26",
+    "source": "Figure23_Component_Certificates"
+  },
+  {
+    "number": 25,
+    "file": "asset_27",
+    "source": "Figure24_Trace_Repeatability"
+  },
+  {
+    "number": 26,
+    "file": "asset_28",
+    "source": "figure_25"
+  },
+  {
+    "number": 27,
+    "file": "asset_29",
+    "source": "figure_26"
+  },
+  {
+    "number": 28,
+    "file": "asset_30",
+    "source": "figure_27"
+  },
+  {
+    "number": 29,
+    "file": "asset_32",
+    "source": "conflict_certificate"
+  },
+  {
+    "number": 30,
+    "file": "asset_34",
+    "source": "final_manager_sequence"
+  },
+  {
+    "number": 31,
+    "file": "additional_holdout",
+    "source": "additional_holdout"
+  }
+]

@@ -1,0 +1,1951 @@
+{
+  "nodes": 16,
+  "leaves": 9,
+  "branching_depth": 2,
+  "exact_reserve": "1/15",
+  "critical_leaves": [
+    "Ia",
+    "Ib",
+    "Ja",
+    "Jb"
+  ],
+  "proper_subtrees_checked": 129,
+  "max_proper_subtree_violation": 0.0,
+  "full_tree": {
+    "feasible": true,
+    "reserve": 0.06666666666666671,
+    "max_inequality_violation": 2.220446049250313e-16,
+    "max_equality_error": 4.440892098500626e-16,
+    "actions": {
+      "r": [
+        0.5333333333333334,
+        0.5333333333333333
+      ],
+      "K": [
+        0.0,
+        0.0
+      ],
+      "J": [
+        1.0666666666666667,
+        0.0
+      ],
+      "I": [
+        0.0,
+        1.0666666666666669
+      ],
+      "Id": [
+        0.06666666666666665,
+        1.0
+      ],
+      "Jd": [
+        1.0,
+        0.06666666666666676
+      ],
+      "Kd": [
+        0.0,
+        0.0
+      ],
+      "Kb": [
+        1.0666666666666667,
+        1.0666666666666669
+      ],
+      "Ja": [
+        1.0,
+        1.0
+      ],
+      "Ia": [
+        1.0,
+        1.0
+      ],
+      "Jb": [
+        0.9999999999999998,
+        1.0
+      ],
+      "Ka": [
+        1.0666666666666667,
+        1.0666666666666669
+      ],
+      "Jc": [
+        0.9999999999999998,
+        1.0
+      ],
+      "Ib": [
+        1.0,
+        1.0
+      ],
+      "Kc": [
+        1.0666666666666667,
+        1.0666666666666669
+      ],
+      "Ic": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "four_leaf_support": {
+    "feasible": true,
+    "reserve": 0.06666666666666671,
+    "max_inequality_violation": 2.220446049250313e-16,
+    "max_equality_error": 4.440892098500626e-16,
+    "actions": {
+      "r": [
+        0.5333333333333334,
+        0.5333333333333333
+      ],
+      "J": [
+        1.0666666666666667,
+        0.0
+      ],
+      "I": [
+        0.0,
+        1.0666666666666669
+      ],
+      "Id": [
+        0.06666666666666665,
+        1.0
+      ],
+      "Jd": [
+        1.0,
+        0.06666666666666676
+      ],
+      "Ja": [
+        1.0,
+        1.0
+      ],
+      "Ia": [
+        1.0,
+        1.0
+      ],
+      "Jb": [
+        0.9999999999999998,
+        1.0
+      ],
+      "Ib": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "critical_leaf_deletions": {
+    "Ia": {
+      "feasible": true,
+      "reserve": 0.0,
+      "max_inequality_violation": 0.0,
+      "max_equality_error": 0.0,
+      "actions": {
+        "r": [
+          0.0,
+          1.0
+        ],
+        "K": [
+          0.0,
+          0.0
+        ],
+        "J": [
+          1.6,
+          0.0
+        ],
+        "I": [
+          0.0,
+          0.6000000000000001
+        ],
+        "Id": [
+          0.0,
+          1.0
+        ],
+        "Jd": [
+          1.0,
+          0.0
+        ],
+        "Kd": [
+          0.0,
+          0.0
+        ],
+        "Kb": [
+          1.6,
+          0.6000000000000001
+        ],
+        "Ja": [
+          1.0,
+          0.6000000000000001
+        ],
+        "Jb": [
+          1.0,
+          0.6000000000000001
+        ],
+        "Ka": [
+          1.6,
+          0.6000000000000001
+        ],
+        "Jc": [
+          1.0,
+          0.6000000000000001
+        ],
+        "Ib": [
+          1.6,
+          1.0
+        ],
+        "Kc": [
+          1.6,
+          0.6000000000000001
+        ],
+        "Ic": [
+          1.6,
+          1.0
+        ]
+      }
+    },
+    "Ib": {
+      "feasible": true,
+      "reserve": 0.0,
+      "max_inequality_violation": 0.0,
+      "max_equality_error": 0.0,
+      "actions": {
+        "r": [
+          0.0,
+          1.0
+        ],
+        "K": [
+          0.0,
+          0.0
+        ],
+        "J": [
+          1.6,
+          0.0
+        ],
+        "I": [
+          0.0,
+          0.6000000000000001
+        ],
+        "Id": [
+          0.6000000000000001,
+          0.3999999999999999
+        ],
+        "Jd": [
+          1.0,
+          -0.0
+        ],
+        "Kd": [
+          0.0,
+          0.0
+        ],
+        "Kb": [
+          1.6,
+          0.6000000000000001
+        ],
+        "Ja": [
+          1.0,
+          0.6000000000000001
+        ],
+        "Ia": [
+          1.0,
+          1.6
+        ],
+        "Jb": [
+          1.0,
+          0.6000000000000001
+        ],
+        "Ka": [
+          1.6,
+          0.6000000000000001
+        ],
+        "Jc": [
+          1.0,
+          0.6000000000000001
+        ],
+        "Kc": [
+          1.6,
+          0.6000000000000001
+        ],
+        "Ic": [
+          1.0,
+          1.6
+        ]
+      }
+    },
+    "Ja": {
+      "feasible": true,
+      "reserve": 0.0,
+      "max_inequality_violation": 0.0,
+      "max_equality_error": 0.0,
+      "actions": {
+        "r": [
+          1.0,
+          0.0
+        ],
+        "K": [
+          0.0,
+          0.0
+        ],
+        "J": [
+          0.6000000000000001,
+          0.0
+        ],
+        "I": [
+          0.0,
+          1.6
+        ],
+        "Id": [
+          0.0,
+          1.0
+        ],
+        "Jd": [
+          0.3999999999999999,
+          0.6000000000000001
+        ],
+        "Kd": [
+          0.0,
+          0.0
+        ],
+        "Kb": [
+          0.6000000000000001,
+          1.6
+        ],
+        "Ia": [
+          0.6000000000000001,
+          1.0
+        ],
+        "Jb": [
+          1.6,
+          1.0
+        ],
+        "Ka": [
+          0.6000000000000001,
+          1.6
+        ],
+        "Jc": [
+          1.6,
+          1.0
+        ],
+        "Ib": [
+          0.6000000000000001,
+          1.0
+        ],
+        "Kc": [
+          0.6000000000000001,
+          1.6
+        ],
+        "Ic": [
+          0.6000000000000001,
+          1.0
+        ]
+      }
+    },
+    "Jb": {
+      "feasible": true,
+      "reserve": 0.0,
+      "max_inequality_violation": 0.0,
+      "max_equality_error": 0.0,
+      "actions": {
+        "r": [
+          1.0,
+          0.0
+        ],
+        "K": [
+          0.0,
+          0.0
+        ],
+        "J": [
+          0.6000000000000001,
+          0.0
+        ],
+        "I": [
+          0.0,
+          1.6
+        ],
+        "Id": [
+          0.0,
+          1.0
+        ],
+        "Jd": [
+          1.0,
+          0.0
+        ],
+        "Kd": [
+          0.0,
+          0.0
+        ],
+        "Kb": [
+          0.6000000000000001,
+          1.6
+        ],
+        "Ja": [
+          1.0,
+          1.6
+        ],
+        "Ia": [
+          0.6000000000000001,
+          1.0
+        ],
+        "Ka": [
+          0.6000000000000001,
+          1.6
+        ],
+        "Jc": [
+          1.0,
+          1.6
+        ],
+        "Ib": [
+          0.6000000000000001,
+          1.0
+        ],
+        "Kc": [
+          0.6000000000000001,
+          1.6
+        ],
+        "Ic": [
+          0.6000000000000001,
+          1.0
+        ]
+      }
+    }
+  },
+  "family_checks": [
+    {
+      "class_work": "3/2",
+      "exact_reserve": "0",
+      "LP_reserve": 0.0,
+      "exact_policy": {
+        "all_16_node_balances_exact": true,
+        "actions": {
+          "r": [
+            "1/2",
+            "1/2"
+          ],
+          "I": [
+            "0",
+            "1"
+          ],
+          "J": [
+            "1",
+            "0"
+          ],
+          "K": [
+            "0",
+            "0"
+          ],
+          "Id": [
+            "0",
+            "1"
+          ],
+          "Jd": [
+            "1",
+            "0"
+          ],
+          "Kd": [
+            "0",
+            "0"
+          ],
+          "Ia": [
+            "1",
+            "1"
+          ],
+          "Ib": [
+            "1",
+            "1"
+          ],
+          "Ic": [
+            "1",
+            "1"
+          ],
+          "Ja": [
+            "1",
+            "1"
+          ],
+          "Jb": [
+            "1",
+            "1"
+          ],
+          "Jc": [
+            "1",
+            "1"
+          ],
+          "Ka": [
+            "1",
+            "1"
+          ],
+          "Kb": [
+            "1",
+            "1"
+          ],
+          "Kc": [
+            "1",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "class_work": "8/5",
+      "exact_reserve": "1/15",
+      "LP_reserve": 0.06666666666666671,
+      "exact_policy": {
+        "all_16_node_balances_exact": true,
+        "actions": {
+          "r": [
+            "8/15",
+            "8/15"
+          ],
+          "I": [
+            "0",
+            "16/15"
+          ],
+          "J": [
+            "16/15",
+            "0"
+          ],
+          "K": [
+            "0",
+            "0"
+          ],
+          "Id": [
+            "1/15",
+            "1"
+          ],
+          "Jd": [
+            "1",
+            "1/15"
+          ],
+          "Kd": [
+            "0",
+            "0"
+          ],
+          "Ia": [
+            "1",
+            "1"
+          ],
+          "Ib": [
+            "1",
+            "1"
+          ],
+          "Ic": [
+            "1",
+            "1"
+          ],
+          "Ja": [
+            "1",
+            "1"
+          ],
+          "Jb": [
+            "1",
+            "1"
+          ],
+          "Jc": [
+            "1",
+            "1"
+          ],
+          "Ka": [
+            "16/15",
+            "16/15"
+          ],
+          "Kb": [
+            "16/15",
+            "16/15"
+          ],
+          "Kc": [
+            "16/15",
+            "16/15"
+          ]
+        }
+      }
+    },
+    {
+      "class_work": "7/4",
+      "exact_reserve": "1/6",
+      "LP_reserve": 0.16666666666666669,
+      "exact_policy": {
+        "all_16_node_balances_exact": true,
+        "actions": {
+          "r": [
+            "7/12",
+            "7/12"
+          ],
+          "I": [
+            "0",
+            "7/6"
+          ],
+          "J": [
+            "7/6",
+            "0"
+          ],
+          "K": [
+            "0",
+            "0"
+          ],
+          "Id": [
+            "1/6",
+            "1"
+          ],
+          "Jd": [
+            "1",
+            "1/6"
+          ],
+          "Kd": [
+            "0",
+            "0"
+          ],
+          "Ia": [
+            "1",
+            "1"
+          ],
+          "Ib": [
+            "1",
+            "1"
+          ],
+          "Ic": [
+            "1",
+            "1"
+          ],
+          "Ja": [
+            "1",
+            "1"
+          ],
+          "Jb": [
+            "1",
+            "1"
+          ],
+          "Jc": [
+            "1",
+            "1"
+          ],
+          "Ka": [
+            "7/6",
+            "7/6"
+          ],
+          "Kb": [
+            "7/6",
+            "7/6"
+          ],
+          "Kc": [
+            "7/6",
+            "7/6"
+          ]
+        }
+      }
+    },
+    {
+      "class_work": "19/10",
+      "exact_reserve": "4/15",
+      "LP_reserve": 0.2666666666666666,
+      "exact_policy": {
+        "all_16_node_balances_exact": true,
+        "actions": {
+          "r": [
+            "19/30",
+            "19/30"
+          ],
+          "I": [
+            "0",
+            "19/15"
+          ],
+          "J": [
+            "19/15",
+            "0"
+          ],
+          "K": [
+            "0",
+            "0"
+          ],
+          "Id": [
+            "4/15",
+            "1"
+          ],
+          "Jd": [
+            "1",
+            "4/15"
+          ],
+          "Kd": [
+            "0",
+            "0"
+          ],
+          "Ia": [
+            "1",
+            "1"
+          ],
+          "Ib": [
+            "1",
+            "1"
+          ],
+          "Ic": [
+            "1",
+            "1"
+          ],
+          "Ja": [
+            "1",
+            "1"
+          ],
+          "Jb": [
+            "1",
+            "1"
+          ],
+          "Jc": [
+            "1",
+            "1"
+          ],
+          "Ka": [
+            "19/15",
+            "19/15"
+          ],
+          "Kb": [
+            "19/15",
+            "19/15"
+          ],
+          "Kc": [
+            "19/15",
+            "19/15"
+          ]
+        }
+      }
+    },
+    {
+      "class_work": "2",
+      "exact_reserve": "1/3",
+      "LP_reserve": 0.3333333333333333,
+      "exact_policy": {
+        "all_16_node_balances_exact": true,
+        "actions": {
+          "r": [
+            "2/3",
+            "2/3"
+          ],
+          "I": [
+            "0",
+            "4/3"
+          ],
+          "J": [
+            "4/3",
+            "0"
+          ],
+          "K": [
+            "0",
+            "0"
+          ],
+          "Id": [
+            "1/3",
+            "1"
+          ],
+          "Jd": [
+            "1",
+            "1/3"
+          ],
+          "Kd": [
+            "0",
+            "0"
+          ],
+          "Ia": [
+            "1",
+            "1"
+          ],
+          "Ib": [
+            "1",
+            "1"
+          ],
+          "Ic": [
+            "1",
+            "1"
+          ],
+          "Ja": [
+            "1",
+            "1"
+          ],
+          "Jb": [
+            "1",
+            "1"
+          ],
+          "Jc": [
+            "1",
+            "1"
+          ],
+          "Ka": [
+            "4/3",
+            "4/3"
+          ],
+          "Kb": [
+            "4/3",
+            "4/3"
+          ],
+          "Kc": [
+            "4/3",
+            "4/3"
+          ]
+        }
+      }
+    }
+  ],
+  "rank_checks": 5,
+  "subtree_checks": [
+    {
+      "leaves": [
+        "Ia"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ja"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ib"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ic"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ja"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Jb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Jc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Ic"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Ja"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Jb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Jc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Ja"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Jb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Jc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ja",
+        "Jb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ja",
+        "Jc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ja",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ja",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ja",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jb",
+        "Jc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jb",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jb",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jb",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jc",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jc",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jc",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ka",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ka",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Kb",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ib",
+        "Ic"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ib",
+        "Ja"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ib",
+        "Jb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ib",
+        "Jc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ib",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ib",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ib",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ic",
+        "Ja"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ic",
+        "Jb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ic",
+        "Jc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ic",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ic",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ic",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ja",
+        "Jb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ja",
+        "Jc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ja",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ja",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ja",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Jb",
+        "Jc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Jb",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Jb",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Jb",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Jc",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Jc",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Jc",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ka",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Ka",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ia",
+        "Kb",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Ic",
+        "Ja"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Ic",
+        "Jb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Ic",
+        "Jc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Ic",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Ic",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Ic",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Ja",
+        "Jb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Ja",
+        "Jc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Ja",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Ja",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Ja",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Jb",
+        "Jc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Jb",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Jb",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Jb",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Jc",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Jc",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Jc",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Ka",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Ka",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ib",
+        "Kb",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Ja",
+        "Jb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Ja",
+        "Jc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Ja",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Ja",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Ja",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Jb",
+        "Jc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Jb",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Jb",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Jb",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Jc",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Jc",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Jc",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Ka",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Ka",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ic",
+        "Kb",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ja",
+        "Jb",
+        "Jc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ja",
+        "Jb",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ja",
+        "Jb",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ja",
+        "Jb",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ja",
+        "Jc",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ja",
+        "Jc",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ja",
+        "Jc",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ja",
+        "Ka",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ja",
+        "Ka",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ja",
+        "Kb",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jb",
+        "Jc",
+        "Ka"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jb",
+        "Jc",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jb",
+        "Jc",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jb",
+        "Ka",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jb",
+        "Ka",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jb",
+        "Kb",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jc",
+        "Ka",
+        "Kb"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jc",
+        "Ka",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Jc",
+        "Kb",
+        "Kc"
+      ],
+      "violation": 0.0
+    },
+    {
+      "leaves": [
+        "Ka",
+        "Kb",
+        "Kc"
+      ],
+      "violation": 0.0
+    }
+  ],
+  "node_inputs": {
+    "r": {
+      "parent": null,
+      "a": [
+        4,
+        4
+      ],
+      "h": 1,
+      "g": [
+        0,
+        0
+      ]
+    },
+    "I": {
+      "parent": "r",
+      "a": [
+        0,
+        2
+      ],
+      "h": 2,
+      "g": [
+        0,
+        0
+      ]
+    },
+    "Id": {
+      "parent": "I",
+      "a": [
+        3,
+        3
+      ],
+      "h": 1,
+      "g": [
+        0,
+        2
+      ]
+    },
+    "Ia": {
+      "parent": "Id",
+      "a": [
+        1,
+        3
+      ],
+      "h": 4,
+      "g": [
+        0,
+        0
+      ]
+    },
+    "Ib": {
+      "parent": "Id",
+      "a": [
+        3,
+        1
+      ],
+      "h": 4,
+      "g": [
+        0,
+        0
+      ]
+    },
+    "Ic": {
+      "parent": "Id",
+      "a": [
+        3,
+        3
+      ],
+      "h": 6,
+      "g": [
+        0,
+        0
+      ]
+    },
+    "J": {
+      "parent": "r",
+      "a": [
+        2,
+        0
+      ],
+      "h": 2,
+      "g": [
+        0,
+        0
+      ]
+    },
+    "Jd": {
+      "parent": "J",
+      "a": [
+        3,
+        3
+      ],
+      "h": 1,
+      "g": [
+        2,
+        0
+      ]
+    },
+    "Ja": {
+      "parent": "Jd",
+      "a": [
+        1,
+        3
+      ],
+      "h": 4,
+      "g": [
+        0,
+        0
+      ]
+    },
+    "Jb": {
+      "parent": "Jd",
+      "a": [
+        3,
+        1
+      ],
+      "h": 4,
+      "g": [
+        0,
+        0
+      ]
+    },
+    "Jc": {
+      "parent": "Jd",
+      "a": [
+        3,
+        3
+      ],
+      "h": 6,
+      "g": [
+        0,
+        0
+      ]
+    },
+    "K": {
+      "parent": "r",
+      "a": [
+        4,
+        4
+      ],
+      "h": 6,
+      "g": [
+        0,
+        0
+      ]
+    },
+    "Kd": {
+      "parent": "K",
+      "a": [
+        3,
+        3
+      ],
+      "h": 6,
+      "g": [
+        0,
+        0
+      ]
+    },
+    "Ka": {
+      "parent": "Kd",
+      "a": [
+        3,
+        3
+      ],
+      "h": 6,
+      "g": [
+        0,
+        0
+      ]
+    },
+    "Kb": {
+      "parent": "Kd",
+      "a": [
+        3,
+        3
+      ],
+      "h": 6,
+      "g": [
+        0,
+        0
+      ]
+    },
+    "Kc": {
+      "parent": "Kd",
+      "a": [
+        3,
+        3
+      ],
+      "h": 6,
+      "g": [
+        0,
+        0
+      ]
+    }
+  }
+}
